@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-05 00:55:34.890735500 UTC
+// 2024-10-07 19:58:13.551551 UTC
 
 #pragma once
 
@@ -116,31 +116,31 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Quads = 0xA8; // 
                 constexpr std::ptrdiff_t m_SimdQuads = 0xC0; // 
                 constexpr std::ptrdiff_t m_SimdTris = 0xD8; // 
-                constexpr std::ptrdiff_t m_SimdRods = 0xF0; // CUtlVector<FeSimdRodConstraint_t>
-                constexpr std::ptrdiff_t m_SimdRodsAnim = 0x108; // CUtlVector<FeSimdRodConstraintAnim_t>
+                constexpr std::ptrdiff_t m_SimdRods = 0xF0; // 
+                constexpr std::ptrdiff_t m_SimdRodsAnim = 0x108; // 
                 constexpr std::ptrdiff_t m_InitPose = 0x120; // 
                 constexpr std::ptrdiff_t m_Rods = 0x138; // 
-                constexpr std::ptrdiff_t m_Twists = 0x150; // CUtlVector<FeTwistConstraint_t>
+                constexpr std::ptrdiff_t m_Twists = 0x150; // 
                 constexpr std::ptrdiff_t m_HingeLimits = 0x168; // 
-                constexpr std::ptrdiff_t m_AntiTunnelProbes = 0x180; // CUtlVector<FeAntiTunnelProbe_t>
+                constexpr std::ptrdiff_t m_AntiTunnelProbes = 0x180; // 
                 constexpr std::ptrdiff_t m_AntiTunnelTargetNodes = 0x198; // 
                 constexpr std::ptrdiff_t m_AxialEdges = 0x1B0; // 
                 constexpr std::ptrdiff_t m_NodeInvMasses = 0x1C8; // 
                 constexpr std::ptrdiff_t m_CtrlOffsets = 0x1E0; // 
                 constexpr std::ptrdiff_t m_CtrlOsOffsets = 0x1F8; // 
                 constexpr std::ptrdiff_t m_FollowNodes = 0x210; // 
-                constexpr std::ptrdiff_t m_CollisionPlanes = 0x228; // CUtlVector<FeCollisionPlane_t>
-                constexpr std::ptrdiff_t m_NodeIntegrator = 0x240; // CUtlVector<FeNodeIntegrator_t>
-                constexpr std::ptrdiff_t m_SpringIntegrator = 0x258; // CUtlVector<FeSpringIntegrator_t>
-                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // CUtlVector<FeSimdSpringIntegrator_t>
-                constexpr std::ptrdiff_t m_WorldCollisionParams = 0x288; // CUtlVector<FeWorldCollisionParams_t>
+                constexpr std::ptrdiff_t m_CollisionPlanes = 0x228; // 
+                constexpr std::ptrdiff_t m_NodeIntegrator = 0x240; // 
+                constexpr std::ptrdiff_t m_SpringIntegrator = 0x258; // 
+                constexpr std::ptrdiff_t m_SimdSpringIntegrator = 0x270; // 
+                constexpr std::ptrdiff_t m_WorldCollisionParams = 0x288; // 
                 constexpr std::ptrdiff_t m_LegacyStretchForce = 0x2A0; // 
                 constexpr std::ptrdiff_t m_NodeCollisionRadii = 0x2B8; // 
                 constexpr std::ptrdiff_t m_DynNodeFriction = 0x2D0; // 
                 constexpr std::ptrdiff_t m_LocalRotation = 0x2E8; // 
                 constexpr std::ptrdiff_t m_LocalForce = 0x300; // 
-                constexpr std::ptrdiff_t m_TaperedCapsuleStretches = 0x318; // CUtlVector<FeTaperedCapsuleStretch_t>
-                constexpr std::ptrdiff_t m_TaperedCapsuleRigids = 0x330; // CUtlVector<FeTaperedCapsuleRigid_t>
+                constexpr std::ptrdiff_t m_TaperedCapsuleStretches = 0x318; // 
+                constexpr std::ptrdiff_t m_TaperedCapsuleRigids = 0x330; // 
                 constexpr std::ptrdiff_t m_SphereRigids = 0x348; // 
                 constexpr std::ptrdiff_t m_WorldCollisionNodes = 0x360; // 
                 constexpr std::ptrdiff_t m_TreeParents = 0x378; // 
@@ -149,15 +149,15 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_FreeNodes = 0x3C0; // 
                 constexpr std::ptrdiff_t m_FitMatrices = 0x3D8; // 
                 constexpr std::ptrdiff_t m_FitWeights = 0x3F0; // 
-                constexpr std::ptrdiff_t m_ReverseOffsets = 0x408; // CUtlVector<FeNodeReverseOffset_t>
-                constexpr std::ptrdiff_t m_AnimStrayRadii = 0x420; // CUtlVector<FeAnimStrayRadius_t>
-                constexpr std::ptrdiff_t m_SimdAnimStrayRadii = 0x438; // CUtlVector<FeSimdAnimStrayRadius_t>
+                constexpr std::ptrdiff_t m_ReverseOffsets = 0x408; // 
+                constexpr std::ptrdiff_t m_AnimStrayRadii = 0x420; // 
+                constexpr std::ptrdiff_t m_SimdAnimStrayRadii = 0x438; // 
                 constexpr std::ptrdiff_t m_KelagerBends = 0x450; // 
-                constexpr std::ptrdiff_t m_CtrlSoftOffsets = 0x468; // CUtlVector<FeCtrlSoftOffset_t>
-                constexpr std::ptrdiff_t m_JiggleBones = 0x480; // CUtlVector<CFeIndexedJiggleBone>
+                constexpr std::ptrdiff_t m_CtrlSoftOffsets = 0x468; // 
+                constexpr std::ptrdiff_t m_JiggleBones = 0x480; // 
                 constexpr std::ptrdiff_t m_SourceElems = 0x498; // 
                 constexpr std::ptrdiff_t m_GoalDampedSpringIntegrators = 0x4B0; // 
-                constexpr std::ptrdiff_t m_Tris = 0x4C8; // CUtlVector<FeTri_t>
+                constexpr std::ptrdiff_t m_Tris = 0x4C8; // 
                 constexpr std::ptrdiff_t m_nTriCount1 = 0x4E0; // 
                 constexpr std::ptrdiff_t m_nTriCount2 = 0x4E2; // 
                 constexpr std::ptrdiff_t m_nReservedUint8 = 0x4E4; // 
@@ -168,8 +168,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_BoxRigids = 0x500; // 
                 constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // 
                 constexpr std::ptrdiff_t m_VertexSetNames = 0x530; // 
-                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
-                constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
+                constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // 
+                constexpr std::ptrdiff_t m_MorphLayers = 0x560; // 
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // 
                 constexpr std::ptrdiff_t m_VertexMaps = 0x590; // 
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // 
@@ -923,7 +923,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CFeVertexMapBuildArray {
-                constexpr std::ptrdiff_t m_Array = 0x0; // 
+                constexpr std::ptrdiff_t m_Array = 0x0; // CUtlVector<FeVertexMapBuild_t*>
             }
             // Parent: None
             // Field count: 5
@@ -1065,7 +1065,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace FourCovMatrices3 {
-                constexpr std::ptrdiff_t m_vDiag = 0x0; // 
+                constexpr std::ptrdiff_t m_vDiag = 0x0; // FourVectors
                 constexpr std::ptrdiff_t m_flXY = 0x30; // 
                 constexpr std::ptrdiff_t m_flXZ = 0x40; // 
                 constexpr std::ptrdiff_t m_flYZ = 0x50; // 

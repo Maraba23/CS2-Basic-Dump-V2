@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-05 00:55:34.890735500 UTC
+// 2024-10-07 19:58:13.551551 UTC
 
 #pragma once
 
@@ -150,7 +150,7 @@ namespace cs2_dumper {
             namespace PermEntityLumpData_t {
                 constexpr std::ptrdiff_t m_name = 0x8; // 
                 constexpr std::ptrdiff_t m_childLumps = 0x10; // CUtlVector<CStrongHandleCopyable<InfoForResourceTypeCEntityLump>>
-                constexpr std::ptrdiff_t m_entityKeyValues = 0x28; // CUtlLeanVector<EntityKeyValueData_t>
+                constexpr std::ptrdiff_t m_entityKeyValues = 0x28; // 
             }
             // Parent: None
             // Field count: 14
@@ -235,7 +235,7 @@ namespace cs2_dumper {
             namespace WorldNodeOnDiskBufferData_t {
                 constexpr std::ptrdiff_t m_nElementCount = 0x0; // 
                 constexpr std::ptrdiff_t m_nElementSizeInBytes = 0x4; // 
-                constexpr std::ptrdiff_t m_inputLayoutFields = 0x8; // CUtlVector<RenderInputLayoutField_t>
+                constexpr std::ptrdiff_t m_inputLayoutFields = 0x8; // 
                 constexpr std::ptrdiff_t m_pData = 0x20; // 
             }
             // Parent: None
@@ -298,7 +298,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace EntityKeyValueData_t {
-                constexpr std::ptrdiff_t m_connections = 0x8; // CUtlVector<EntityIOConnectionData_t>
+                constexpr std::ptrdiff_t m_connections = 0x8; // 
                 constexpr std::ptrdiff_t m_keyValuesData = 0x20; // 
             }
             // Parent: None

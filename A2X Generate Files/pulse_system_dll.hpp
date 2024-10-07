@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-05 00:55:34.890735500 UTC
+// 2024-10-07 19:58:13.551551 UTC
 
 #pragma once
 
@@ -245,9 +245,9 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulse_Chunk {
-                constexpr std::ptrdiff_t m_Instructions = 0x0; // 
-                constexpr std::ptrdiff_t m_Registers = 0x10; // 
-                constexpr std::ptrdiff_t m_InstructionEditorIDs = 0x20; // 
+                constexpr std::ptrdiff_t m_Instructions = 0x0; // CUtlLeanVector<PGDInstruction_t>
+                constexpr std::ptrdiff_t m_Registers = 0x10; // CUtlLeanVector<CPulse_RegisterInfo>
+                constexpr std::ptrdiff_t m_InstructionEditorIDs = 0x20; // CUtlLeanVector<PulseDocNodeID_t>
             }
             // Parent: None
             // Field count: 1
@@ -1079,13 +1079,13 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Chunks = 0x38; // 
                 constexpr std::ptrdiff_t m_Cells = 0x50; // 
                 constexpr std::ptrdiff_t m_Vars = 0x68; // 
-                constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // 
-                constexpr std::ptrdiff_t m_InvokeBindings = 0x98; // 
+                constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>
+                constexpr std::ptrdiff_t m_InvokeBindings = 0x98; // CUtlVector<CPulse_InvokeBinding*>
                 constexpr std::ptrdiff_t m_CallInfos = 0xB0; // 
                 constexpr std::ptrdiff_t m_Constants = 0xC8; // 
-                constexpr std::ptrdiff_t m_DomainValues = 0xE0; // 
-                constexpr std::ptrdiff_t m_BlackboardReferences = 0xF8; // 
-                constexpr std::ptrdiff_t m_OutputConnections = 0x110; // 
+                constexpr std::ptrdiff_t m_DomainValues = 0xE0; // CUtlVector<CPulse_DomainValue>
+                constexpr std::ptrdiff_t m_BlackboardReferences = 0xF8; // CUtlVector<CPulse_BlackboardReference>
+                constexpr std::ptrdiff_t m_OutputConnections = 0x110; // CUtlVector<CPulse_OutputConnection*>
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 0

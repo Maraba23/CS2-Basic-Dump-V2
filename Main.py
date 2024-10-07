@@ -59,8 +59,9 @@ def save_offsets_to_json(offsets, output_file):
     with open(output_file, 'w', encoding='utf-8') as json_file:
         json.dump(offsets, json_file, indent=4)
 
-# Função para gerar código C++ para definir os offsets a partir do JSON
+# Função para gerar código C++ para definir os offsets a partir do JSON no formato findOffsetByName
 def generate_cpp_offset_code(json_file, output_cpp_file):
+    print(f"[DEBUG] Gerando código C++ a partir do arquivo JSON: {json_file}")
     with open(json_file, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
 
@@ -71,12 +72,14 @@ def generate_cpp_offset_code(json_file, output_cpp_file):
         cpp_code.append(f"// Atribuições para {namespace}")
         cpp_code.append(f"// {namespace} Offsets")
 
-        for var_name, var_value in offsets.items():
-            cpp_code.append(f"{namespace}.{convert_name(var_name)} = jsonData[\"{namespace}\"][\"{var_name}\"];")
+        for var_name in offsets.keys():
+            # Gera a linha no formato solicitado
+            cpp_code.append(f'{namespace}.{convert_name(var_name)} = findOffsetByName(j, "{namespace}", "{var_name}");')
 
         cpp_code.append("")  # Adiciona uma linha em branco para separação
 
     # Grava o código gerado em um arquivo .cpp
+    print(f"[DEBUG] Salvando o arquivo C++: {output_cpp_file}")
     with open(output_cpp_file, 'w', encoding='utf-8') as f:
         f.write("\n".join(cpp_code))
 
@@ -121,6 +124,4 @@ def generate_files(directory):
 # Executa o script
 if __name__ == "__main__":
     cpp_directory = 'A2X Generate Files'  # Caminho da pasta com os arquivos .hpp
-
-    # Gera os arquivos .json, .hpp e .cpp
     generate_files(cpp_directory)

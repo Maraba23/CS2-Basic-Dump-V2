@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-05 00:55:34.890735500 UTC
+// 2024-10-07 19:58:13.551551 UTC
 
 #pragma once
 
@@ -520,7 +520,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_matchPattern = 0x18; // 
                 constexpr std::ptrdiff_t m_branchPattern = 0x48; // 
                 constexpr std::ptrdiff_t m_flLifeSpanTime = 0x58; // 
-                constexpr std::ptrdiff_t m_vActions = 0xC0; // CSosGroupActionSchema*[4]
+                constexpr std::ptrdiff_t m_vActions = 0xC0; // 
             }
             // Parent: None
             // Field count: 5
@@ -729,7 +729,7 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerSet {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xC0; // CUtlVector<CVoiceContainerSetElement>
+                constexpr std::ptrdiff_t m_soundsToPlay = 0xC0; // 
             }
             // Parent: None
             // Field count: 8
@@ -1017,7 +1017,7 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerSwitch {
-                constexpr std::ptrdiff_t m_soundsToPlay = 0xC0; // CUtlVector<CSoundContainerReference>
+                constexpr std::ptrdiff_t m_soundsToPlay = 0xC0; // 
             }
             // Parent: CSosGroupActionSchema
             // Field count: 1
