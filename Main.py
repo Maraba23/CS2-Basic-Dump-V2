@@ -19,15 +19,15 @@ def generate_hpp(structs):
 
     return hpp_content
 
-# Função para ler offsets do arquivo .hpp
+# Função para ler offsets e valores do arquivo .hpp
 def parse_cpp_offsets(file_path):
     offsets = {}
     current_namespace = None
 
     # Expressão regular para capturar o início da namespace
     namespace_pattern = re.compile(r'namespace\s+(\w+)\s*\{')
-    # Expressão regular para capturar o nome da variável
-    offset_pattern = re.compile(r'constexpr\s+std::ptrdiff_t\s+(\w+)\s*=')
+    # Expressão regular para capturar o nome da variável e o valor associado
+    offset_pattern = re.compile(r'constexpr\s+std::ptrdiff_t\s+(\w+)\s*=\s*(0x[0-9a-fA-F]+);')
 
     # Abrir e ler o arquivo .hpp
     with open(file_path, 'r', encoding='utf-8') as cpp_file:
@@ -42,11 +42,15 @@ def parse_cpp_offsets(file_path):
                 if current_namespace not in offsets:
                     offsets[current_namespace] = {}
 
-            # Verificar se a linha contém uma definição de variável
+            # Verificar se a linha contém uma definição de variável com valor
             offset_match = offset_pattern.search(line)
             if offset_match and current_namespace:
                 var_name = offset_match.group(1)
-                offsets[current_namespace][var_name] = None  # Sem valores
+                var_value = offset_match.group(2)
+                offsets[current_namespace][var_name] = var_value  # Adiciona o valor real da variável
+
+    # Remove namespaces que não possuem variáveis
+    offsets = {ns: vars for ns, vars in offsets.items() if vars}
 
     return offsets
 
@@ -67,7 +71,7 @@ def generate_cpp_offset_code(json_file, output_cpp_file):
         cpp_code.append(f"// Atribuições para {namespace}")
         cpp_code.append(f"// {namespace} Offsets")
 
-        for var_name in offsets:
+        for var_name, var_value in offsets.items():
             cpp_code.append(f"{namespace}.{convert_name(var_name)} = jsonData[\"{namespace}\"][\"{var_name}\"];")
 
         cpp_code.append("")  # Adiciona uma linha em branco para separação

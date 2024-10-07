@@ -1,22 +1,8 @@
-// Atribuições para cs2_dumper
-// cs2_dumper Offsets
-
-// Atribuições para schemas
-// schemas Offsets
-
-// Atribuições para animationsystem_dll
-// animationsystem_dll Offsets
-animationsystem_dll.AnimationSystemUtils_001 = jsonData["animationsystem_dll"]["AnimationSystemUtils_001"];
-animationsystem_dll.AnimationSystem_001 = jsonData["animationsystem_dll"]["AnimationSystem_001"];
-
 // Atribuições para CAnimFrameBlockAnim
 // CAnimFrameBlockAnim Offsets
 CAnimFrameBlockAnim.m_nStartFrame = jsonData["CAnimFrameBlockAnim"]["m_nStartFrame"];
 CAnimFrameBlockAnim.m_nEndFrame = jsonData["CAnimFrameBlockAnim"]["m_nEndFrame"];
 CAnimFrameBlockAnim.m_segmentIndexArray = jsonData["CAnimFrameBlockAnim"]["m_segmentIndexArray"];
-
-// Atribuições para CZeroPoseUpdateNode
-// CZeroPoseUpdateNode Offsets
 
 // Atribuições para CSlowDownOnSlopesUpdateNode
 // CSlowDownOnSlopesUpdateNode Offsets
@@ -50,12 +36,6 @@ CSceneObjectData.m_drawBounds = jsonData["CSceneObjectData"]["m_drawBounds"];
 CSceneObjectData.m_meshlets = jsonData["CSceneObjectData"]["m_meshlets"];
 CSceneObjectData.m_vTintColor = jsonData["CSceneObjectData"]["m_vTintColor"];
 
-// Atribuições para CFootCycle
-// CFootCycle Offsets
-
-// Atribuições para CInputStreamUpdateNode
-// CInputStreamUpdateNode Offsets
-
 // Atribuições para CIntAnimParameter
 // CIntAnimParameter Offsets
 CIntAnimParameter.m_defaultValue = jsonData["CIntAnimParameter"]["m_defaultValue"];
@@ -71,9 +51,6 @@ CNmParameterizedBlendNode__CDefinition.m_bAllowLooping = jsonData["CNmParameteri
 // Atribuições para CNmFrameSnapEvent
 // CNmFrameSnapEvent Offsets
 CNmFrameSnapEvent.m_frameSnapMode = jsonData["CNmFrameSnapEvent"]["m_frameSnapMode"];
-
-// Atribuições para CNmTask
-// CNmTask Offsets
 
 // Atribuições para CAnimNodePath
 // CAnimNodePath Offsets
@@ -122,9 +99,6 @@ CNmTransitionEventConditionNode__CDefinition.m_requireRuleID = jsonData["CNmTran
 CNmTransitionEventConditionNode__CDefinition.m_eventConditionRules = jsonData["CNmTransitionEventConditionNode__CDefinition"]["m_eventConditionRules"];
 CNmTransitionEventConditionNode__CDefinition.m_nSourceStateNodeIdx = jsonData["CNmTransitionEventConditionNode__CDefinition"]["m_nSourceStateNodeIdx"];
 CNmTransitionEventConditionNode__CDefinition.m_ruleCondition = jsonData["CNmTransitionEventConditionNode__CDefinition"]["m_ruleCondition"];
-
-// Atribuições para CTaskStatusAnimTag
-// CTaskStatusAnimTag Offsets
 
 // Atribuições para CMotionGraphConfig
 // CMotionGraphConfig Offsets
@@ -279,9 +253,6 @@ HitReactFixedSettings_t.m_flHipDipSpringStrength = jsonData["HitReactFixedSettin
 HitReactFixedSettings_t.m_flHipDipImpactScale = jsonData["HitReactFixedSettings_t"]["m_flHipDipImpactScale"];
 HitReactFixedSettings_t.m_flHipDipDelay = jsonData["HitReactFixedSettings_t"]["m_flHipDipDelay"];
 
-// Atribuições para CNmPoseNode__CDefinition
-// CNmPoseNode__CDefinition Offsets
-
 // Atribuições para CAnimTagBase
 // CAnimTagBase Offsets
 CAnimTagBase.m_name = jsonData["CAnimTagBase"]["m_name"];
@@ -310,19 +281,10 @@ CNmVectorInfoNode__CDefinition.m_desiredInfo = jsonData["CNmVectorInfoNode__CDef
 AnimationSnapshot_t.m_nEntIndex = jsonData["AnimationSnapshot_t"]["m_nEntIndex"];
 AnimationSnapshot_t.m_modelName = jsonData["AnimationSnapshot_t"]["m_modelName"];
 
-// Atribuições para CNmBlendTask
-// CNmBlendTask Offsets
-
-// Atribuições para CNmVectorValueNode__CDefinition
-// CNmVectorValueNode__CDefinition Offsets
-
 // Atribuições para CSeqTransition
 // CSeqTransition Offsets
 CSeqTransition.m_flFadeInTime = jsonData["CSeqTransition"]["m_flFadeInTime"];
 CSeqTransition.m_flFadeOutTime = jsonData["CSeqTransition"]["m_flFadeOutTime"];
-
-// Atribuições para CAnimGraphSettingsGroup
-// CAnimGraphSettingsGroup Offsets
 
 // Atribuições para CNmVirtualParameterTargetNode__CDefinition
 // CNmVirtualParameterTargetNode__CDefinition Offsets
@@ -340,9 +302,6 @@ CAnimGraphDebugReplay.m_frameCount = jsonData["CAnimGraphDebugReplay"]["m_frameC
 // CVectorAnimParameter Offsets
 CVectorAnimParameter.m_defaultValue = jsonData["CVectorAnimParameter"]["m_defaultValue"];
 CVectorAnimParameter.m_bInterpolate = jsonData["CVectorAnimParameter"]["m_bInterpolate"];
-
-// Atribuições para CNmCachedPoseReadTask
-// CNmCachedPoseReadTask Offsets
 
 // Atribuições para CNmStateMachineNode__StateDefinition_t
 // CNmStateMachineNode__StateDefinition_t Offsets
@@ -393,9 +352,6 @@ CAnimEncodeDifference.m_bHasRotationBitArray = jsonData["CAnimEncodeDifference"]
 CAnimEncodeDifference.m_bHasMovementBitArray = jsonData["CAnimEncodeDifference"]["m_bHasMovementBitArray"];
 CAnimEncodeDifference.m_bHasMorphBitArray = jsonData["CAnimEncodeDifference"]["m_bHasMorphBitArray"];
 CAnimEncodeDifference.m_bHasUserBitArray = jsonData["CAnimEncodeDifference"]["m_bHasUserBitArray"];
-
-// Atribuições para CRootUpdateNode
-// CRootUpdateNode Offsets
 
 // Atribuições para CNmTargetOffsetNode__CDefinition
 // CNmTargetOffsetNode__CDefinition Offsets
@@ -465,9 +421,6 @@ CSingleFrameUpdateNode.m_actions = jsonData["CSingleFrameUpdateNode"]["m_actions
 CSingleFrameUpdateNode.m_hPoseCacheHandle = jsonData["CSingleFrameUpdateNode"]["m_hPoseCacheHandle"];
 CSingleFrameUpdateNode.m_hSequence = jsonData["CSingleFrameUpdateNode"]["m_hSequence"];
 CSingleFrameUpdateNode.m_flCycle = jsonData["CSingleFrameUpdateNode"]["m_flCycle"];
-
-// Atribuições para CBlockSelectionMetricEvaluator
-// CBlockSelectionMetricEvaluator Offsets
 
 // Atribuições para CModelConfigList
 // CModelConfigList Offsets
@@ -601,9 +554,6 @@ CTimeRemainingMetricEvaluator.m_flMinTimeRemaining = jsonData["CTimeRemainingMet
 CModelConfigElement.m_ElementName = jsonData["CModelConfigElement"]["m_ElementName"];
 CModelConfigElement.m_NestedElements = jsonData["CModelConfigElement"]["m_NestedElements"];
 
-// Atribuições para CNmControlParameterVectorNode__CDefinition
-// CNmControlParameterVectorNode__CDefinition Offsets
-
 // Atribuições para FootFixedSettings
 // FootFixedSettings Offsets
 FootFixedSettings.m_traceSettings = jsonData["FootFixedSettings"]["m_traceSettings"];
@@ -730,9 +680,6 @@ CAnimBoneDifference.m_bHasMovement = jsonData["CAnimBoneDifference"]["m_bHasMove
 CNmCachedBoolNode__CDefinition.m_nInputValueNodeIdx = jsonData["CNmCachedBoolNode__CDefinition"]["m_nInputValueNodeIdx"];
 CNmCachedBoolNode__CDefinition.m_mode = jsonData["CNmCachedBoolNode__CDefinition"]["m_mode"];
 
-// Atribuições para CAnimCycle
-// CAnimCycle Offsets
-
 // Atribuições para CActionComponentUpdater
 // CActionComponentUpdater Offsets
 CActionComponentUpdater.m_actions = jsonData["CActionComponentUpdater"]["m_actions"];
@@ -810,9 +757,6 @@ CFootAdjustmentUpdateNode.m_flStepHeightMaxAngle = jsonData["CFootAdjustmentUpda
 CFootAdjustmentUpdateNode.m_bResetChild = jsonData["CFootAdjustmentUpdateNode"]["m_bResetChild"];
 CFootAdjustmentUpdateNode.m_bAnimationDriven = jsonData["CFootAdjustmentUpdateNode"]["m_bAnimationDriven"];
 
-// Atribuições para CChoreoUpdateNode
-// CChoreoUpdateNode Offsets
-
 // Atribuições para CAimConstraint
 // CAimConstraint Offsets
 CAimConstraint.m_qAimOffset = jsonData["CAimConstraint"]["m_qAimOffset"];
@@ -851,12 +795,6 @@ CNmSkeleton.m_boneMasks = jsonData["CNmSkeleton"]["m_boneMasks"];
 // CStepsRemainingMetricEvaluator Offsets
 CStepsRemainingMetricEvaluator.m_footIndices = jsonData["CStepsRemainingMetricEvaluator"]["m_footIndices"];
 CStepsRemainingMetricEvaluator.m_flMinStepsRemaining = jsonData["CStepsRemainingMetricEvaluator"]["m_flMinStepsRemaining"];
-
-// Atribuições para CNmVelocityBlendNode__CDefinition
-// CNmVelocityBlendNode__CDefinition Offsets
-
-// Atribuições para CNmZeroPoseTask
-// CNmZeroPoseTask Offsets
 
 // Atribuições para CBodyGroupSetting
 // CBodyGroupSetting Offsets
@@ -952,9 +890,6 @@ CNmEvent.m_syncID = jsonData["CNmEvent"]["m_syncID"];
 NmCompressionSettings_t__QuantizationRange_t.m_flRangeStart = jsonData["NmCompressionSettings_t__QuantizationRange_t"]["m_flRangeStart"];
 NmCompressionSettings_t__QuantizationRange_t.m_flRangeLength = jsonData["NmCompressionSettings_t__QuantizationRange_t"]["m_flRangeLength"];
 
-// Atribuições para CNmBlendTaskBase
-// CNmBlendTaskBase Offsets
-
 // Atribuições para TagSpan_t
 // TagSpan_t Offsets
 TagSpan_t.m_tagIndex = jsonData["TagSpan_t"]["m_tagIndex"];
@@ -1041,9 +976,6 @@ CBaseConstraint.m_vUpVector = jsonData["CBaseConstraint"]["m_vUpVector"];
 CBaseConstraint.m_slaves = jsonData["CBaseConstraint"]["m_slaves"];
 CBaseConstraint.m_targets = jsonData["CBaseConstraint"]["m_targets"];
 
-// Atribuições para CNmControlParameterFloatNode__CDefinition
-// CNmControlParameterFloatNode__CDefinition Offsets
-
 // Atribuições para BlendItem_t
 // BlendItem_t Offsets
 BlendItem_t.m_tags = jsonData["BlendItem_t"]["m_tags"];
@@ -1082,9 +1014,6 @@ CPairedSequenceUpdateNode.m_sPairedSequenceRole = jsonData["CPairedSequenceUpdat
 // CModelConfigElement_RandomPick Offsets
 CModelConfigElement_RandomPick.m_Choices = jsonData["CModelConfigElement_RandomPick"]["m_Choices"];
 CModelConfigElement_RandomPick.m_ChoiceWeights = jsonData["CModelConfigElement_RandomPick"]["m_ChoiceWeights"];
-
-// Atribuições para CNmReferencePoseTask
-// CNmReferencePoseTask Offsets
 
 // Atribuições para VPhysXConstraint2_t
 // VPhysXConstraint2_t Offsets
@@ -1188,9 +1117,6 @@ CBlend2DUpdateNode.m_bLockBlendOnReset = jsonData["CBlend2DUpdateNode"]["m_bLock
 CBlend2DUpdateNode.m_bLockWhenWaning = jsonData["CBlend2DUpdateNode"]["m_bLockWhenWaning"];
 CBlend2DUpdateNode.m_bAnimEventsAndTagsOnMostWeightedOnly = jsonData["CBlend2DUpdateNode"]["m_bAnimEventsAndTagsOnMostWeightedOnly"];
 
-// Atribuições para CNmVelocityBasedSpeedScaleNode__CDefinition
-// CNmVelocityBasedSpeedScaleNode__CDefinition Offsets
-
 // Atribuições para PermModelExtPart_t
 // PermModelExtPart_t Offsets
 PermModelExtPart_t.m_Transform = jsonData["PermModelExtPart_t"]["m_Transform"];
@@ -1277,9 +1203,6 @@ CNmTargetWarpEvent.m_algorithm = jsonData["CNmTargetWarpEvent"]["m_algorithm"];
 // Atribuições para CParamSpanUpdater
 // CParamSpanUpdater Offsets
 CParamSpanUpdater.m_spans = jsonData["CParamSpanUpdater"]["m_spans"];
-
-// Atribuições para CAnimActionUpdater
-// CAnimActionUpdater Offsets
 
 // Atribuições para CParticleAnimTag
 // CParticleAnimTag Offsets
@@ -1422,9 +1345,6 @@ CPhysSurfaceProperties.m_physics = jsonData["CPhysSurfaceProperties"]["m_physics
 CPhysSurfaceProperties.m_audioSounds = jsonData["CPhysSurfaceProperties"]["m_audioSounds"];
 CPhysSurfaceProperties.m_audioParams = jsonData["CPhysSurfaceProperties"]["m_audioParams"];
 
-// Atribuições para CNmBoneMaskValueNode__CDefinition
-// CNmBoneMaskValueNode__CDefinition Offsets
-
 // Atribuições para CNmFloatAbsNode__CDefinition
 // CNmFloatAbsNode__CDefinition Offsets
 CNmFloatAbsNode__CDefinition.m_nInputValueNodeIdx = jsonData["CNmFloatAbsNode__CDefinition"]["m_nInputValueNodeIdx"];
@@ -1493,12 +1413,6 @@ CFootLockUpdateNode.m_bResetChild = jsonData["CFootLockUpdateNode"]["m_bResetChi
 CFootLockUpdateNode.m_bEnableVerticalCurvedPaths = jsonData["CFootLockUpdateNode"]["m_bEnableVerticalCurvedPaths"];
 CFootLockUpdateNode.m_bEnableRootHeightDamping = jsonData["CFootLockUpdateNode"]["m_bEnableRootHeightDamping"];
 
-// Atribuições para CNmOrientationWarpEvent
-// CNmOrientationWarpEvent Offsets
-
-// Atribuições para CNmIDValueNode__CDefinition
-// CNmIDValueNode__CDefinition Offsets
-
 // Atribuições para JiggleBoneSettings_t
 // JiggleBoneSettings_t Offsets
 JiggleBoneSettings_t.m_nBoneIndex = jsonData["JiggleBoneSettings_t"]["m_nBoneIndex"];
@@ -1519,9 +1433,6 @@ CJumpHelperUpdateNode.m_flJumpEndCycle = jsonData["CJumpHelperUpdateNode"]["m_fl
 CJumpHelperUpdateNode.m_eCorrectionMethod = jsonData["CJumpHelperUpdateNode"]["m_eCorrectionMethod"];
 CJumpHelperUpdateNode.m_bTranslationAxis = jsonData["CJumpHelperUpdateNode"]["m_bTranslationAxis"];
 CJumpHelperUpdateNode.m_bScaleSpeed = jsonData["CJumpHelperUpdateNode"]["m_bScaleSpeed"];
-
-// Atribuições para CNmControlParameterBoolNode__CDefinition
-// CNmControlParameterBoolNode__CDefinition Offsets
 
 // Atribuições para FootLockPoseOpFixedSettings
 // FootLockPoseOpFixedSettings Offsets
@@ -1591,9 +1502,6 @@ CAnimDataChannelDesc.m_szElementNameArray = jsonData["CAnimDataChannelDesc"]["m_
 CAnimDataChannelDesc.m_nElementIndexArray = jsonData["CAnimDataChannelDesc"]["m_nElementIndexArray"];
 CAnimDataChannelDesc.m_nElementMaskArray = jsonData["CAnimDataChannelDesc"]["m_nElementMaskArray"];
 
-// Atribuições para CPairedSequenceComponentUpdater
-// CPairedSequenceComponentUpdater Offsets
-
 // Atribuições para CMorphRectData
 // CMorphRectData Offsets
 CMorphRectData.m_nXLeftDst = jsonData["CMorphRectData"]["m_nXLeftDst"];
@@ -1615,9 +1523,6 @@ CAnimFoot.m_toeBoneIndex = jsonData["CAnimFoot"]["m_toeBoneIndex"];
 CNmBoneMask.m_ID = jsonData["CNmBoneMask"]["m_ID"];
 CNmBoneMask.m_weightInfo = jsonData["CNmBoneMask"]["m_weightInfo"];
 CNmBoneMask.m_weights = jsonData["CNmBoneMask"]["m_weights"];
-
-// Atribuições para CParentConstraint
-// CParentConstraint Offsets
 
 // Atribuições para CNmCachedVectorNode__CDefinition
 // CNmCachedVectorNode__CDefinition Offsets
@@ -1697,12 +1602,6 @@ PermModelData_t.m_pModelConfigList = jsonData["PermModelData_t"]["m_pModelConfig
 PermModelData_t.m_BodyGroupsHiddenInTools = jsonData["PermModelData_t"]["m_BodyGroupsHiddenInTools"];
 PermModelData_t.m_refAnimIncludeModels = jsonData["PermModelData_t"]["m_refAnimIncludeModels"];
 PermModelData_t.m_AnimatedMaterialAttributes = jsonData["PermModelData_t"]["m_AnimatedMaterialAttributes"];
-
-// Atribuições para CNmSampleTask
-// CNmSampleTask Offsets
-
-// Atribuições para CStaticPoseCacheBuilder
-// CStaticPoseCacheBuilder Offsets
 
 // Atribuições para CSequenceGroupData
 // CSequenceGroupData Offsets
@@ -1869,12 +1768,6 @@ CNmGraphDefinition__ChildGraphSlot_t.m_dataSlotIdx = jsonData["CNmGraphDefinitio
 // CModelConfigElement_SetBodygroupOnAttachedModels Offsets
 CModelConfigElement_SetBodygroupOnAttachedModels.m_GroupName = jsonData["CModelConfigElement_SetBodygroupOnAttachedModels"]["m_GroupName"];
 CModelConfigElement_SetBodygroupOnAttachedModels.m_nChoice = jsonData["CModelConfigElement_SetBodygroupOnAttachedModels"]["m_nChoice"];
-
-// Atribuições para CCurrentVelocityMetricEvaluator
-// CCurrentVelocityMetricEvaluator Offsets
-
-// Atribuições para CNmBoolValueNode__CDefinition
-// CNmBoolValueNode__CDefinition Offsets
 
 // Atribuições para CAnimReplayFrame
 // CAnimReplayFrame Offsets
@@ -2142,9 +2035,6 @@ CBonePositionMetricEvaluator.m_nBoneIndex = jsonData["CBonePositionMetricEvaluat
 CRenderBufferBinding.m_hBuffer = jsonData["CRenderBufferBinding"]["m_hBuffer"];
 CRenderBufferBinding.m_nBindOffsetBytes = jsonData["CRenderBufferBinding"]["m_nBindOffsetBytes"];
 
-// Atribuições para CNmExternalGraphNode__CDefinition
-// CNmExternalGraphNode__CDefinition Offsets
-
 // Atribuições para CNmParameterizedBlendNode__Parameterization_t
 // CNmParameterizedBlendNode__Parameterization_t Offsets
 CNmParameterizedBlendNode__Parameterization_t.m_blendRanges = jsonData["CNmParameterizedBlendNode__Parameterization_t"]["m_blendRanges"];
@@ -2229,18 +2119,12 @@ CAnimationGraphVisualizerSphere.m_Color = jsonData["CAnimationGraphVisualizerSph
 CAnimUserDifference.m_name = jsonData["CAnimUserDifference"]["m_name"];
 CAnimUserDifference.m_nType = jsonData["CAnimUserDifference"]["m_nType"];
 
-// Atribuições para CNmDurationScaleNode__CDefinition
-// CNmDurationScaleNode__CDefinition Offsets
-
 // Atribuições para CTransitionUpdateData
 // CTransitionUpdateData Offsets
 CTransitionUpdateData.m_srcStateIndex = jsonData["CTransitionUpdateData"]["m_srcStateIndex"];
 CTransitionUpdateData.m_destStateIndex = jsonData["CTransitionUpdateData"]["m_destStateIndex"];
 CTransitionUpdateData.m_nHandshakeMaskToDisableFirst = jsonData["CTransitionUpdateData"]["m_nHandshakeMaskToDisableFirst"];
 CTransitionUpdateData.m_bDisabled = jsonData["CTransitionUpdateData"]["m_bDisabled"];
-
-// Atribuições para CMovementHandshakeAnimTag
-// CMovementHandshakeAnimTag Offsets
 
 // Atribuições para CBoneConstraintPoseSpaceBone__Input_t
 // CBoneConstraintPoseSpaceBone__Input_t Offsets
@@ -2326,25 +2210,16 @@ CNmClip.m_bIsAdditive = jsonData["CNmClip"]["m_bIsAdditive"];
 CToggleComponentActionUpdater.m_componentID = jsonData["CToggleComponentActionUpdater"]["m_componentID"];
 CToggleComponentActionUpdater.m_bSetEnabled = jsonData["CToggleComponentActionUpdater"]["m_bSetEnabled"];
 
-// Atribuições para CNmOverlayBlendTask
-// CNmOverlayBlendTask Offsets
-
 // Atribuições para CNmSpeedScaleBaseNode__CDefinition
 // CNmSpeedScaleBaseNode__CDefinition Offsets
 CNmSpeedScaleBaseNode__CDefinition.m_nInputValueNodeIdx = jsonData["CNmSpeedScaleBaseNode__CDefinition"]["m_nInputValueNodeIdx"];
 CNmSpeedScaleBaseNode__CDefinition.m_flDefaultInputValue = jsonData["CNmSpeedScaleBaseNode__CDefinition"]["m_flDefaultInputValue"];
-
-// Atribuições para CNmValueNode__CDefinition
-// CNmValueNode__CDefinition Offsets
 
 // Atribuições para CAnimationGraphVisualizerPrimitiveBase
 // CAnimationGraphVisualizerPrimitiveBase Offsets
 CAnimationGraphVisualizerPrimitiveBase.m_Type = jsonData["CAnimationGraphVisualizerPrimitiveBase"]["m_Type"];
 CAnimationGraphVisualizerPrimitiveBase.m_OwningAnimNodePaths = jsonData["CAnimationGraphVisualizerPrimitiveBase"]["m_OwningAnimNodePaths"];
 CAnimationGraphVisualizerPrimitiveBase.m_nOwningAnimNodePathCount = jsonData["CAnimationGraphVisualizerPrimitiveBase"]["m_nOwningAnimNodePathCount"];
-
-// Atribuições para CBindPoseUpdateNode
-// CBindPoseUpdateNode Offsets
 
 // Atribuições para NmSyncTrackTimeRange_t
 // NmSyncTrackTimeRange_t Offsets
@@ -2388,9 +2263,6 @@ CMotionMatchingUpdateNode.m_flDistanceScale_InnerRadius = jsonData["CMotionMatch
 CMotionMatchingUpdateNode.m_flDistanceScale_MaxScale = jsonData["CMotionMatchingUpdateNode"]["m_flDistanceScale_MaxScale"];
 CMotionMatchingUpdateNode.m_flDistanceScale_MinScale = jsonData["CMotionMatchingUpdateNode"]["m_flDistanceScale_MinScale"];
 CMotionMatchingUpdateNode.m_bEnableDistanceScaling = jsonData["CMotionMatchingUpdateNode"]["m_bEnableDistanceScaling"];
-
-// Atribuições para CNmReferencePoseNode__CDefinition
-// CNmReferencePoseNode__CDefinition Offsets
 
 // Atribuições para CSeqS1SeqDesc
 // CSeqS1SeqDesc Offsets
@@ -2579,9 +2451,6 @@ CNmParameterizedClipSelectorNode__CDefinition.m_parameterNodeIdx = jsonData["CNm
 CTiltTwistConstraint.m_nTargetAxis = jsonData["CTiltTwistConstraint"]["m_nTargetAxis"];
 CTiltTwistConstraint.m_nSlaveAxis = jsonData["CTiltTwistConstraint"]["m_nSlaveAxis"];
 
-// Atribuições para CNmSpeedScaleNode__CDefinition
-// CNmSpeedScaleNode__CDefinition Offsets
-
 // Atribuições para CVPhysXSurfacePropertiesList
 // CVPhysXSurfacePropertiesList Offsets
 CVPhysXSurfacePropertiesList.m_surfacePropertiesList = jsonData["CVPhysXSurfacePropertiesList"]["m_surfacePropertiesList"];
@@ -2607,9 +2476,6 @@ CCycleControlClipUpdateNode.m_paramIndex = jsonData["CCycleControlClipUpdateNode
 // CNmTargetPointNode__CDefinition Offsets
 CNmTargetPointNode__CDefinition.m_nInputValueNodeIdx = jsonData["CNmTargetPointNode__CDefinition"]["m_nInputValueNodeIdx"];
 CNmTargetPointNode__CDefinition.m_bIsWorldSpaceTarget = jsonData["CNmTargetPointNode__CDefinition"]["m_bIsWorldSpaceTarget"];
-
-// Atribuições para CNmFloatValueNode__CDefinition
-// CNmFloatValueNode__CDefinition Offsets
 
 // Atribuições para CStaticPoseCache
 // CStaticPoseCache Offsets
@@ -2766,12 +2632,6 @@ CBoneConstraintDotToMorph.m_sTargetBoneName = jsonData["CBoneConstraintDotToMorp
 CBoneConstraintDotToMorph.m_sMorphChannelName = jsonData["CBoneConstraintDotToMorph"]["m_sMorphChannelName"];
 CBoneConstraintDotToMorph.m_flRemap = jsonData["CBoneConstraintDotToMorph"]["m_flRemap"];
 
-// Atribuições para CPointConstraint
-// CPointConstraint Offsets
-
-// Atribuições para CCurrentRotationVelocityMetricEvaluator
-// CCurrentRotationVelocityMetricEvaluator Offsets
-
 // Atribuições para TraceSettings_t
 // TraceSettings_t Offsets
 TraceSettings_t.m_flTraceHeight = jsonData["TraceSettings_t"]["m_flTraceHeight"];
@@ -2849,12 +2709,6 @@ CStateUpdateData.m_stateID = jsonData["CStateUpdateData"]["m_stateID"];
 CStateUpdateData.m_bIsStartState = jsonData["CStateUpdateData"]["m_bIsStartState"];
 CStateUpdateData.m_bIsEndState = jsonData["CStateUpdateData"]["m_bIsEndState"];
 CStateUpdateData.m_bIsPassthrough = jsonData["CStateUpdateData"]["m_bIsPassthrough"];
-
-// Atribuições para CNmTargetValueNode__CDefinition
-// CNmTargetValueNode__CDefinition Offsets
-
-// Atribuições para COrientConstraint
-// COrientConstraint Offsets
 
 // Atribuições para CMoverUpdateNode
 // CMoverUpdateNode Offsets
@@ -2943,9 +2797,6 @@ CBoneMaskUpdateNode.m_bUseBlendScale = jsonData["CBoneMaskUpdateNode"]["m_bUseBl
 CBoneMaskUpdateNode.m_blendValueSource = jsonData["CBoneMaskUpdateNode"]["m_blendValueSource"];
 CBoneMaskUpdateNode.m_hBlendParameter = jsonData["CBoneMaskUpdateNode"]["m_hBlendParameter"];
 
-// Atribuições para CLeafUpdateNode
-// CLeafUpdateNode Offsets
-
 // Atribuições para SolveIKChainPoseOpFixedSettings_t
 // SolveIKChainPoseOpFixedSettings_t Offsets
 SolveIKChainPoseOpFixedSettings_t.m_ChainsToSolveData = jsonData["SolveIKChainPoseOpFixedSettings_t"]["m_ChainsToSolveData"];
@@ -2968,9 +2819,6 @@ TwoBoneIKSettings_t.m_nEndBoneIndex = jsonData["TwoBoneIKSettings_t"]["m_nEndBon
 TwoBoneIKSettings_t.m_bMatchTargetOrientation = jsonData["TwoBoneIKSettings_t"]["m_bMatchTargetOrientation"];
 TwoBoneIKSettings_t.m_bConstrainTwist = jsonData["TwoBoneIKSettings_t"]["m_bConstrainTwist"];
 TwoBoneIKSettings_t.m_flMaxTwist = jsonData["TwoBoneIKSettings_t"]["m_flMaxTwist"];
-
-// Atribuições para CNmCachedPoseWriteTask
-// CNmCachedPoseWriteTask Offsets
 
 // Atribuições para CAnimUpdateSharedData
 // CAnimUpdateSharedData Offsets
@@ -3003,15 +2851,9 @@ CNmIDComparisonNode__CDefinition.m_nInputValueNodeIdx = jsonData["CNmIDCompariso
 CNmIDComparisonNode__CDefinition.m_comparison = jsonData["CNmIDComparisonNode__CDefinition"]["m_comparison"];
 CNmIDComparisonNode__CDefinition.m_comparisionIDs = jsonData["CNmIDComparisonNode__CDefinition"]["m_comparisionIDs"];
 
-// Atribuições para CEditableMotionGraph
-// CEditableMotionGraph Offsets
-
 // Atribuições para CNmConstFloatNode__CDefinition
 // CNmConstFloatNode__CDefinition Offsets
 CNmConstFloatNode__CDefinition.m_flValue = jsonData["CNmConstFloatNode__CDefinition"]["m_flValue"];
-
-// Atribuições para CStringAnimTag
-// CStringAnimTag Offsets
 
 // Atribuições para CBoolAnimParameter
 // CBoolAnimParameter Offsets
@@ -3040,12 +2882,6 @@ CNmStateMachineNode__CDefinition.m_nDefaultStateIndex = jsonData["CNmStateMachin
 // CBodyGroupAnimTag Offsets
 CBodyGroupAnimTag.m_nPriority = jsonData["CBodyGroupAnimTag"]["m_nPriority"];
 CBodyGroupAnimTag.m_bodyGroupSettings = jsonData["CBodyGroupAnimTag"]["m_bodyGroupSettings"];
-
-// Atribuições para CNmModelSpaceBlendTask
-// CNmModelSpaceBlendTask Offsets
-
-// Atribuições para CNmZeroPoseNode__CDefinition
-// CNmZeroPoseNode__CDefinition Offsets
 
 // Atribuições para CNmOrientationWarpNode__CDefinition
 // CNmOrientationWarpNode__CDefinition Offsets
@@ -3124,9 +2960,6 @@ CNmCurrentSyncEventIndexNode__CDefinition.m_nSourceStateNodeIdx = jsonData["CNmC
 // CModelConfigElement_SetRenderColor Offsets
 CModelConfigElement_SetRenderColor.m_Color = jsonData["CModelConfigElement_SetRenderColor"]["m_Color"];
 
-// Atribuições para CNmAdditiveBlendTask
-// CNmAdditiveBlendTask Offsets
-
 // Atribuições para CNmAnimationPoseNode__CDefinition
 // CNmAnimationPoseNode__CDefinition Offsets
 CNmAnimationPoseNode__CDefinition.m_nPoseTimeValueNodeIdx = jsonData["CNmAnimationPoseNode__CDefinition"]["m_nPoseTimeValueNodeIdx"];
@@ -3145,9 +2978,6 @@ CMotionSearchDB.m_codeIndices = jsonData["CMotionSearchDB"]["m_codeIndices"];
 // CMotionNodeBlend1D Offsets
 CMotionNodeBlend1D.m_blendItems = jsonData["CMotionNodeBlend1D"]["m_blendItems"];
 CMotionNodeBlend1D.m_nParamIndex = jsonData["CMotionNodeBlend1D"]["m_nParamIndex"];
-
-// Atribuições para CNmControlParameterTargetNode__CDefinition
-// CNmControlParameterTargetNode__CDefinition Offsets
 
 // Atribuições para SkeletonBoneBounds_t
 // SkeletonBoneBounds_t Offsets
@@ -3170,9 +3000,6 @@ VPhysXBodyPart_t.m_flLinearDamping = jsonData["VPhysXBodyPart_t"]["m_flLinearDam
 VPhysXBodyPart_t.m_flAngularDamping = jsonData["VPhysXBodyPart_t"]["m_flAngularDamping"];
 VPhysXBodyPart_t.m_bOverrideMassCenter = jsonData["VPhysXBodyPart_t"]["m_bOverrideMassCenter"];
 VPhysXBodyPart_t.m_vMassCenterOverride = jsonData["VPhysXBodyPart_t"]["m_vMassCenterOverride"];
-
-// Atribuições para CTaskHandshakeAnimTag
-// CTaskHandshakeAnimTag Offsets
 
 // Atribuições para CFollowPathUpdateNode
 // CFollowPathUpdateNode Offsets
@@ -3215,16 +3042,10 @@ CAnimScriptComponentUpdater.m_hScript = jsonData["CAnimScriptComponentUpdater"][
 CRagdollUpdateNode.m_nWeightListIndex = jsonData["CRagdollUpdateNode"]["m_nWeightListIndex"];
 CRagdollUpdateNode.m_poseControlMethod = jsonData["CRagdollUpdateNode"]["m_poseControlMethod"];
 
-// Atribuições para CBoneConstraintBase
-// CBoneConstraintBase Offsets
-
 // Atribuições para CNmStateEventConditionNode__Condition_t
 // CNmStateEventConditionNode__Condition_t Offsets
 CNmStateEventConditionNode__Condition_t.m_eventID = jsonData["CNmStateEventConditionNode__Condition_t"]["m_eventID"];
 CNmStateEventConditionNode__Condition_t.m_eventTypeCondition = jsonData["CNmStateEventConditionNode__Condition_t"]["m_eventTypeCondition"];
-
-// Atribuições para CPathAnimMotorUpdater
-// CPathAnimMotorUpdater Offsets
 
 // Atribuições para CMaterialAttributeAnimTag
 // CMaterialAttributeAnimTag Offsets
@@ -3387,9 +3208,6 @@ CNmTarget.m_bIsUsingBoneSpaceOffsets = jsonData["CNmTarget"]["m_bIsUsingBoneSpac
 CNmTarget.m_bHasOffsets = jsonData["CNmTarget"]["m_bHasOffsets"];
 CNmTarget.m_bIsSet = jsonData["CNmTarget"]["m_bIsSet"];
 
-// Atribuições para CNmControlParameterIDNode__CDefinition
-// CNmControlParameterIDNode__CDefinition Offsets
-
 // Atribuições para CWayPointHelperUpdateNode
 // CWayPointHelperUpdateNode Offsets
 CWayPointHelperUpdateNode.m_flStartCycle = jsonData["CWayPointHelperUpdateNode"]["m_flStartCycle"];
@@ -3444,46 +3262,6 @@ buttons.turnright = jsonData["buttons"]["turnright"];
 buttons.use = jsonData["buttons"]["use"];
 buttons.zoom = jsonData["buttons"]["zoom"];
 
-// Atribuições para client_dll
-// client_dll Offsets
-client_dll.ClientToolsInfo_001 = jsonData["client_dll"]["ClientToolsInfo_001"];
-client_dll.EmptyWorldService001_Client = jsonData["client_dll"]["EmptyWorldService001_Client"];
-client_dll.GameClientExports001 = jsonData["client_dll"]["GameClientExports001"];
-client_dll.LegacyGameUI001 = jsonData["client_dll"]["LegacyGameUI001"];
-client_dll.Source2Client002 = jsonData["client_dll"]["Source2Client002"];
-client_dll.Source2ClientConfig001 = jsonData["client_dll"]["Source2ClientConfig001"];
-client_dll.Source2ClientPrediction001 = jsonData["client_dll"]["Source2ClientPrediction001"];
-client_dll.Source2ClientUI001 = jsonData["client_dll"]["Source2ClientUI001"];
-client_dll.dwCSGOInput = jsonData["client_dll"]["dwCSGOInput"];
-client_dll.dwEntityList = jsonData["client_dll"]["dwEntityList"];
-client_dll.dwGameEntitySystem = jsonData["client_dll"]["dwGameEntitySystem"];
-client_dll.dwGameEntitySystem_highestEntityIndex = jsonData["client_dll"]["dwGameEntitySystem_highestEntityIndex"];
-client_dll.dwGameRules = jsonData["client_dll"]["dwGameRules"];
-client_dll.dwGlobalVars = jsonData["client_dll"]["dwGlobalVars"];
-client_dll.dwGlowManager = jsonData["client_dll"]["dwGlowManager"];
-client_dll.dwLocalPlayerController = jsonData["client_dll"]["dwLocalPlayerController"];
-client_dll.dwLocalPlayerPawn = jsonData["client_dll"]["dwLocalPlayerPawn"];
-client_dll.dwPlantedC4 = jsonData["client_dll"]["dwPlantedC4"];
-client_dll.dwPrediction = jsonData["client_dll"]["dwPrediction"];
-client_dll.dwSensitivity = jsonData["client_dll"]["dwSensitivity"];
-client_dll.dwSensitivity_sensitivity = jsonData["client_dll"]["dwSensitivity_sensitivity"];
-client_dll.dwViewAngles = jsonData["client_dll"]["dwViewAngles"];
-client_dll.dwViewMatrix = jsonData["client_dll"]["dwViewMatrix"];
-client_dll.dwViewRender = jsonData["client_dll"]["dwViewRender"];
-client_dll.dwWeaponC4 = jsonData["client_dll"]["dwWeaponC4"];
-
-// Atribuições para C_CSGO_TeamSelectCharacterPosition
-// C_CSGO_TeamSelectCharacterPosition Offsets
-
-// Atribuições para C_HEGrenade
-// C_HEGrenade Offsets
-
-// Atribuições para C_FuncMover
-// C_FuncMover Offsets
-
-// Atribuições para C_TriggerLerpObject
-// C_TriggerLerpObject Offsets
-
 // Atribuições para CCSPlayer_MovementServices
 // CCSPlayer_MovementServices Offsets
 CCSPlayer_MovementServices.m_flMaxFallVelocity = jsonData["CCSPlayer_MovementServices"]["m_flMaxFallVelocity"];
@@ -3537,9 +3315,6 @@ sky3dparams_t.flClip3DSkyBoxNearToWorldFarOffset = jsonData["sky3dparams_t"]["fl
 sky3dparams_t.fog = jsonData["sky3dparams_t"]["fog"];
 sky3dparams_t.m_nWorldGroupID = jsonData["sky3dparams_t"]["m_nWorldGroupID"];
 
-// Atribuições para C_WeaponM4A1
-// C_WeaponM4A1 Offsets
-
 // Atribuições para C_Item
 // C_Item Offsets
 C_Item.m_pReticleHintTextName = jsonData["C_Item"]["m_pReticleHintTextName"];
@@ -3547,9 +3322,6 @@ C_Item.m_pReticleHintTextName = jsonData["C_Item"]["m_pReticleHintTextName"];
 // Atribuições para C_SoundEventPathCornerEntity
 // C_SoundEventPathCornerEntity Offsets
 C_SoundEventPathCornerEntity.m_vecCornerPairsNetworked = jsonData["C_SoundEventPathCornerEntity"]["m_vecCornerPairsNetworked"];
-
-// Atribuições para C_WeaponM249
-// C_WeaponM249 Offsets
 
 // Atribuições para C_CSGameRules
 // C_CSGameRules Offsets
@@ -3658,9 +3430,6 @@ C_CSGameRules.m_flLastPerfSampleTime = jsonData["C_CSGameRules"]["m_flLastPerfSa
 // CBodyComponentSkeletonInstance Offsets
 CBodyComponentSkeletonInstance.m_skeletonInstance = jsonData["CBodyComponentSkeletonInstance"]["m_skeletonInstance"];
 
-// Atribuições para C_WeaponCZ75a
-// C_WeaponCZ75a Offsets
-
 // Atribuições para C_BaseModelEntity
 // C_BaseModelEntity Offsets
 C_BaseModelEntity.m_CRenderComponent = jsonData["C_BaseModelEntity"]["m_CRenderComponent"];
@@ -3759,18 +3528,9 @@ C_PointCamera.m_DegreesPerSecond = jsonData["C_PointCamera"]["m_DegreesPerSecond
 C_PointCamera.m_bIsOn = jsonData["C_PointCamera"]["m_bIsOn"];
 C_PointCamera.m_pNext = jsonData["C_PointCamera"]["m_pNext"];
 
-// Atribuições para CCSPointScriptExtensions_weapon_cs_base
-// CCSPointScriptExtensions_weapon_cs_base Offsets
-
-// Atribuições para C_LightSpotEntity
-// C_LightSpotEntity Offsets
-
 // Atribuições para C_EnvWind
 // C_EnvWind Offsets
 C_EnvWind.m_EnvWindShared = jsonData["C_EnvWind"]["m_EnvWindShared"];
-
-// Atribuições para C_GameRulesProxy
-// C_GameRulesProxy Offsets
 
 // Atribuições para C_BaseCombatCharacter
 // C_BaseCombatCharacter Offsets
@@ -3781,24 +3541,9 @@ C_BaseCombatCharacter.m_nWaterWakeMode = jsonData["C_BaseCombatCharacter"]["m_nW
 C_BaseCombatCharacter.m_flWaterWorldZ = jsonData["C_BaseCombatCharacter"]["m_flWaterWorldZ"];
 C_BaseCombatCharacter.m_flWaterNextTraceTime = jsonData["C_BaseCombatCharacter"]["m_flWaterNextTraceTime"];
 
-// Atribuições para C_FlashbangProjectile
-// C_FlashbangProjectile Offsets
-
 // Atribuições para C_SoundEventSphereEntity
 // C_SoundEventSphereEntity Offsets
 C_SoundEventSphereEntity.m_flRadius = jsonData["C_SoundEventSphereEntity"]["m_flRadius"];
-
-// Atribuições para CPlayer_ViewModelServices
-// CPlayer_ViewModelServices Offsets
-
-// Atribuições para CCSGO_WingmanIntroCounterTerroristPosition
-// CCSGO_WingmanIntroCounterTerroristPosition Offsets
-
-// Atribuições para C_DynamicPropAlias_cable_dynamic
-// C_DynamicPropAlias_cable_dynamic Offsets
-
-// Atribuições para C_InfoInstructorHintHostageRescueZone
-// C_InfoInstructorHintHostageRescueZone Offsets
 
 // Atribuições para C_SceneEntity
 // C_SceneEntity Offsets
@@ -3868,9 +3613,6 @@ C_FuncMonitor.m_hTargetCamera = jsonData["C_FuncMonitor"]["m_hTargetCamera"];
 C_FuncMonitor.m_bEnabled = jsonData["C_FuncMonitor"]["m_bEnabled"];
 C_FuncMonitor.m_bDraw3DSkybox = jsonData["C_FuncMonitor"]["m_bDraw3DSkybox"];
 
-// Atribuições para C_TriggerMultiple
-// C_TriggerMultiple Offsets
-
 // Atribuições para C_RopeKeyframe__CPhysicsDelegate
 // C_RopeKeyframe__CPhysicsDelegate Offsets
 C_RopeKeyframe__CPhysicsDelegate.m_pKeyframe = jsonData["C_RopeKeyframe__CPhysicsDelegate"]["m_pKeyframe"];
@@ -3883,9 +3625,6 @@ CBodyComponent.__m_pChainEntity = jsonData["CBodyComponent"]["__m_pChainEntity"]
 // Atribuições para C_SoundAreaEntitySphere
 // C_SoundAreaEntitySphere Offsets
 C_SoundAreaEntitySphere.m_flRadius = jsonData["C_SoundAreaEntitySphere"]["m_flRadius"];
-
-// Atribuições para CCSObserver_MovementServices
-// CCSObserver_MovementServices Offsets
 
 // Atribuições para C_LightGlow
 // C_LightGlow Offsets
@@ -3981,9 +3720,6 @@ C_SmokeGrenadeProjectile.m_VoxelFrameData = jsonData["C_SmokeGrenadeProjectile"]
 C_SmokeGrenadeProjectile.m_bSmokeVolumeDataReceived = jsonData["C_SmokeGrenadeProjectile"]["m_bSmokeVolumeDataReceived"];
 C_SmokeGrenadeProjectile.m_bSmokeEffectSpawned = jsonData["C_SmokeGrenadeProjectile"]["m_bSmokeEffectSpawned"];
 
-// Atribuições para C_SoundEventEntityAlias_snd_event_point
-// C_SoundEventEntityAlias_snd_event_point Offsets
-
 // Atribuições para C_CSGO_MapPreviewCameraPath
 // C_CSGO_MapPreviewCameraPath Offsets
 C_CSGO_MapPreviewCameraPath.m_flZFar = jsonData["C_CSGO_MapPreviewCameraPath"]["m_flZFar"];
@@ -3994,9 +3730,6 @@ C_CSGO_MapPreviewCameraPath.m_bConstantSpeed = jsonData["C_CSGO_MapPreviewCamera
 C_CSGO_MapPreviewCameraPath.m_flDuration = jsonData["C_CSGO_MapPreviewCameraPath"]["m_flDuration"];
 C_CSGO_MapPreviewCameraPath.m_flPathLength = jsonData["C_CSGO_MapPreviewCameraPath"]["m_flPathLength"];
 C_CSGO_MapPreviewCameraPath.m_flPathDuration = jsonData["C_CSGO_MapPreviewCameraPath"]["m_flPathDuration"];
-
-// Atribuições para CCSGO_WingmanIntroTerroristPosition
-// CCSGO_WingmanIntroTerroristPosition Offsets
 
 // Atribuições para C_Inferno
 // C_Inferno Offsets
@@ -4025,12 +3758,6 @@ C_Inferno.m_minBounds = jsonData["C_Inferno"]["m_minBounds"];
 C_Inferno.m_maxBounds = jsonData["C_Inferno"]["m_maxBounds"];
 C_Inferno.m_flLastGrassBurnThink = jsonData["C_Inferno"]["m_flLastGrassBurnThink"];
 
-// Atribuições para C_HostageCarriableProp
-// C_HostageCarriableProp Offsets
-
-// Atribuições para C_CSGO_TerroristWingmanIntroCamera
-// C_CSGO_TerroristWingmanIntroCamera Offsets
-
 // Atribuições para C_PlayerPing
 // C_PlayerPing Offsets
 C_PlayerPing.m_hPlayer = jsonData["C_PlayerPing"]["m_hPlayer"];
@@ -4038,9 +3765,6 @@ C_PlayerPing.m_hPingedEntity = jsonData["C_PlayerPing"]["m_hPingedEntity"];
 C_PlayerPing.m_iType = jsonData["C_PlayerPing"]["m_iType"];
 C_PlayerPing.m_bUrgent = jsonData["C_PlayerPing"]["m_bUrgent"];
 C_PlayerPing.m_szPlaceName = jsonData["C_PlayerPing"]["m_szPlaceName"];
-
-// Atribuições para C_WeaponMP7
-// C_WeaponMP7 Offsets
 
 // Atribuições para C_CSTeam
 // C_CSTeam Offsets
@@ -4067,12 +3791,6 @@ C_CSGO_MapPreviewCameraPathNode.m_flEaseIn = jsonData["C_CSGO_MapPreviewCameraPa
 C_CSGO_MapPreviewCameraPathNode.m_flEaseOut = jsonData["C_CSGO_MapPreviewCameraPathNode"]["m_flEaseOut"];
 C_CSGO_MapPreviewCameraPathNode.m_vInTangentWorld = jsonData["C_CSGO_MapPreviewCameraPathNode"]["m_vInTangentWorld"];
 C_CSGO_MapPreviewCameraPathNode.m_vOutTangentWorld = jsonData["C_CSGO_MapPreviewCameraPathNode"]["m_vOutTangentWorld"];
-
-// Atribuições para C_WeaponMag7
-// C_WeaponMag7 Offsets
-
-// Atribuições para C_DEagle
-// C_DEagle Offsets
 
 // Atribuições para C_CSPlayerPawn
 // C_CSPlayerPawn Offsets
@@ -4243,12 +3961,6 @@ CEffectData.m_nAttachmentName = jsonData["CEffectData"]["m_nAttachmentName"];
 CEffectData.m_iEffectName = jsonData["CEffectData"]["m_iEffectName"];
 CEffectData.m_nExplosionType = jsonData["CEffectData"]["m_nExplosionType"];
 
-// Atribuições para C_SensorGrenadeProjectile
-// C_SensorGrenadeProjectile Offsets
-
-// Atribuições para C_MolotovGrenade
-// C_MolotovGrenade Offsets
-
 // Atribuições para C_BaseButton
 // C_BaseButton Offsets
 C_BaseButton.m_glowEntity = jsonData["C_BaseButton"]["m_glowEntity"];
@@ -4258,9 +3970,6 @@ C_BaseButton.m_szDisplayText = jsonData["C_BaseButton"]["m_szDisplayText"];
 // Atribuições para CCSPlayer_ViewModelServices
 // CCSPlayer_ViewModelServices Offsets
 CCSPlayer_ViewModelServices.m_hViewModel = jsonData["CCSPlayer_ViewModelServices"]["m_hViewModel"];
-
-// Atribuições para CInfoParticleTarget
-// CInfoParticleTarget Offsets
 
 // Atribuições para CPlayer_MovementServices_Humanoid
 // CPlayer_MovementServices_Humanoid Offsets
@@ -4278,9 +3987,6 @@ CPlayer_MovementServices_Humanoid.m_surfaceProps = jsonData["CPlayer_MovementSer
 CPlayer_MovementServices_Humanoid.m_nStepside = jsonData["CPlayer_MovementServices_Humanoid"]["m_nStepside"];
 CPlayer_MovementServices_Humanoid.m_iTargetVolume = jsonData["CPlayer_MovementServices_Humanoid"]["m_iTargetVolume"];
 CPlayer_MovementServices_Humanoid.m_vecSmoothedVelocity = jsonData["CPlayer_MovementServices_Humanoid"]["m_vecSmoothedVelocity"];
-
-// Atribuições para C_WeaponAug
-// C_WeaponAug Offsets
 
 // Atribuições para C_PointClientUIWorldPanel
 // C_PointClientUIWorldPanel Offsets
@@ -4313,20 +4019,11 @@ C_PointClientUIWorldPanel.m_bOnlyRenderToTexture = jsonData["C_PointClientUIWorl
 C_PointClientUIWorldPanel.m_bDisableMipGen = jsonData["C_PointClientUIWorldPanel"]["m_bDisableMipGen"];
 C_PointClientUIWorldPanel.m_nExplicitImageLayout = jsonData["C_PointClientUIWorldPanel"]["m_nExplicitImageLayout"];
 
-// Atribuições para C_CSMinimapBoundary
-// C_CSMinimapBoundary Offsets
-
 // Atribuições para CCSGameModeRules_Deathmatch
 // CCSGameModeRules_Deathmatch Offsets
 CCSGameModeRules_Deathmatch.m_flDMBonusStartTime = jsonData["CCSGameModeRules_Deathmatch"]["m_flDMBonusStartTime"];
 CCSGameModeRules_Deathmatch.m_flDMBonusTimeLength = jsonData["CCSGameModeRules_Deathmatch"]["m_flDMBonusTimeLength"];
 CCSGameModeRules_Deathmatch.m_sDMBonusWeapon = jsonData["CCSGameModeRules_Deathmatch"]["m_sDMBonusWeapon"];
-
-// Atribuições para C_CSGO_EndOfMatchCharacterPosition
-// C_CSGO_EndOfMatchCharacterPosition Offsets
-
-// Atribuições para C_SoundOpvarSetAABBEntity
-// C_SoundOpvarSetAABBEntity Offsets
 
 // Atribuições para C_GameRules
 // C_GameRules Offsets
@@ -4334,9 +4031,6 @@ C_GameRules.__m_pChainEntity = jsonData["C_GameRules"]["__m_pChainEntity"];
 C_GameRules.m_nTotalPausedTicks = jsonData["C_GameRules"]["m_nTotalPausedTicks"];
 C_GameRules.m_nPauseStartTick = jsonData["C_GameRules"]["m_nPauseStartTick"];
 C_GameRules.m_bGamePaused = jsonData["C_GameRules"]["m_bGamePaused"];
-
-// Atribuições para C_PropDoorRotating
-// C_PropDoorRotating Offsets
 
 // Atribuições para C_Team
 // C_Team Offsets
@@ -4361,12 +4055,6 @@ C_TextureBasedAnimatable.m_vAnimationBoundsMax = jsonData["C_TextureBasedAnimata
 C_TextureBasedAnimatable.m_flStartTime = jsonData["C_TextureBasedAnimatable"]["m_flStartTime"];
 C_TextureBasedAnimatable.m_flStartFrame = jsonData["C_TextureBasedAnimatable"]["m_flStartFrame"];
 
-// Atribuições para C_SoundOpvarSetPointEntity
-// C_SoundOpvarSetPointEntity Offsets
-
-// Atribuições para C_LightOrthoEntity
-// C_LightOrthoEntity Offsets
-
 // Atribuições para CCSPlayer_WaterServices
 // CCSPlayer_WaterServices Offsets
 CCSPlayer_WaterServices.m_flWaterJumpTime = jsonData["CCSPlayer_WaterServices"]["m_flWaterJumpTime"];
@@ -4380,9 +4068,6 @@ CCSPlayer_WaterServices.m_AirFinishedTime = jsonData["CCSPlayer_WaterServices"][
 // CSkyboxReference Offsets
 CSkyboxReference.m_worldGroupId = jsonData["CSkyboxReference"]["m_worldGroupId"];
 CSkyboxReference.m_hSkyCamera = jsonData["CSkyboxReference"]["m_hSkyCamera"];
-
-// Atribuições para C_TonemapController2Alias_env_tonemap_controller2
-// C_TonemapController2Alias_env_tonemap_controller2 Offsets
 
 // Atribuições para CProjectedTextureBase
 // CProjectedTextureBase Offsets
@@ -4429,12 +4114,6 @@ CCSPlayerController_InventoryServices.m_nPersonaDataXpTrailLevel = jsonData["CCS
 CCSPlayerController_InventoryServices.m_vecServerAuthoritativeWeaponSlots = jsonData["CCSPlayerController_InventoryServices"]["m_vecServerAuthoritativeWeaponSlots"];
 CCSPlayerController_InventoryServices.m_unEquippedPlayerSprayIDs = jsonData["CCSPlayerController_InventoryServices"]["m_unEquippedPlayerSprayIDs"];
 
-// Atribuições para C_PathParticleRopeAlias_path_particle_rope_clientside
-// C_PathParticleRopeAlias_path_particle_rope_clientside Offsets
-
-// Atribuições para CPlayer_UseServices
-// CPlayer_UseServices Offsets
-
 // Atribuições para C_CSGOViewModel
 // C_CSGOViewModel Offsets
 C_CSGOViewModel.m_bShouldIgnoreOffsetAndAccuracy = jsonData["C_CSGOViewModel"]["m_bShouldIgnoreOffsetAndAccuracy"];
@@ -4470,15 +4149,6 @@ C_EnvLightProbeVolume.m_Entity_bEnabled = jsonData["C_EnvLightProbeVolume"]["m_E
 // C_ViewmodelAttachmentModel Offsets
 C_ViewmodelAttachmentModel.m_bShouldFrontFaceCullLeftHanded = jsonData["C_ViewmodelAttachmentModel"]["m_bShouldFrontFaceCullLeftHanded"];
 C_ViewmodelAttachmentModel.m_bCreatedLeftHanded = jsonData["C_ViewmodelAttachmentModel"]["m_bCreatedLeftHanded"];
-
-// Atribuições para CCSPointScriptExtensions_player_controller
-// CCSPointScriptExtensions_player_controller Offsets
-
-// Atribuições para C_Flashbang
-// C_Flashbang Offsets
-
-// Atribuições para CBumpMine
-// CBumpMine Offsets
 
 // Atribuições para CSPerRoundStats_t
 // CSPerRoundStats_t Offsets
@@ -4534,18 +4204,6 @@ C_TeamRoundTimer.m_nOldTimerState = jsonData["C_TeamRoundTimer"]["m_nOldTimerSta
 WeaponPurchaseCount_t.m_nItemDefIndex = jsonData["WeaponPurchaseCount_t"]["m_nItemDefIndex"];
 WeaponPurchaseCount_t.m_nCount = jsonData["WeaponPurchaseCount_t"]["m_nCount"];
 
-// Atribuições para C_SmokeGrenade
-// C_SmokeGrenade Offsets
-
-// Atribuições para C_WeaponGalilAR
-// C_WeaponGalilAR Offsets
-
-// Atribuições para C_WorldModelGloves
-// C_WorldModelGloves Offsets
-
-// Atribuições para C_EnvProjectedTexture
-// C_EnvProjectedTexture Offsets
-
 // Atribuições para CPathSimple
 // CPathSimple Offsets
 CPathSimple.m_pathString = jsonData["CPathSimple"]["m_pathString"];
@@ -4568,12 +4226,6 @@ CPointOffScreenIndicatorUi.m_bHide = jsonData["CPointOffScreenIndicatorUi"]["m_b
 CPointOffScreenIndicatorUi.m_flSeenTargetTime = jsonData["CPointOffScreenIndicatorUi"]["m_flSeenTargetTime"];
 CPointOffScreenIndicatorUi.m_pTargetPanel = jsonData["CPointOffScreenIndicatorUi"]["m_pTargetPanel"];
 
-// Atribuições para CCSPointScriptExtensions_entity
-// CCSPointScriptExtensions_entity Offsets
-
-// Atribuições para CBodyComponentBaseModelEntity
-// CBodyComponentBaseModelEntity Offsets
-
 // Atribuições para C_CSWeaponBaseGun
 // C_CSWeaponBaseGun Offsets
 C_CSWeaponBaseGun.m_zoomLevel = jsonData["C_CSWeaponBaseGun"]["m_zoomLevel"];
@@ -4590,9 +4242,6 @@ C_SkyCamera.m_skyboxSlotToken = jsonData["C_SkyCamera"]["m_skyboxSlotToken"];
 C_SkyCamera.m_bUseAngles = jsonData["C_SkyCamera"]["m_bUseAngles"];
 C_SkyCamera.m_pNext = jsonData["C_SkyCamera"]["m_pNext"];
 
-// Atribuições para C_World
-// C_World Offsets
-
 // Atribuições para C_EntityDissolve
 // C_EntityDissolve Offsets
 C_EntityDissolve.m_flStartTime = jsonData["C_EntityDissolve"]["m_flStartTime"];
@@ -4608,9 +4257,6 @@ C_EntityDissolve.m_vDissolverOrigin = jsonData["C_EntityDissolve"]["m_vDissolver
 C_EntityDissolve.m_nMagnitude = jsonData["C_EntityDissolve"]["m_nMagnitude"];
 C_EntityDissolve.m_bCoreExplode = jsonData["C_EntityDissolve"]["m_bCoreExplode"];
 C_EntityDissolve.m_bLinkedToServerEnt = jsonData["C_EntityDissolve"]["m_bLinkedToServerEnt"];
-
-// Atribuições para CCSObserver_UseServices
-// CCSObserver_UseServices Offsets
 
 // Atribuições para C_fogplayerparams_t
 // C_fogplayerparams_t Offsets
@@ -4697,9 +4343,6 @@ C_CSPlayerPawnBase.m_vecLastAliveLocalVelocity = jsonData["C_CSPlayerPawnBase"][
 C_CSPlayerPawnBase.m_bGuardianShouldSprayCustomXMark = jsonData["C_CSPlayerPawnBase"]["m_bGuardianShouldSprayCustomXMark"];
 C_CSPlayerPawnBase.m_hOriginalController = jsonData["C_CSPlayerPawnBase"]["m_hOriginalController"];
 
-// Atribuições para C_Item_Healthshot
-// C_Item_Healthshot Offsets
-
 // Atribuições para C_EnvWindShared
 // C_EnvWindShared Offsets
 C_EnvWindShared.m_flStartTime = jsonData["C_EnvWindShared"]["m_flStartTime"];
@@ -4756,20 +4399,11 @@ C_PostProcessingVolume.m_flTonemapMinAvgLum = jsonData["C_PostProcessingVolume"]
 CCSPlayer_PingServices.m_hPlayerPing = jsonData["CCSPlayer_PingServices"]["m_hPlayerPing"];
 CCSPlayer_PingServices.m_flPlayerPingTokens = jsonData["CCSPlayer_PingServices"]["m_flPlayerPingTokens"];
 
-// Atribuições para CPlayer_FlashlightServices
-// CPlayer_FlashlightServices Offsets
-
-// Atribuições para CServerOnlyModelEntity
-// CServerOnlyModelEntity Offsets
-
 // Atribuições para C_AttributeContainer
 // C_AttributeContainer Offsets
 C_AttributeContainer.m_Item = jsonData["C_AttributeContainer"]["m_Item"];
 C_AttributeContainer.m_iExternalItemProviderRegisteredToken = jsonData["C_AttributeContainer"]["m_iExternalItemProviderRegisteredToken"];
 C_AttributeContainer.m_ullRegisteredAsItemID = jsonData["C_AttributeContainer"]["m_ullRegisteredAsItemID"];
-
-// Atribuições para C_FuncRotating
-// C_FuncRotating Offsets
 
 // Atribuições para C_BaseFire
 // C_BaseFire Offsets
@@ -4809,17 +4443,11 @@ CBasePlayerController.m_flLastEntitySteadyState = jsonData["CBasePlayerControlle
 CBasePlayerController.m_nAvailableEntitySteadyState = jsonData["CBasePlayerController"]["m_nAvailableEntitySteadyState"];
 CBasePlayerController.m_bHasAnySteadyStateEnts = jsonData["CBasePlayerController"]["m_bHasAnySteadyStateEnts"];
 
-// Atribuições para CPointTemplateAPI
-// CPointTemplateAPI Offsets
-
 // Atribuições para C_DecoyProjectile
 // C_DecoyProjectile Offsets
 C_DecoyProjectile.m_nDecoyShotTick = jsonData["C_DecoyProjectile"]["m_nDecoyShotTick"];
 C_DecoyProjectile.m_nClientLastKnownDecoyShotTick = jsonData["C_DecoyProjectile"]["m_nClientLastKnownDecoyShotTick"];
 C_DecoyProjectile.m_flTimeParticleEffectSpawn = jsonData["C_DecoyProjectile"]["m_flTimeParticleEffectSpawn"];
-
-// Atribuições para C_WaterBullet
-// C_WaterBullet Offsets
 
 // Atribuições para C_CSGO_PreviewPlayer
 // C_CSGO_PreviewPlayer Offsets
@@ -4843,9 +4471,6 @@ CBaseAnimGraphController.m_bNetworkedAnimationInputsChanged = jsonData["CBaseAni
 CBaseAnimGraphController.m_bNetworkedSequenceChanged = jsonData["CBaseAnimGraphController"]["m_bNetworkedSequenceChanged"];
 CBaseAnimGraphController.m_bLastUpdateSkipped = jsonData["CBaseAnimGraphController"]["m_bLastUpdateSkipped"];
 CBaseAnimGraphController.m_flPrevAnimUpdateTime = jsonData["CBaseAnimGraphController"]["m_flPrevAnimUpdateTime"];
-
-// Atribuições para CCSPointScriptEntity
-// CCSPointScriptEntity Offsets
 
 // Atribuições para C_C4
 // C_C4 Offsets
@@ -4878,21 +4503,6 @@ CBaseAnimGraph.m_bRagdollClientSide = jsonData["CBaseAnimGraph"]["m_bRagdollClie
 CBaseAnimGraph.m_bHasAnimatedMaterialAttributes = jsonData["CBaseAnimGraph"]["m_bHasAnimatedMaterialAttributes"];
 CBaseAnimGraph.m_pChoreoServices = jsonData["CBaseAnimGraph"]["m_pChoreoServices"];
 
-// Atribuições para C_Melee
-// C_Melee Offsets
-
-// Atribuições para CBreachChargeProjectile
-// CBreachChargeProjectile Offsets
-
-// Atribuições para C_PointEntity
-// C_PointEntity Offsets
-
-// Atribuições para C_MultiplayRules
-// C_MultiplayRules Offsets
-
-// Atribuições para CBasePlayerControllerAPI
-// CBasePlayerControllerAPI Offsets
-
 // Atribuições para C_PathParticleRope
 // C_PathParticleRope Offsets
 C_PathParticleRope.m_bStartActive = jsonData["C_PathParticleRope"]["m_bStartActive"];
@@ -4912,16 +4522,10 @@ C_PathParticleRope.m_PathNodes_Color = jsonData["C_PathParticleRope"]["m_PathNod
 C_PathParticleRope.m_PathNodes_PinEnabled = jsonData["C_PathParticleRope"]["m_PathNodes_PinEnabled"];
 C_PathParticleRope.m_PathNodes_RadiusScale = jsonData["C_PathParticleRope"]["m_PathNodes_RadiusScale"];
 
-// Atribuições para CCSPointScriptExtensions_CCSWeaponBaseVData
-// CCSPointScriptExtensions_CCSWeaponBaseVData Offsets
-
 // Atribuições para C_SoundEventAABBEntity
 // C_SoundEventAABBEntity Offsets
 C_SoundEventAABBEntity.m_vMins = jsonData["C_SoundEventAABBEntity"]["m_vMins"];
 C_SoundEventAABBEntity.m_vMaxs = jsonData["C_SoundEventAABBEntity"]["m_vMaxs"];
-
-// Atribuições para C_WeaponP90
-// C_WeaponP90 Offsets
 
 // Atribuições para C_BasePlayerWeapon
 // C_BasePlayerWeapon Offsets
@@ -4994,9 +4598,6 @@ CTimeline.m_flFinalValue = jsonData["CTimeline"]["m_flFinalValue"];
 CTimeline.m_nCompressionType = jsonData["CTimeline"]["m_nCompressionType"];
 CTimeline.m_bStopped = jsonData["CTimeline"]["m_bStopped"];
 
-// Atribuições para C_WeaponAWP
-// C_WeaponAWP Offsets
-
 // Atribuições para C_BasePlayerPawn
 // C_BasePlayerPawn Offsets
 C_BasePlayerPawn.m_pWeaponServices = jsonData["C_BasePlayerPawn"]["m_pWeaponServices"];
@@ -5036,9 +4637,6 @@ CAttributeManager.m_hOuter = jsonData["CAttributeManager"]["m_hOuter"];
 CAttributeManager.m_bPreventLoopback = jsonData["CAttributeManager"]["m_bPreventLoopback"];
 CAttributeManager.m_ProviderType = jsonData["CAttributeManager"]["m_ProviderType"];
 CAttributeManager.m_CachedResults = jsonData["CAttributeManager"]["m_CachedResults"];
-
-// Atribuições para CLogicalEntity
-// CLogicalEntity Offsets
 
 // Atribuições para CAnimGraphNetworkedVariables
 // CAnimGraphNetworkedVariables Offsets
@@ -5155,16 +4753,10 @@ C_CSGO_TeamPreviewCamera.m_flDofTiltToGround = jsonData["C_CSGO_TeamPreviewCamer
 CCSPlayer_CameraServices.m_flDeathCamTilt = jsonData["CCSPlayer_CameraServices"]["m_flDeathCamTilt"];
 CCSPlayer_CameraServices.m_vClientScopeInaccuracy = jsonData["CCSPlayer_CameraServices"]["m_vClientScopeInaccuracy"];
 
-// Atribuições para C_CSGO_TeamSelectCounterTerroristPosition
-// C_CSGO_TeamSelectCounterTerroristPosition Offsets
-
 // Atribuições para C_EconWearable
 // C_EconWearable Offsets
 C_EconWearable.m_nForceSkin = jsonData["C_EconWearable"]["m_nForceSkin"];
 C_EconWearable.m_bAlwaysAllow = jsonData["C_EconWearable"]["m_bAlwaysAllow"];
-
-// Atribuições para CCSGO_WingmanIntroCharacterPosition
-// CCSGO_WingmanIntroCharacterPosition Offsets
 
 // Atribuições para CSMatchStats_t
 // CSMatchStats_t Offsets
@@ -5190,9 +4782,6 @@ CSMatchStats_t.m_i1v2Wins = jsonData["CSMatchStats_t"]["m_i1v2Wins"];
 CSMatchStats_t.m_iEntryCount = jsonData["CSMatchStats_t"]["m_iEntryCount"];
 CSMatchStats_t.m_iEntryWins = jsonData["CSMatchStats_t"]["m_iEntryWins"];
 
-// Atribuições para C_BaseToggle
-// C_BaseToggle Offsets
-
 // Atribuições para C_EnvVolumetricFogVolume
 // C_EnvVolumetricFogVolume Offsets
 C_EnvVolumetricFogVolume.m_bActive = jsonData["C_EnvVolumetricFogVolume"]["m_bActive"];
@@ -5212,15 +4801,6 @@ C_EnvVolumetricFogVolume.m_bOverrideSunLightStrength = jsonData["C_EnvVolumetric
 C_EnvVolumetricFogVolume.m_bOverrideNoiseStrength = jsonData["C_EnvVolumetricFogVolume"]["m_bOverrideNoiseStrength"];
 C_EnvVolumetricFogVolume.m_bAllowLPVIndirect = jsonData["C_EnvVolumetricFogVolume"]["m_bAllowLPVIndirect"];
 
-// Atribuições para CWaterSplasher
-// CWaterSplasher Offsets
-
-// Atribuições para C_ModelPointEntity
-// C_ModelPointEntity Offsets
-
-// Atribuições para CCSObserver_ViewModelServices
-// CCSObserver_ViewModelServices Offsets
-
 // Atribuições para C_FireSmoke
 // C_FireSmoke Offsets
 C_FireSmoke.m_nFlameModelIndex = jsonData["C_FireSmoke"]["m_nFlameModelIndex"];
@@ -5236,12 +4816,6 @@ C_FireSmoke.m_bClipTested = jsonData["C_FireSmoke"]["m_bClipTested"];
 C_FireSmoke.m_bFadingOut = jsonData["C_FireSmoke"]["m_bFadingOut"];
 C_FireSmoke.m_tParticleSpawn = jsonData["C_FireSmoke"]["m_tParticleSpawn"];
 C_FireSmoke.m_pFireOverlay = jsonData["C_FireSmoke"]["m_pFireOverlay"];
-
-// Atribuições para C_WeaponRevolver
-// C_WeaponRevolver Offsets
-
-// Atribuições para C_FireFromAboveSprite
-// C_FireFromAboveSprite Offsets
 
 // Atribuições para C_EnvCombinedLightProbeVolume
 // C_EnvCombinedLightProbeVolume Offsets
@@ -5270,21 +4844,12 @@ C_EnvCombinedLightProbeVolume.m_Entity_nLightProbeAtlasY = jsonData["C_EnvCombin
 C_EnvCombinedLightProbeVolume.m_Entity_nLightProbeAtlasZ = jsonData["C_EnvCombinedLightProbeVolume"]["m_Entity_nLightProbeAtlasZ"];
 C_EnvCombinedLightProbeVolume.m_Entity_bEnabled = jsonData["C_EnvCombinedLightProbeVolume"]["m_Entity_bEnabled"];
 
-// Atribuições para C_SoundOpvarSetOBBWindEntity
-// C_SoundOpvarSetOBBWindEntity Offsets
-
 // Atribuições para ActiveModelConfig_t
 // ActiveModelConfig_t Offsets
 ActiveModelConfig_t.m_Handle = jsonData["ActiveModelConfig_t"]["m_Handle"];
 ActiveModelConfig_t.m_Name = jsonData["ActiveModelConfig_t"]["m_Name"];
 ActiveModelConfig_t.m_AssociatedEntities = jsonData["ActiveModelConfig_t"]["m_AssociatedEntities"];
 ActiveModelConfig_t.m_AssociatedEntityNames = jsonData["ActiveModelConfig_t"]["m_AssociatedEntityNames"];
-
-// Atribuições para C_WeaponMP5SD
-// C_WeaponMP5SD Offsets
-
-// Atribuições para C_DynamicPropAlias_dynamic_prop
-// C_DynamicPropAlias_dynamic_prop Offsets
 
 // Atribuições para CCSPlayer_BulletServices
 // CCSPlayer_BulletServices Offsets
@@ -5397,15 +4962,9 @@ C_TonemapController2.m_flExposureAdaptationSpeedUp = jsonData["C_TonemapControll
 C_TonemapController2.m_flExposureAdaptationSpeedDown = jsonData["C_TonemapController2"]["m_flExposureAdaptationSpeedDown"];
 C_TonemapController2.m_flTonemapEVSmoothingRange = jsonData["C_TonemapController2"]["m_flTonemapEVSmoothingRange"];
 
-// Atribuições para C_WeaponG3SG1
-// C_WeaponG3SG1 Offsets
-
 // Atribuições para CFuncWater
 // CFuncWater Offsets
 CFuncWater.m_BuoyancyHelper = jsonData["CFuncWater"]["m_BuoyancyHelper"];
-
-// Atribuições para C_SoundOpvarSetAutoRoomEntity
-// C_SoundOpvarSetAutoRoomEntity Offsets
 
 // Atribuições para C_EconEntity
 // C_EconEntity Offsets
@@ -5429,9 +4988,6 @@ C_EconEntity.m_nUnloadedModelIndex = jsonData["C_EconEntity"]["m_nUnloadedModelI
 C_EconEntity.m_iNumOwnerValidationRetries = jsonData["C_EconEntity"]["m_iNumOwnerValidationRetries"];
 C_EconEntity.m_hOldProvidee = jsonData["C_EconEntity"]["m_hOldProvidee"];
 C_EconEntity.m_vecAttachedModels = jsonData["C_EconEntity"]["m_vecAttachedModels"];
-
-// Atribuições para C_WeaponSG556
-// C_WeaponSG556 Offsets
 
 // Atribuições para C_RectLight
 // C_RectLight Offsets
@@ -5464,12 +5020,6 @@ C_ParticleSystem.m_clrTint = jsonData["C_ParticleSystem"]["m_clrTint"];
 C_ParticleSystem.m_bOldActive = jsonData["C_ParticleSystem"]["m_bOldActive"];
 C_ParticleSystem.m_bOldFrozen = jsonData["C_ParticleSystem"]["m_bOldFrozen"];
 
-// Atribuições para C_CSGO_TeamPreviewModel
-// C_CSGO_TeamPreviewModel Offsets
-
-// Atribuições para C_WeaponGlock
-// C_WeaponGlock Offsets
-
 // Atribuições para C_CSGameRulesProxy
 // C_CSGameRulesProxy Offsets
 C_CSGameRulesProxy.m_pGameRules = jsonData["C_CSGameRulesProxy"]["m_pGameRules"];
@@ -5482,15 +5032,6 @@ CPlayer_ObserverServices.m_iObserverLastMode = jsonData["CPlayer_ObserverService
 CPlayer_ObserverServices.m_bForcedObserverMode = jsonData["CPlayer_ObserverServices"]["m_bForcedObserverMode"];
 CPlayer_ObserverServices.m_flObserverChaseDistance = jsonData["CPlayer_ObserverServices"]["m_flObserverChaseDistance"];
 CPlayer_ObserverServices.m_flObserverChaseDistanceCalcTime = jsonData["CPlayer_ObserverServices"]["m_flObserverChaseDistanceCalcTime"];
-
-// Atribuições para CWeaponZoneRepulsor
-// CWeaponZoneRepulsor Offsets
-
-// Atribuições para CPlayer_WaterServices
-// CPlayer_WaterServices Offsets
-
-// Atribuições para C_CSGO_EndOfMatchLineupEnd
-// C_CSGO_EndOfMatchLineupEnd Offsets
 
 // Atribuições para SequenceHistory_t
 // SequenceHistory_t Offsets
@@ -5522,9 +5063,6 @@ C_EnvDecal.m_bProjectOnCharacters = jsonData["C_EnvDecal"]["m_bProjectOnCharacte
 C_EnvDecal.m_bProjectOnWater = jsonData["C_EnvDecal"]["m_bProjectOnWater"];
 C_EnvDecal.m_flDepthSortBias = jsonData["C_EnvDecal"]["m_flDepthSortBias"];
 
-// Atribuições para CCSGameModeRules_Noop
-// CCSGameModeRules_Noop Offsets
-
 // Atribuições para C_ColorCorrection
 // C_ColorCorrection Offsets
 C_ColorCorrection.m_vecOrigin = jsonData["C_ColorCorrection"]["m_vecOrigin"];
@@ -5546,9 +5084,6 @@ C_ColorCorrection.m_flFadeStartWeight = jsonData["C_ColorCorrection"]["m_flFadeS
 C_ColorCorrection.m_flFadeStartTime = jsonData["C_ColorCorrection"]["m_flFadeStartTime"];
 C_ColorCorrection.m_flFadeDuration = jsonData["C_ColorCorrection"]["m_flFadeDuration"];
 
-// Atribuições para CHostageRescueZoneShim
-// CHostageRescueZoneShim Offsets
-
 // Atribuições para CModelState
 // CModelState Offsets
 CModelState.m_hModel = jsonData["CModelState"]["m_hModel"];
@@ -5559,9 +5094,6 @@ CModelState.m_nIdealMotionType = jsonData["CModelState"]["m_nIdealMotionType"];
 CModelState.m_nForceLOD = jsonData["CModelState"]["m_nForceLOD"];
 CModelState.m_nClothUpdateFlags = jsonData["CModelState"]["m_nClothUpdateFlags"];
 
-// Atribuições para C_WeaponP250
-// C_WeaponP250 Offsets
-
 // Atribuições para C_EconEntity__AttachedModelData_t
 // C_EconEntity__AttachedModelData_t Offsets
 C_EconEntity__AttachedModelData_t.m_iModelDisplayFlags = jsonData["C_EconEntity__AttachedModelData_t"]["m_iModelDisplayFlags"];
@@ -5570,18 +5102,6 @@ C_EconEntity__AttachedModelData_t.m_iModelDisplayFlags = jsonData["C_EconEntity_
 // CAttributeList Offsets
 CAttributeList.m_Attributes = jsonData["CAttributeList"]["m_Attributes"];
 CAttributeList.m_pManager = jsonData["CAttributeList"]["m_pManager"];
-
-// Atribuições para C_TeamplayRules
-// C_TeamplayRules Offsets
-
-// Atribuições para C_CSGO_CounterTerroristWingmanIntroCamera
-// C_CSGO_CounterTerroristWingmanIntroCamera Offsets
-
-// Atribuições para C_WeaponNOVA
-// C_WeaponNOVA Offsets
-
-// Atribuições para C_HEGrenadeProjectile
-// C_HEGrenadeProjectile Offsets
 
 // Atribuições para C_BaseDoor
 // C_BaseDoor Offsets
@@ -5634,9 +5154,6 @@ CDamageRecord.m_iNumHits = jsonData["CDamageRecord"]["m_iNumHits"];
 CDamageRecord.m_iLastBulletUpdate = jsonData["CDamageRecord"]["m_iLastBulletUpdate"];
 CDamageRecord.m_bIsOtherEnemy = jsonData["CDamageRecord"]["m_bIsOtherEnemy"];
 CDamageRecord.m_killType = jsonData["CDamageRecord"]["m_killType"];
-
-// Atribuições para C_InfoLadderDismount
-// C_InfoLadderDismount Offsets
 
 // Atribuições para CCSPlayerController_DamageServices
 // CCSPlayerController_DamageServices Offsets
@@ -5726,12 +5243,6 @@ CLightComponent.m_flCapsuleLength = jsonData["CLightComponent"]["m_flCapsuleLeng
 CLightComponent.m_flMinRoughness = jsonData["CLightComponent"]["m_flMinRoughness"];
 CLightComponent.m_bPvsModifyEntity = jsonData["CLightComponent"]["m_bPvsModifyEntity"];
 
-// Atribuições para C_CSGO_CounterTerroristTeamIntroCamera
-// C_CSGO_CounterTerroristTeamIntroCamera Offsets
-
-// Atribuições para CEntityComponent
-// CEntityComponent Offsets
-
 // Atribuições para C_EconItemView
 // C_EconItemView Offsets
 C_EconItemView.m_bInventoryImageRgbaRequested = jsonData["C_EconItemView"]["m_bInventoryImageRgbaRequested"];
@@ -5773,9 +5284,6 @@ C_HandleTest.m_bSendHandle = jsonData["C_HandleTest"]["m_bSendHandle"];
 // C_EnvWindClientside Offsets
 C_EnvWindClientside.m_EnvWindShared = jsonData["C_EnvWindClientside"]["m_EnvWindShared"];
 
-// Atribuições para C_WeaponMAC10
-// C_WeaponMAC10 Offsets
-
 // Atribuições para C_WeaponShield
 // C_WeaponShield Offsets
 C_WeaponShield.m_flDisplayHealth = jsonData["C_WeaponShield"]["m_flDisplayHealth"];
@@ -5783,12 +5291,6 @@ C_WeaponShield.m_flDisplayHealth = jsonData["C_WeaponShield"]["m_flDisplayHealth
 // Atribuições para C_PointClientUIWorldTextPanel
 // C_PointClientUIWorldTextPanel Offsets
 C_PointClientUIWorldTextPanel.m_messageText = jsonData["C_PointClientUIWorldTextPanel"]["m_messageText"];
-
-// Atribuições para CCSPlayer_UseServices
-// CCSPlayer_UseServices Offsets
-CCSPlayer_UseServices.m_hLastKnownUseEntity = jsonData["CCSPlayer_UseServices"]["m_hLastKnownUseEntity"];
-CCSPlayer_UseServices.m_flLastUseTimeStamp = jsonData["CCSPlayer_UseServices"]["m_flLastUseTimeStamp"];
-CCSPlayer_UseServices.m_flTimeLastUsedWindow = jsonData["CCSPlayer_UseServices"]["m_flTimeLastUsedWindow"];
 
 // Atribuições para CPlayer_MovementServices
 // CPlayer_MovementServices Offsets
@@ -5839,18 +5341,6 @@ CCSPlayerController_InGameMoneyServices.m_iMoneyEarnedForNextRound = jsonData["C
 C_EnvWindShared__WindVariationEvent_t.m_flWindAngleVariation = jsonData["C_EnvWindShared__WindVariationEvent_t"]["m_flWindAngleVariation"];
 C_EnvWindShared__WindVariationEvent_t.m_flWindSpeedVariation = jsonData["C_EnvWindShared__WindVariationEvent_t"]["m_flWindSpeedVariation"];
 
-// Atribuições para C_WeaponUSPSilencer
-// C_WeaponUSPSilencer Offsets
-
-// Atribuições para CSpriteOriented
-// CSpriteOriented Offsets
-
-// Atribuições para C_CSGO_EndOfMatchLineupStart
-// C_CSGO_EndOfMatchLineupStart Offsets
-
-// Atribuições para C_WeaponFamas
-// C_WeaponFamas Offsets
-
 // Atribuições para C_EnvParticleGlow
 // C_EnvParticleGlow Offsets
 C_EnvParticleGlow.m_flAlphaScale = jsonData["C_EnvParticleGlow"]["m_flAlphaScale"];
@@ -5877,12 +5367,6 @@ C_SoundEventEntity.m_hSource = jsonData["C_SoundEventEntity"]["m_hSource"];
 C_SoundEventEntity.m_nEntityIndexSelection = jsonData["C_SoundEventEntity"]["m_nEntityIndexSelection"];
 C_SoundEventEntity.m_bClientSideOnly = jsonData["C_SoundEventEntity"]["m_bClientSideOnly"];
 
-// Atribuições para C_CSGO_TeamIntroCharacterPosition
-// C_CSGO_TeamIntroCharacterPosition Offsets
-
-// Atribuições para C_CSGO_PreviewModelAlias_csgo_item_previewmodel
-// C_CSGO_PreviewModelAlias_csgo_item_previewmodel Offsets
-
 // Atribuições para C_Sun
 // C_Sun Offsets
 C_Sun.m_fxSSSunFlareEffectIndex = jsonData["C_Sun"]["m_fxSSSunFlareEffectIndex"];
@@ -5903,9 +5387,6 @@ C_Sun.m_flAlphaHaze = jsonData["C_Sun"]["m_flAlphaHaze"];
 C_Sun.m_flAlphaScale = jsonData["C_Sun"]["m_flAlphaScale"];
 C_Sun.m_flAlphaHdr = jsonData["C_Sun"]["m_flAlphaHdr"];
 C_Sun.m_flFarZScale = jsonData["C_Sun"]["m_flFarZScale"];
-
-// Atribuições para C_CSGO_EndOfMatchLineupEndpoint
-// C_CSGO_EndOfMatchLineupEndpoint Offsets
 
 // Atribuições para CCSPlayerController_ActionTrackingServices
 // CCSPlayerController_ActionTrackingServices Offsets
@@ -5930,9 +5411,6 @@ C_ColorCorrectionVolume.m_MaxWeight = jsonData["C_ColorCorrectionVolume"]["m_Max
 C_ColorCorrectionVolume.m_FadeDuration = jsonData["C_ColorCorrectionVolume"]["m_FadeDuration"];
 C_ColorCorrectionVolume.m_Weight = jsonData["C_ColorCorrectionVolume"]["m_Weight"];
 C_ColorCorrectionVolume.m_lookupFilename = jsonData["C_ColorCorrectionVolume"]["m_lookupFilename"];
-
-// Atribuições para C_PrecipitationBlocker
-// C_PrecipitationBlocker Offsets
 
 // Atribuições para C_BulletHitModel
 // C_BulletHitModel Offsets
@@ -5963,20 +5441,11 @@ C_MapVetoPickController.m_nPhaseDurationTicks = jsonData["C_MapVetoPickControlle
 C_MapVetoPickController.m_nPostDataUpdateTick = jsonData["C_MapVetoPickController"]["m_nPostDataUpdateTick"];
 C_MapVetoPickController.m_bDisabledHud = jsonData["C_MapVetoPickController"]["m_bDisabledHud"];
 
-// Atribuições para CSharedGapTypeQueryRegistration
-// CSharedGapTypeQueryRegistration Offsets
-
 // Atribuições para C_OmniLight
 // C_OmniLight Offsets
 C_OmniLight.m_flInnerAngle = jsonData["C_OmniLight"]["m_flInnerAngle"];
 C_OmniLight.m_flOuterAngle = jsonData["C_OmniLight"]["m_flOuterAngle"];
 C_OmniLight.m_bShowLight = jsonData["C_OmniLight"]["m_bShowLight"];
-
-// Atribuições para C_FireCrackerBlast
-// C_FireCrackerBlast Offsets
-
-// Atribuições para C_WeaponMP9
-// C_WeaponMP9 Offsets
 
 // Atribuições para WeaponPurchaseTracker_t
 // WeaponPurchaseTracker_t Offsets
@@ -5996,9 +5465,6 @@ EngineCountdownTimer.m_duration = jsonData["EngineCountdownTimer"]["m_duration"]
 EngineCountdownTimer.m_timestamp = jsonData["EngineCountdownTimer"]["m_timestamp"];
 EngineCountdownTimer.m_timescale = jsonData["EngineCountdownTimer"]["m_timescale"];
 
-// Atribuições para CCSPlayer_GlowServices
-// CCSPlayer_GlowServices Offsets
-
 // Atribuições para C_BaseFlex__Emphasized_Phoneme
 // C_BaseFlex__Emphasized_Phoneme Offsets
 C_BaseFlex__Emphasized_Phoneme.m_sClassName = jsonData["C_BaseFlex__Emphasized_Phoneme"]["m_sClassName"];
@@ -6012,9 +5478,6 @@ C_BaseFlex__Emphasized_Phoneme.m_bValid = jsonData["C_BaseFlex__Emphasized_Phone
 IntervalTimer.m_timestamp = jsonData["IntervalTimer"]["m_timestamp"];
 IntervalTimer.m_nWorldGroupId = jsonData["IntervalTimer"]["m_nWorldGroupId"];
 
-// Atribuições para C_WeaponSSG08
-// C_WeaponSSG08 Offsets
-
 // Atribuições para C_FuncLadder
 // C_FuncLadder Offsets
 C_FuncLadder.m_vecLadderDir = jsonData["C_FuncLadder"]["m_vecLadderDir"];
@@ -6026,9 +5489,6 @@ C_FuncLadder.m_flAutoRideSpeed = jsonData["C_FuncLadder"]["m_flAutoRideSpeed"];
 C_FuncLadder.m_bDisabled = jsonData["C_FuncLadder"]["m_bDisabled"];
 C_FuncLadder.m_bFakeLadder = jsonData["C_FuncLadder"]["m_bFakeLadder"];
 C_FuncLadder.m_bHasSlack = jsonData["C_FuncLadder"]["m_bHasSlack"];
-
-// Atribuições para C_SoundOpvarSetOBBEntity
-// C_SoundOpvarSetOBBEntity Offsets
 
 // Atribuições para CPlayer_WeaponServices
 // CPlayer_WeaponServices Offsets
@@ -6111,9 +5571,6 @@ C_EnvVolumetricFogController.m_fNoiseStrength = jsonData["C_EnvVolumetricFogCont
 C_EnvVolumetricFogController.m_vNoiseScale = jsonData["C_EnvVolumetricFogController"]["m_vNoiseScale"];
 C_EnvVolumetricFogController.m_bFirstTime = jsonData["C_EnvVolumetricFogController"]["m_bFirstTime"];
 
-// Atribuições para C_WeaponTec9
-// C_WeaponTec9 Offsets
-
 // Atribuições para C_PointCommentaryNode
 // C_PointCommentaryNode Offsets
 C_PointCommentaryNode.m_bActive = jsonData["C_PointCommentaryNode"]["m_bActive"];
@@ -6130,12 +5587,6 @@ C_PointCommentaryNode.m_bListenedTo = jsonData["C_PointCommentaryNode"]["m_bList
 C_PointCommentaryNode.m_hViewPosition = jsonData["C_PointCommentaryNode"]["m_hViewPosition"];
 C_PointCommentaryNode.m_bRestartAfterRestore = jsonData["C_PointCommentaryNode"]["m_bRestartAfterRestore"];
 
-// Atribuições para CCSObserver_CameraServices
-// CCSObserver_CameraServices Offsets
-
-// Atribuições para CCSClientPointScriptEntity
-// CCSClientPointScriptEntity Offsets
-
 // Atribuições para audioparams_t
 // audioparams_t Offsets
 audioparams_t.localSound = jsonData["audioparams_t"]["localSound"];
@@ -6143,9 +5594,6 @@ audioparams_t.soundscapeIndex = jsonData["audioparams_t"]["soundscapeIndex"];
 audioparams_t.localBits = jsonData["audioparams_t"]["localBits"];
 audioparams_t.soundscapeEntityListIndex = jsonData["audioparams_t"]["soundscapeEntityListIndex"];
 audioparams_t.soundEventHash = jsonData["audioparams_t"]["soundEventHash"];
-
-// Atribuições para C_CS2WeaponModuleBase
-// C_CS2WeaponModuleBase Offsets
 
 // Atribuições para C_InfoVisibilityBox
 // C_InfoVisibilityBox Offsets
@@ -6157,9 +5605,6 @@ C_InfoVisibilityBox.m_bEnabled = jsonData["C_InfoVisibilityBox"]["m_bEnabled"];
 // C_FireSprite Offsets
 C_FireSprite.m_vecMoveDir = jsonData["C_FireSprite"]["m_vecMoveDir"];
 C_FireSprite.m_bFadeFromAbove = jsonData["C_FireSprite"]["m_bFadeFromAbove"];
-
-// Atribuições para C_CSGO_TeamIntroTerroristPosition
-// C_CSGO_TeamIntroTerroristPosition Offsets
 
 // Atribuições para C_Precipitation
 // C_Precipitation Offsets
@@ -6238,12 +5683,6 @@ CBaseProp.m_iShapeType = jsonData["CBaseProp"]["m_iShapeType"];
 CBaseProp.m_bConformToCollisionBounds = jsonData["CBaseProp"]["m_bConformToCollisionBounds"];
 CBaseProp.m_mPreferredCatchTransform = jsonData["CBaseProp"]["m_mPreferredCatchTransform"];
 
-// Atribuições para C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel
-// C_CSGO_PreviewPlayerAlias_csgo_player_previewmodel Offsets
-
-// Atribuições para CCSPointScriptExtensions_observer
-// CCSPointScriptExtensions_observer Offsets
-
 // Atribuições para CPointTemplate
 // CPointTemplate Offsets
 CPointTemplate.m_iszWorldName = jsonData["CPointTemplate"]["m_iszWorldName"];
@@ -6258,12 +5697,6 @@ CPointTemplate.m_createdSpawnGroupHandles = jsonData["CPointTemplate"]["m_create
 CPointTemplate.m_SpawnedEntityHandles = jsonData["CPointTemplate"]["m_SpawnedEntityHandles"];
 CPointTemplate.m_ScriptSpawnCallback = jsonData["CPointTemplate"]["m_ScriptSpawnCallback"];
 CPointTemplate.m_ScriptCallbackScope = jsonData["CPointTemplate"]["m_ScriptCallbackScope"];
-
-// Atribuições para C_WeaponHKP2000
-// C_WeaponHKP2000 Offsets
-
-// Atribuições para CTripWireFire
-// CTripWireFire Offsets
 
 // Atribuições para C_CSGO_PreviewModel
 // C_CSGO_PreviewModel Offsets
@@ -6281,18 +5714,6 @@ CInfoDynamicShadowHint.m_flRange = jsonData["CInfoDynamicShadowHint"]["m_flRange
 CInfoDynamicShadowHint.m_nImportance = jsonData["CInfoDynamicShadowHint"]["m_nImportance"];
 CInfoDynamicShadowHint.m_nLightChoice = jsonData["CInfoDynamicShadowHint"]["m_nLightChoice"];
 CInfoDynamicShadowHint.m_hLight = jsonData["CInfoDynamicShadowHint"]["m_hLight"];
-
-// Atribuições para CTakeDamageInfoAPI
-// CTakeDamageInfoAPI Offsets
-
-// Atribuições para C_BaseEntityAPI
-// C_BaseEntityAPI Offsets
-
-// Atribuições para C_WeaponXM1014
-// C_WeaponXM1014 Offsets
-
-// Atribuições para C_MapPreviewParticleSystem
-// C_MapPreviewParticleSystem Offsets
 
 // Atribuições para CGlowProperty
 // CGlowProperty Offsets
@@ -6329,12 +5750,6 @@ C_TriggerPhysics.m_bConvertToDebrisWhenPossible = jsonData["C_TriggerPhysics"]["
 CCSPlayer_HostageServices.m_hCarriedHostage = jsonData["CCSPlayer_HostageServices"]["m_hCarriedHostage"];
 CCSPlayer_HostageServices.m_hCarriedHostageProp = jsonData["CCSPlayer_HostageServices"]["m_hCarriedHostageProp"];
 
-// Atribuições para CBreachCharge
-// CBreachCharge Offsets
-
-// Atribuições para C_LightDirectionalEntity
-// C_LightDirectionalEntity Offsets
-
 // Atribuições para C_EnvCubemap
 // C_EnvCubemap Offsets
 C_EnvCubemap.m_Entity_hCubemapTexture = jsonData["C_EnvCubemap"]["m_Entity_hCubemapTexture"];
@@ -6361,12 +5776,6 @@ C_EnvCubemap.m_Entity_bEnabled = jsonData["C_EnvCubemap"]["m_Entity_bEnabled"];
 C_PredictedViewModel.m_vPredictedLagOffset = jsonData["C_PredictedViewModel"]["m_vPredictedLagOffset"];
 C_PredictedViewModel.m_targetSpeed = jsonData["C_PredictedViewModel"]["m_targetSpeed"];
 C_PredictedViewModel.m_currentSpeed = jsonData["C_PredictedViewModel"]["m_currentSpeed"];
-
-// Atribuições para C_WeaponBizon
-// C_WeaponBizon Offsets
-
-// Atribuições para C_AK47
-// C_AK47 Offsets
 
 // Atribuições para C_PointValueRemapper
 // C_PointValueRemapper Offsets
@@ -6396,19 +5805,10 @@ C_PointValueRemapper.m_flPreviousValue = jsonData["C_PointValueRemapper"]["m_flP
 C_PointValueRemapper.m_flPreviousUpdateTickTime = jsonData["C_PointValueRemapper"]["m_flPreviousUpdateTickTime"];
 C_PointValueRemapper.m_vecPreviousTestPoint = jsonData["C_PointValueRemapper"]["m_vecPreviousTestPoint"];
 
-// Atribuições para C_Knife
-// C_Knife Offsets
-
-// Atribuições para C_EnvCubemapBox
-// C_EnvCubemapBox Offsets
-
 // Atribuições para C_ItemDogtags
 // C_ItemDogtags Offsets
 C_ItemDogtags.m_OwningPlayer = jsonData["C_ItemDogtags"]["m_OwningPlayer"];
 C_ItemDogtags.m_KillingPlayer = jsonData["C_ItemDogtags"]["m_KillingPlayer"];
-
-// Atribuições para C_CSGO_EndOfMatchCamera
-// C_CSGO_EndOfMatchCamera Offsets
 
 // Atribuições para C_SoundOpvarSetPointBase
 // C_SoundOpvarSetPointBase Offsets
@@ -6418,18 +5818,9 @@ C_SoundOpvarSetPointBase.m_iszOpvarName = jsonData["C_SoundOpvarSetPointBase"]["
 C_SoundOpvarSetPointBase.m_iOpvarIndex = jsonData["C_SoundOpvarSetPointBase"]["m_iOpvarIndex"];
 C_SoundOpvarSetPointBase.m_bUseAutoCompare = jsonData["C_SoundOpvarSetPointBase"]["m_bUseAutoCompare"];
 
-// Atribuições para C_PhysBox
-// C_PhysBox Offsets
-
 // Atribuições para CCSPlayer_BuyServices
 // CCSPlayer_BuyServices Offsets
 CCSPlayer_BuyServices.m_vecSellbackPurchaseEntries = jsonData["CCSPlayer_BuyServices"]["m_vecSellbackPurchaseEntries"];
-
-// Atribuições para CPathSimpleAPI
-// CPathSimpleAPI Offsets
-
-// Atribuições para C_SensorGrenade
-// C_SensorGrenade Offsets
 
 // Atribuições para C_WeaponTaser
 // C_WeaponTaser Offsets
@@ -6441,16 +5832,10 @@ C_WeaponTaser.m_nLastAttackTick = jsonData["C_WeaponTaser"]["m_nLastAttackTick"]
 C_Fists.m_bPlayingUninterruptableAct = jsonData["C_Fists"]["m_bPlayingUninterruptableAct"];
 C_Fists.m_nUninterruptableActivity = jsonData["C_Fists"]["m_nUninterruptableActivity"];
 
-// Atribuições para C_PhysicsPropMultiplayer
-// C_PhysicsPropMultiplayer Offsets
-
 // Atribuições para CInfoDynamicShadowHintBox
 // CInfoDynamicShadowHintBox Offsets
 CInfoDynamicShadowHintBox.m_vBoxMins = jsonData["CInfoDynamicShadowHintBox"]["m_vBoxMins"];
 CInfoDynamicShadowHintBox.m_vBoxMaxs = jsonData["CInfoDynamicShadowHintBox"]["m_vBoxMaxs"];
-
-// Atribuições para C_SoundOpvarSetPathCornerEntity
-// C_SoundOpvarSetPathCornerEntity Offsets
 
 // Atribuições para C_EnvCubemapFog
 // C_EnvCubemapFog Offsets
@@ -6472,9 +5857,6 @@ C_EnvCubemapFog.m_iszSkyEntity = jsonData["C_EnvCubemapFog"]["m_iszSkyEntity"];
 C_EnvCubemapFog.m_hFogCubemapTexture = jsonData["C_EnvCubemapFog"]["m_hFogCubemapTexture"];
 C_EnvCubemapFog.m_bHasHeightFogEnd = jsonData["C_EnvCubemapFog"]["m_bHasHeightFogEnd"];
 C_EnvCubemapFog.m_bFirstTime = jsonData["C_EnvCubemapFog"]["m_bFirstTime"];
-
-// Atribuições para C_WeaponSawedoff
-// C_WeaponSawedoff Offsets
 
 // Atribuições para CCollisionProperty
 // CCollisionProperty Offsets
@@ -6534,9 +5916,6 @@ EntityRenderAttribute_t.m_Values = jsonData["EntityRenderAttribute_t"]["m_Values
 // Atribuições para C_ShatterGlassShardPhysics
 // C_ShatterGlassShardPhysics Offsets
 C_ShatterGlassShardPhysics.m_ShardDesc = jsonData["C_ShatterGlassShardPhysics"]["m_ShardDesc"];
-
-// Atribuições para C_WeaponElite
-// C_WeaponElite Offsets
 
 // Atribuições para C_LightEntity
 // C_LightEntity Offsets
@@ -6620,12 +5999,6 @@ C_EnvSky.m_flFogMaxStart = jsonData["C_EnvSky"]["m_flFogMaxStart"];
 C_EnvSky.m_flFogMaxEnd = jsonData["C_EnvSky"]["m_flFogMaxEnd"];
 C_EnvSky.m_bEnabled = jsonData["C_EnvSky"]["m_bEnabled"];
 
-// Atribuições para CInfoTarget
-// CInfoTarget Offsets
-
-// Atribuições para C_CSGO_TeamIntroCounterTerroristPosition
-// C_CSGO_TeamIntroCounterTerroristPosition Offsets
-
 // Atribuições para C_DynamicProp
 // C_DynamicProp Offsets
 C_DynamicProp.m_bUseHitboxesForRenderBox = jsonData["C_DynamicProp"]["m_bUseHitboxesForRenderBox"];
@@ -6665,15 +6038,6 @@ CPropDataComponent.m_bSpawnMotionDisabled = jsonData["CPropDataComponent"]["m_bS
 CPropDataComponent.m_nDisableTakePhysicsDamageSpawnFlag = jsonData["CPropDataComponent"]["m_nDisableTakePhysicsDamageSpawnFlag"];
 CPropDataComponent.m_nMotionDisabledSpawnFlag = jsonData["CPropDataComponent"]["m_nMotionDisabledSpawnFlag"];
 
-// Atribuições para C_WeaponSCAR20
-// C_WeaponSCAR20 Offsets
-
-// Atribuições para C_DecoyGrenade
-// C_DecoyGrenade Offsets
-
-// Atribuições para CCSPointScriptExtensions_player
-// CCSPointScriptExtensions_player Offsets
-
 // Atribuições para C_KeychainModule
 // C_KeychainModule Offsets
 C_KeychainModule.m_nKeychainDefID = jsonData["C_KeychainModule"]["m_nKeychainDefID"];
@@ -6697,9 +6061,6 @@ SellbackPurchaseEntry_t.m_nCost = jsonData["SellbackPurchaseEntry_t"]["m_nCost"]
 SellbackPurchaseEntry_t.m_nPrevArmor = jsonData["SellbackPurchaseEntry_t"]["m_nPrevArmor"];
 SellbackPurchaseEntry_t.m_bPrevHelmet = jsonData["SellbackPurchaseEntry_t"]["m_bPrevHelmet"];
 SellbackPurchaseEntry_t.m_hItem = jsonData["SellbackPurchaseEntry_t"]["m_hItem"];
-
-// Atribuições para C_SingleplayRules
-// C_SingleplayRules Offsets
 
 // Atribuições para C_LocalTempEntity
 // C_LocalTempEntity Offsets
@@ -6737,12 +6098,6 @@ C_EnvWindShared__WindAveEvent_t.m_flAveWindSpeed = jsonData["C_EnvWindShared__Wi
 // Atribuições para C_MolotovProjectile
 // C_MolotovProjectile Offsets
 C_MolotovProjectile.m_bIsIncGrenade = jsonData["C_MolotovProjectile"]["m_bIsIncGrenade"];
-
-// Atribuições para C_LightEnvironmentEntity
-// C_LightEnvironmentEntity Offsets
-
-// Atribuições para C_WeaponUMP45
-// C_WeaponUMP45 Offsets
 
 // Atribuições para CInfoOffscreenPanoramaTexture
 // CInfoOffscreenPanoramaTexture Offsets
@@ -6842,9 +6197,6 @@ C_CSWeaponBase.m_flLastLOSTraceFailureTime = jsonData["C_CSWeaponBase"]["m_flLas
 C_CSWeaponBase.m_iNumEmptyAttacks = jsonData["C_CSWeaponBase"]["m_iNumEmptyAttacks"];
 C_CSWeaponBase.m_flLastMagDropRequestTime = jsonData["C_CSWeaponBase"]["m_flLastMagDropRequestTime"];
 C_CSWeaponBase.m_flWatTickOffset = jsonData["C_CSWeaponBase"]["m_flWatTickOffset"];
-
-// Atribuições para C_TriggerVolume
-// C_TriggerVolume Offsets
 
 // Atribuições para C_FuncElectrifiedVolume
 // C_FuncElectrifiedVolume Offsets
@@ -7014,9 +6366,6 @@ C_BreakableProp.m_hLastAttacker = jsonData["C_BreakableProp"]["m_hLastAttacker"]
 C_BreakableProp.m_hFlareEnt = jsonData["C_BreakableProp"]["m_hFlareEnt"];
 C_BreakableProp.m_noGhostCollision = jsonData["C_BreakableProp"]["m_noGhostCollision"];
 
-// Atribuições para C_FuncMoveLinear
-// C_FuncMoveLinear Offsets
-
 // Atribuições para C_Beam
 // C_Beam Offsets
 C_Beam.m_flFrameRate = jsonData["C_Beam"]["m_flFrameRate"];
@@ -7054,9 +6403,6 @@ C_CSGO_TeamPreviewCharacterPosition.m_xuid = jsonData["C_CSGO_TeamPreviewCharact
 C_CSGO_TeamPreviewCharacterPosition.m_agentItem = jsonData["C_CSGO_TeamPreviewCharacterPosition"]["m_agentItem"];
 C_CSGO_TeamPreviewCharacterPosition.m_glovesItem = jsonData["C_CSGO_TeamPreviewCharacterPosition"]["m_glovesItem"];
 C_CSGO_TeamPreviewCharacterPosition.m_weaponItem = jsonData["C_CSGO_TeamPreviewCharacterPosition"]["m_weaponItem"];
-
-// Atribuições para C_DynamicPropAlias_prop_dynamic_override
-// C_DynamicPropAlias_prop_dynamic_override Offsets
 
 // Atribuições para C_EnvScreenOverlay
 // C_EnvScreenOverlay Offsets
@@ -7180,9 +6526,6 @@ C_PointWorldText.m_nJustifyHorizontal = jsonData["C_PointWorldText"]["m_nJustify
 C_PointWorldText.m_nJustifyVertical = jsonData["C_PointWorldText"]["m_nJustifyVertical"];
 C_PointWorldText.m_nReorientMode = jsonData["C_PointWorldText"]["m_nReorientMode"];
 
-// Atribuições para CBumpMineProjectile
-// CBumpMineProjectile Offsets
-
 // Atribuições para CCSPlayerController
 // CCSPlayerController Offsets
 CCSPlayerController.m_pInGameMoneyServices = jsonData["CCSPlayerController"]["m_pInGameMoneyServices"];
@@ -7275,9 +6618,6 @@ CCSPlayerController.m_LastTimePlayerWasDisconnectedForPawnsRemove = jsonData["CC
 CCSPlayerController.m_nSuspiciousHitCount = jsonData["CCSPlayerController"]["m_nSuspiciousHitCount"];
 CCSPlayerController.m_nNonSuspiciousHitStreak = jsonData["CCSPlayerController"]["m_nNonSuspiciousHitStreak"];
 
-// Atribuições para C_WeaponFiveSeven
-// C_WeaponFiveSeven Offsets
-
 // Atribuições para C_BasePropDoor
 // C_BasePropDoor Offsets
 C_BasePropDoor.m_eDoorState = jsonData["C_BasePropDoor"]["m_eDoorState"];
@@ -7287,9 +6627,6 @@ C_BasePropDoor.m_closedPosition = jsonData["C_BasePropDoor"]["m_closedPosition"]
 C_BasePropDoor.m_closedAngles = jsonData["C_BasePropDoor"]["m_closedAngles"];
 C_BasePropDoor.m_hMaster = jsonData["C_BasePropDoor"]["m_hMaster"];
 C_BasePropDoor.m_vWhereToSetLightingOrigin = jsonData["C_BasePropDoor"]["m_vWhereToSetLightingOrigin"];
-
-// Atribuições para C_CSGO_TeamSelectTerroristPosition
-// C_CSGO_TeamSelectTerroristPosition Offsets
 
 // Atribuições para C_NametagModule
 // C_NametagModule Offsets
@@ -7304,9 +6641,6 @@ C_PhysPropClientside.m_vecDamagePosition = jsonData["C_PhysPropClientside"]["m_v
 C_PhysPropClientside.m_vecDamageDirection = jsonData["C_PhysPropClientside"]["m_vecDamageDirection"];
 C_PhysPropClientside.m_nDamageType = jsonData["C_PhysPropClientside"]["m_nDamageType"];
 
-// Atribuições para C_CSGO_TeamSelectCamera
-// C_CSGO_TeamSelectCamera Offsets
-
 // Atribuições para C_SoundAreaEntityBase
 // C_SoundAreaEntityBase Offsets
 C_SoundAreaEntityBase.m_bDisabled = jsonData["C_SoundAreaEntityBase"]["m_bDisabled"];
@@ -7320,12 +6654,6 @@ C_FogController.m_fog = jsonData["C_FogController"]["m_fog"];
 C_FogController.m_bUseAngles = jsonData["C_FogController"]["m_bUseAngles"];
 C_FogController.m_iChangedVariables = jsonData["C_FogController"]["m_iChangedVariables"];
 
-// Atribuições para CPlayer_ItemServices
-// CPlayer_ItemServices Offsets
-
-// Atribuições para C_FuncBrush
-// C_FuncBrush Offsets
-
 // Atribuições para CInfoWorldLayer
 // CInfoWorldLayer Offsets
 CInfoWorldLayer.m_pOutputOnEntitiesSpawned = jsonData["CInfoWorldLayer"]["m_pOutputOnEntitiesSpawned"];
@@ -7336,9 +6664,6 @@ CInfoWorldLayer.m_bEntitiesSpawned = jsonData["CInfoWorldLayer"]["m_bEntitiesSpa
 CInfoWorldLayer.m_bCreateAsChildSpawnGroup = jsonData["CInfoWorldLayer"]["m_bCreateAsChildSpawnGroup"];
 CInfoWorldLayer.m_hLayerSpawnGroup = jsonData["CInfoWorldLayer"]["m_hLayerSpawnGroup"];
 CInfoWorldLayer.m_bWorldLayerActuallyVisible = jsonData["CInfoWorldLayer"]["m_bWorldLayerActuallyVisible"];
-
-// Atribuições para C_NetTestBaseCombatCharacter
-// C_NetTestBaseCombatCharacter Offsets
 
 // Atribuições para C_PhysMagnet
 // C_PhysMagnet Offsets
@@ -7388,15 +6713,6 @@ C_BaseViewModel.m_oldLayer = jsonData["C_BaseViewModel"]["m_oldLayer"];
 C_BaseViewModel.m_oldLayerStartTime = jsonData["C_BaseViewModel"]["m_oldLayerStartTime"];
 C_BaseViewModel.m_hControlPanel = jsonData["C_BaseViewModel"]["m_hControlPanel"];
 
-// Atribuições para C_PortraitWorldCallbackHandler
-// C_PortraitWorldCallbackHandler Offsets
-
-// Atribuições para CHostageRescueZone
-// CHostageRescueZone Offsets
-
-// Atribuições para C_WeaponNegev
-// C_WeaponNegev Offsets
-
 // Atribuições para CGameSceneNode
 // CGameSceneNode Offsets
 CGameSceneNode.m_nodeToWorld = jsonData["CGameSceneNode"]["m_nodeToWorld"];
@@ -7433,12 +6749,6 @@ CGameSceneNode.m_flZOffset = jsonData["CGameSceneNode"]["m_flZOffset"];
 CGameSceneNode.m_flClientLocalScale = jsonData["CGameSceneNode"]["m_flClientLocalScale"];
 CGameSceneNode.m_vRenderOrigin = jsonData["CGameSceneNode"]["m_vRenderOrigin"];
 
-// Atribuições para C_IncendiaryGrenade
-// C_IncendiaryGrenade Offsets
-
-// Atribuições para CTablet
-// CTablet Offsets
-
 // Atribuições para CCSPointScript
 // CCSPointScript Offsets
 CCSPointScript.m_pParent = jsonData["CCSPointScript"]["m_pParent"];
@@ -7453,12 +6763,6 @@ C_EntityFlame.m_hEntAttached = jsonData["C_EntityFlame"]["m_hEntAttached"];
 C_EntityFlame.m_hOldAttached = jsonData["C_EntityFlame"]["m_hOldAttached"];
 C_EntityFlame.m_bCheapEffect = jsonData["C_EntityFlame"]["m_bCheapEffect"];
 
-// Atribuições para CTripWireFireProjectile
-// CTripWireFireProjectile Offsets
-
-// Atribuições para C_Breakable
-// C_Breakable Offsets
-
 // Atribuições para CCSObserver_ObserverServices
 // CCSObserver_ObserverServices Offsets
 CCSObserver_ObserverServices.m_hLastObserverTarget = jsonData["CCSObserver_ObserverServices"]["m_hLastObserverTarget"];
@@ -7469,12 +6773,6 @@ CCSObserver_ObserverServices.m_qObsInterp_OrientationStart = jsonData["CCSObserv
 CCSObserver_ObserverServices.m_qObsInterp_OrientationTravelDir = jsonData["CCSObserver_ObserverServices"]["m_qObsInterp_OrientationTravelDir"];
 CCSObserver_ObserverServices.m_obsInterpState = jsonData["CCSObserver_ObserverServices"]["m_obsInterpState"];
 CCSObserver_ObserverServices.m_bObserverInterpolationNeedsDeferredSetup = jsonData["CCSObserver_ObserverServices"]["m_bObserverInterpolationNeedsDeferredSetup"];
-
-// Atribuições para C_TintController
-// C_TintController Offsets
-
-// Atribuições para CPlayer_AutoaimServices
-// CPlayer_AutoaimServices Offsets
 
 // Atribuições para C_Hostage
 // C_Hostage Offsets
@@ -7529,9 +6827,6 @@ C_Sprite.m_hOldSpriteMaterial = jsonData["C_Sprite"]["m_hOldSpriteMaterial"];
 C_Sprite.m_nSpriteWidth = jsonData["C_Sprite"]["m_nSpriteWidth"];
 C_Sprite.m_nSpriteHeight = jsonData["C_Sprite"]["m_nSpriteHeight"];
 
-// Atribuições para C_WeaponM4A1Silencer
-// C_WeaponM4A1Silencer Offsets
-
 // Atribuições para C_PlantedC4
 // C_PlantedC4 Offsets
 C_PlantedC4.m_bBombTicking = jsonData["C_PlantedC4"]["m_bBombTicking"];
@@ -7576,9 +6871,6 @@ C_RagdollProp.m_flBlendWeightCurrent = jsonData["C_RagdollProp"]["m_flBlendWeigh
 C_RagdollProp.m_parentPhysicsBoneIndices = jsonData["C_RagdollProp"]["m_parentPhysicsBoneIndices"];
 C_RagdollProp.m_worldSpaceBoneComputationOrder = jsonData["C_RagdollProp"]["m_worldSpaceBoneComputationOrder"];
 
-// Atribuições para C_CSGO_TerroristTeamIntroCamera
-// C_CSGO_TerroristTeamIntroCamera Offsets
-
 // Atribuições para C_VoteController
 // C_VoteController Offsets
 C_VoteController.m_iActiveIssueIndex = jsonData["C_VoteController"]["m_iActiveIssueIndex"];
@@ -7609,6 +6901,206 @@ C_Chicken.m_bIsPreviewModel = jsonData["C_Chicken"]["m_bIsPreviewModel"];
 // PhysicsRagdollPose_t Offsets
 PhysicsRagdollPose_t.m_Transforms = jsonData["PhysicsRagdollPose_t"]["m_Transforms"];
 PhysicsRagdollPose_t.m_hOwner = jsonData["PhysicsRagdollPose_t"]["m_hOwner"];
+
+// Atribuições para EventSimpleLoopFrameUpdate_t
+// EventSimpleLoopFrameUpdate_t Offsets
+EventSimpleLoopFrameUpdate_t.m_LoopState = jsonData["EventSimpleLoopFrameUpdate_t"]["m_LoopState"];
+EventSimpleLoopFrameUpdate_t.m_flRealTime = jsonData["EventSimpleLoopFrameUpdate_t"]["m_flRealTime"];
+EventSimpleLoopFrameUpdate_t.m_flFrameTime = jsonData["EventSimpleLoopFrameUpdate_t"]["m_flFrameTime"];
+
+// Atribuições para EventPostAdvanceTick_t
+// EventPostAdvanceTick_t Offsets
+EventPostAdvanceTick_t.m_nCurrentTick = jsonData["EventPostAdvanceTick_t"]["m_nCurrentTick"];
+EventPostAdvanceTick_t.m_nCurrentTickThisFrame = jsonData["EventPostAdvanceTick_t"]["m_nCurrentTickThisFrame"];
+EventPostAdvanceTick_t.m_nTotalTicksThisFrame = jsonData["EventPostAdvanceTick_t"]["m_nTotalTicksThisFrame"];
+EventPostAdvanceTick_t.m_nTotalTicks = jsonData["EventPostAdvanceTick_t"]["m_nTotalTicks"];
+
+// Atribuições para CEntityIOOutput
+// CEntityIOOutput Offsets
+CEntityIOOutput.m_Value = jsonData["CEntityIOOutput"]["m_Value"];
+
+// Atribuições para EventClientSceneSystemThreadStateChange_t
+// EventClientSceneSystemThreadStateChange_t Offsets
+EventClientSceneSystemThreadStateChange_t.m_bThreadsActive = jsonData["EventClientSceneSystemThreadStateChange_t"]["m_bThreadsActive"];
+
+// Atribuições para EventClientOutput_t
+// EventClientOutput_t Offsets
+EventClientOutput_t.m_LoopState = jsonData["EventClientOutput_t"]["m_LoopState"];
+EventClientOutput_t.m_flRenderTime = jsonData["EventClientOutput_t"]["m_flRenderTime"];
+EventClientOutput_t.m_flRealTime = jsonData["EventClientOutput_t"]["m_flRealTime"];
+EventClientOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientOutput_t"]["m_flRenderFrameTimeUnbounded"];
+EventClientOutput_t.m_bRenderOnly = jsonData["EventClientOutput_t"]["m_bRenderOnly"];
+
+// Atribuições para CEntityComponentHelper
+// CEntityComponentHelper Offsets
+CEntityComponentHelper.m_flags = jsonData["CEntityComponentHelper"]["m_flags"];
+CEntityComponentHelper.m_pInfo = jsonData["CEntityComponentHelper"]["m_pInfo"];
+CEntityComponentHelper.m_nPriority = jsonData["CEntityComponentHelper"]["m_nPriority"];
+CEntityComponentHelper.m_pNext = jsonData["CEntityComponentHelper"]["m_pNext"];
+
+// Atribuições para GameTime_t
+// GameTime_t Offsets
+GameTime_t.m_Value = jsonData["GameTime_t"]["m_Value"];
+
+// Atribuições para CNetworkVarChainer
+// CNetworkVarChainer Offsets
+CNetworkVarChainer.m_PathIndex = jsonData["CNetworkVarChainer"]["m_PathIndex"];
+
+// Atribuições para EventClientPostOutput_t
+// EventClientPostOutput_t Offsets
+EventClientPostOutput_t.m_LoopState = jsonData["EventClientPostOutput_t"]["m_LoopState"];
+EventClientPostOutput_t.m_flRenderTime = jsonData["EventClientPostOutput_t"]["m_flRenderTime"];
+EventClientPostOutput_t.m_flRenderFrameTime = jsonData["EventClientPostOutput_t"]["m_flRenderFrameTime"];
+EventClientPostOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientPostOutput_t"]["m_flRenderFrameTimeUnbounded"];
+EventClientPostOutput_t.m_bRenderOnly = jsonData["EventClientPostOutput_t"]["m_bRenderOnly"];
+
+// Atribuições para GameTick_t
+// GameTick_t Offsets
+GameTick_t.m_Value = jsonData["GameTick_t"]["m_Value"];
+
+// Atribuições para EventClientPollInput_t
+// EventClientPollInput_t Offsets
+EventClientPollInput_t.m_LoopState = jsonData["EventClientPollInput_t"]["m_LoopState"];
+EventClientPollInput_t.m_flRealTime = jsonData["EventClientPollInput_t"]["m_flRealTime"];
+
+// Atribuições para EventPreDataUpdate_t
+// EventPreDataUpdate_t Offsets
+EventPreDataUpdate_t.m_nCount = jsonData["EventPreDataUpdate_t"]["m_nCount"];
+
+// Atribuições para EventClientProcessGameInput_t
+// EventClientProcessGameInput_t Offsets
+EventClientProcessGameInput_t.m_LoopState = jsonData["EventClientProcessGameInput_t"]["m_LoopState"];
+EventClientProcessGameInput_t.m_flRealTime = jsonData["EventClientProcessGameInput_t"]["m_flRealTime"];
+EventClientProcessGameInput_t.m_flFrameTime = jsonData["EventClientProcessGameInput_t"]["m_flFrameTime"];
+
+// Atribuições para EventFrameBoundary_t
+// EventFrameBoundary_t Offsets
+EventFrameBoundary_t.m_flFrameTime = jsonData["EventFrameBoundary_t"]["m_flFrameTime"];
+
+// Atribuições para EventAppShutdown_t
+// EventAppShutdown_t Offsets
+EventAppShutdown_t.m_nDummy0 = jsonData["EventAppShutdown_t"]["m_nDummy0"];
+
+// Atribuições para EventProfileStorageAvailable_t
+// EventProfileStorageAvailable_t Offsets
+EventProfileStorageAvailable_t.m_nSplitScreenSlot = jsonData["EventProfileStorageAvailable_t"]["m_nSplitScreenSlot"];
+
+// Atribuições para EventPostDataUpdate_t
+// EventPostDataUpdate_t Offsets
+EventPostDataUpdate_t.m_nCount = jsonData["EventPostDataUpdate_t"]["m_nCount"];
+
+// Atribuições para EventClientProcessNetworking_t
+// EventClientProcessNetworking_t Offsets
+EventClientProcessNetworking_t.m_nTickCount = jsonData["EventClientProcessNetworking_t"]["m_nTickCount"];
+
+// Atribuições para EventAdvanceTick_t
+// EventAdvanceTick_t Offsets
+EventAdvanceTick_t.m_nCurrentTick = jsonData["EventAdvanceTick_t"]["m_nCurrentTick"];
+EventAdvanceTick_t.m_nCurrentTickThisFrame = jsonData["EventAdvanceTick_t"]["m_nCurrentTickThisFrame"];
+EventAdvanceTick_t.m_nTotalTicksThisFrame = jsonData["EventAdvanceTick_t"]["m_nTotalTicksThisFrame"];
+EventAdvanceTick_t.m_nTotalTicks = jsonData["EventAdvanceTick_t"]["m_nTotalTicks"];
+
+// Atribuições para EventClientPreOutput_t
+// EventClientPreOutput_t Offsets
+EventClientPreOutput_t.m_LoopState = jsonData["EventClientPreOutput_t"]["m_LoopState"];
+EventClientPreOutput_t.m_flRenderTime = jsonData["EventClientPreOutput_t"]["m_flRenderTime"];
+EventClientPreOutput_t.m_flRenderFrameTime = jsonData["EventClientPreOutput_t"]["m_flRenderFrameTime"];
+EventClientPreOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientPreOutput_t"]["m_flRenderFrameTimeUnbounded"];
+EventClientPreOutput_t.m_flRealTime = jsonData["EventClientPreOutput_t"]["m_flRealTime"];
+EventClientPreOutput_t.m_bRenderOnly = jsonData["EventClientPreOutput_t"]["m_bRenderOnly"];
+
+// Atribuições para EventClientFrameSimulate_t
+// EventClientFrameSimulate_t Offsets
+EventClientFrameSimulate_t.m_LoopState = jsonData["EventClientFrameSimulate_t"]["m_LoopState"];
+EventClientFrameSimulate_t.m_flRealTime = jsonData["EventClientFrameSimulate_t"]["m_flRealTime"];
+EventClientFrameSimulate_t.m_flFrameTime = jsonData["EventClientFrameSimulate_t"]["m_flFrameTime"];
+EventClientFrameSimulate_t.m_bScheduleSendTickPacket = jsonData["EventClientFrameSimulate_t"]["m_bScheduleSendTickPacket"];
+
+// Atribuições para EventSetTime_t
+// EventSetTime_t Offsets
+EventSetTime_t.m_LoopState = jsonData["EventSetTime_t"]["m_LoopState"];
+EventSetTime_t.m_nClientOutputFrames = jsonData["EventSetTime_t"]["m_nClientOutputFrames"];
+EventSetTime_t.m_flRealTime = jsonData["EventSetTime_t"]["m_flRealTime"];
+EventSetTime_t.m_flRenderTime = jsonData["EventSetTime_t"]["m_flRenderTime"];
+EventSetTime_t.m_flRenderFrameTime = jsonData["EventSetTime_t"]["m_flRenderFrameTime"];
+EventSetTime_t.m_flRenderFrameTimeUnbounded = jsonData["EventSetTime_t"]["m_flRenderFrameTimeUnbounded"];
+EventSetTime_t.m_flRenderFrameTimeUnscaled = jsonData["EventSetTime_t"]["m_flRenderFrameTimeUnscaled"];
+EventSetTime_t.m_flTickRemainder = jsonData["EventSetTime_t"]["m_flTickRemainder"];
+
+// Atribuições para EventSimulate_t
+// EventSimulate_t Offsets
+EventSimulate_t.m_LoopState = jsonData["EventSimulate_t"]["m_LoopState"];
+EventSimulate_t.m_bFirstTick = jsonData["EventSimulate_t"]["m_bFirstTick"];
+EventSimulate_t.m_bLastTick = jsonData["EventSimulate_t"]["m_bLastTick"];
+
+// Atribuições para EntComponentInfo_t
+// EntComponentInfo_t Offsets
+EntComponentInfo_t.m_pName = jsonData["EntComponentInfo_t"]["m_pName"];
+EntComponentInfo_t.m_pCPPClassname = jsonData["EntComponentInfo_t"]["m_pCPPClassname"];
+EntComponentInfo_t.m_pNetworkDataReferencedDescription = jsonData["EntComponentInfo_t"]["m_pNetworkDataReferencedDescription"];
+EntComponentInfo_t.m_pNetworkDataReferencedPtrPropDescription = jsonData["EntComponentInfo_t"]["m_pNetworkDataReferencedPtrPropDescription"];
+EntComponentInfo_t.m_nRuntimeIndex = jsonData["EntComponentInfo_t"]["m_nRuntimeIndex"];
+EntComponentInfo_t.m_nFlags = jsonData["EntComponentInfo_t"]["m_nFlags"];
+EntComponentInfo_t.m_pBaseClassComponentHelper = jsonData["EntComponentInfo_t"]["m_pBaseClassComponentHelper"];
+
+// Atribuições para EngineLoopState_t
+// EngineLoopState_t Offsets
+EngineLoopState_t.m_nPlatWindowWidth = jsonData["EngineLoopState_t"]["m_nPlatWindowWidth"];
+EngineLoopState_t.m_nPlatWindowHeight = jsonData["EngineLoopState_t"]["m_nPlatWindowHeight"];
+EngineLoopState_t.m_nRenderWidth = jsonData["EngineLoopState_t"]["m_nRenderWidth"];
+EngineLoopState_t.m_nRenderHeight = jsonData["EngineLoopState_t"]["m_nRenderHeight"];
+
+// Atribuições para EventClientPollNetworking_t
+// EventClientPollNetworking_t Offsets
+EventClientPollNetworking_t.m_nTickCount = jsonData["EventClientPollNetworking_t"]["m_nTickCount"];
+
+// Atribuições para EventClientProcessInput_t
+// EventClientProcessInput_t Offsets
+EventClientProcessInput_t.m_LoopState = jsonData["EventClientProcessInput_t"]["m_LoopState"];
+EventClientProcessInput_t.m_flRealTime = jsonData["EventClientProcessInput_t"]["m_flRealTime"];
+EventClientProcessInput_t.m_flTickInterval = jsonData["EventClientProcessInput_t"]["m_flTickInterval"];
+EventClientProcessInput_t.m_flTickStartTime = jsonData["EventClientProcessInput_t"]["m_flTickStartTime"];
+
+// Atribuições para EmptyTestScript
+// EmptyTestScript Offsets
+EmptyTestScript.m_hTest = jsonData["EmptyTestScript"]["m_hTest"];
+
+// Atribuições para CAnimScriptBase
+// CAnimScriptBase Offsets
+CAnimScriptBase.m_bIsValid = jsonData["CAnimScriptBase"]["m_bIsValid"];
+
+// Atribuições para animationsystem_dll
+// animationsystem_dll Offsets
+animationsystem_dll.AnimationSystemUtils_001 = jsonData["animationsystem_dll"]["AnimationSystemUtils_001"];
+animationsystem_dll.AnimationSystem_001 = jsonData["animationsystem_dll"]["AnimationSystem_001"];
+
+// Atribuições para client_dll
+// client_dll Offsets
+client_dll.ClientToolsInfo_001 = jsonData["client_dll"]["ClientToolsInfo_001"];
+client_dll.EmptyWorldService001_Client = jsonData["client_dll"]["EmptyWorldService001_Client"];
+client_dll.GameClientExports001 = jsonData["client_dll"]["GameClientExports001"];
+client_dll.LegacyGameUI001 = jsonData["client_dll"]["LegacyGameUI001"];
+client_dll.Source2Client002 = jsonData["client_dll"]["Source2Client002"];
+client_dll.Source2ClientConfig001 = jsonData["client_dll"]["Source2ClientConfig001"];
+client_dll.Source2ClientPrediction001 = jsonData["client_dll"]["Source2ClientPrediction001"];
+client_dll.Source2ClientUI001 = jsonData["client_dll"]["Source2ClientUI001"];
+client_dll.dwCSGOInput = jsonData["client_dll"]["dwCSGOInput"];
+client_dll.dwEntityList = jsonData["client_dll"]["dwEntityList"];
+client_dll.dwGameEntitySystem = jsonData["client_dll"]["dwGameEntitySystem"];
+client_dll.dwGameEntitySystem_highestEntityIndex = jsonData["client_dll"]["dwGameEntitySystem_highestEntityIndex"];
+client_dll.dwGameRules = jsonData["client_dll"]["dwGameRules"];
+client_dll.dwGlobalVars = jsonData["client_dll"]["dwGlobalVars"];
+client_dll.dwGlowManager = jsonData["client_dll"]["dwGlowManager"];
+client_dll.dwLocalPlayerController = jsonData["client_dll"]["dwLocalPlayerController"];
+client_dll.dwLocalPlayerPawn = jsonData["client_dll"]["dwLocalPlayerPawn"];
+client_dll.dwPlantedC4 = jsonData["client_dll"]["dwPlantedC4"];
+client_dll.dwPrediction = jsonData["client_dll"]["dwPrediction"];
+client_dll.dwSensitivity = jsonData["client_dll"]["dwSensitivity"];
+client_dll.dwSensitivity_sensitivity = jsonData["client_dll"]["dwSensitivity_sensitivity"];
+client_dll.dwViewAngles = jsonData["client_dll"]["dwViewAngles"];
+client_dll.dwViewMatrix = jsonData["client_dll"]["dwViewMatrix"];
+client_dll.dwViewRender = jsonData["client_dll"]["dwViewRender"];
+client_dll.dwWeaponC4 = jsonData["client_dll"]["dwWeaponC4"];
 
 // Atribuições para engine2_dll
 // engine2_dll Offsets
@@ -7656,227 +7148,10 @@ engine2_dll.dwNetworkGameClient_signOnState = jsonData["engine2_dll"]["dwNetwork
 engine2_dll.dwWindowHeight = jsonData["engine2_dll"]["dwWindowHeight"];
 engine2_dll.dwWindowWidth = jsonData["engine2_dll"]["dwWindowWidth"];
 
-// Atribuições para EventClientPostSimulate_t
-// EventClientPostSimulate_t Offsets
-
-// Atribuições para EventSimpleLoopFrameUpdate_t
-// EventSimpleLoopFrameUpdate_t Offsets
-EventSimpleLoopFrameUpdate_t.m_LoopState = jsonData["EventSimpleLoopFrameUpdate_t"]["m_LoopState"];
-EventSimpleLoopFrameUpdate_t.m_flRealTime = jsonData["EventSimpleLoopFrameUpdate_t"]["m_flRealTime"];
-EventSimpleLoopFrameUpdate_t.m_flFrameTime = jsonData["EventSimpleLoopFrameUpdate_t"]["m_flFrameTime"];
-
-// Atribuições para EventPostAdvanceTick_t
-// EventPostAdvanceTick_t Offsets
-EventPostAdvanceTick_t.m_nCurrentTick = jsonData["EventPostAdvanceTick_t"]["m_nCurrentTick"];
-EventPostAdvanceTick_t.m_nCurrentTickThisFrame = jsonData["EventPostAdvanceTick_t"]["m_nCurrentTickThisFrame"];
-EventPostAdvanceTick_t.m_nTotalTicksThisFrame = jsonData["EventPostAdvanceTick_t"]["m_nTotalTicksThisFrame"];
-EventPostAdvanceTick_t.m_nTotalTicks = jsonData["EventPostAdvanceTick_t"]["m_nTotalTicks"];
-
-// Atribuições para CEntityIOOutput
-// CEntityIOOutput Offsets
-CEntityIOOutput.m_Value = jsonData["CEntityIOOutput"]["m_Value"];
-
-// Atribuições para EventClientSceneSystemThreadStateChange_t
-// EventClientSceneSystemThreadStateChange_t Offsets
-EventClientSceneSystemThreadStateChange_t.m_bThreadsActive = jsonData["EventClientSceneSystemThreadStateChange_t"]["m_bThreadsActive"];
-
-// Atribuições para EventClientOutput_t
-// EventClientOutput_t Offsets
-EventClientOutput_t.m_LoopState = jsonData["EventClientOutput_t"]["m_LoopState"];
-EventClientOutput_t.m_flRenderTime = jsonData["EventClientOutput_t"]["m_flRenderTime"];
-EventClientOutput_t.m_flRealTime = jsonData["EventClientOutput_t"]["m_flRealTime"];
-EventClientOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientOutput_t"]["m_flRenderFrameTimeUnbounded"];
-EventClientOutput_t.m_bRenderOnly = jsonData["EventClientOutput_t"]["m_bRenderOnly"];
-
-// Atribuições para EventServerPostSimulate_t
-// EventServerPostSimulate_t Offsets
-
-// Atribuições para CEntityComponentHelper
-// CEntityComponentHelper Offsets
-CEntityComponentHelper.m_flags = jsonData["CEntityComponentHelper"]["m_flags"];
-CEntityComponentHelper.m_pInfo = jsonData["CEntityComponentHelper"]["m_pInfo"];
-CEntityComponentHelper.m_nPriority = jsonData["CEntityComponentHelper"]["m_nPriority"];
-CEntityComponentHelper.m_pNext = jsonData["CEntityComponentHelper"]["m_pNext"];
-
-// Atribuições para GameTime_t
-// GameTime_t Offsets
-GameTime_t.m_Value = jsonData["GameTime_t"]["m_Value"];
-
-// Atribuições para EventServerEndAsyncPostTickWork_t
-// EventServerEndAsyncPostTickWork_t Offsets
-
-// Atribuições para EventClientAdvanceTick_t
-// EventClientAdvanceTick_t Offsets
-
-// Atribuições para EntInput_t
-// EntInput_t Offsets
-
-// Atribuições para CNetworkVarChainer
-// CNetworkVarChainer Offsets
-CNetworkVarChainer.m_PathIndex = jsonData["CNetworkVarChainer"]["m_PathIndex"];
-
-// Atribuições para EventClientSimulate_t
-// EventClientSimulate_t Offsets
-
-// Atribuições para EventClientPostOutput_t
-// EventClientPostOutput_t Offsets
-EventClientPostOutput_t.m_LoopState = jsonData["EventClientPostOutput_t"]["m_LoopState"];
-EventClientPostOutput_t.m_flRenderTime = jsonData["EventClientPostOutput_t"]["m_flRenderTime"];
-EventClientPostOutput_t.m_flRenderFrameTime = jsonData["EventClientPostOutput_t"]["m_flRenderFrameTime"];
-EventClientPostOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientPostOutput_t"]["m_flRenderFrameTimeUnbounded"];
-EventClientPostOutput_t.m_bRenderOnly = jsonData["EventClientPostOutput_t"]["m_bRenderOnly"];
-
-// Atribuições para GameTick_t
-// GameTick_t Offsets
-GameTick_t.m_Value = jsonData["GameTick_t"]["m_Value"];
-
-// Atribuições para EventClientPollInput_t
-// EventClientPollInput_t Offsets
-EventClientPollInput_t.m_LoopState = jsonData["EventClientPollInput_t"]["m_LoopState"];
-EventClientPollInput_t.m_flRealTime = jsonData["EventClientPollInput_t"]["m_flRealTime"];
-
-// Atribuições para EventPreDataUpdate_t
-// EventPreDataUpdate_t Offsets
-EventPreDataUpdate_t.m_nCount = jsonData["EventPreDataUpdate_t"]["m_nCount"];
-
-// Atribuições para EventClientProcessGameInput_t
-// EventClientProcessGameInput_t Offsets
-EventClientProcessGameInput_t.m_LoopState = jsonData["EventClientProcessGameInput_t"]["m_LoopState"];
-EventClientProcessGameInput_t.m_flRealTime = jsonData["EventClientProcessGameInput_t"]["m_flRealTime"];
-EventClientProcessGameInput_t.m_flFrameTime = jsonData["EventClientProcessGameInput_t"]["m_flFrameTime"];
-
-// Atribuições para EventFrameBoundary_t
-// EventFrameBoundary_t Offsets
-EventFrameBoundary_t.m_flFrameTime = jsonData["EventFrameBoundary_t"]["m_flFrameTime"];
-
-// Atribuições para EventAppShutdown_t
-// EventAppShutdown_t Offsets
-EventAppShutdown_t.m_nDummy0 = jsonData["EventAppShutdown_t"]["m_nDummy0"];
-
-// Atribuições para EventServerSimulate_t
-// EventServerSimulate_t Offsets
-
-// Atribuições para EventServerPostAdvanceTick_t
-// EventServerPostAdvanceTick_t Offsets
-
-// Atribuições para EventProfileStorageAvailable_t
-// EventProfileStorageAvailable_t Offsets
-EventProfileStorageAvailable_t.m_nSplitScreenSlot = jsonData["EventProfileStorageAvailable_t"]["m_nSplitScreenSlot"];
-
-// Atribuições para EventPostDataUpdate_t
-// EventPostDataUpdate_t Offsets
-EventPostDataUpdate_t.m_nCount = jsonData["EventPostDataUpdate_t"]["m_nCount"];
-
-// Atribuições para EventClientPreSimulate_t
-// EventClientPreSimulate_t Offsets
-
-// Atribuições para EventClientPauseSimulate_t
-// EventClientPauseSimulate_t Offsets
-
-// Atribuições para EventClientProcessNetworking_t
-// EventClientProcessNetworking_t Offsets
-EventClientProcessNetworking_t.m_nTickCount = jsonData["EventClientProcessNetworking_t"]["m_nTickCount"];
-
-// Atribuições para EventAdvanceTick_t
-// EventAdvanceTick_t Offsets
-EventAdvanceTick_t.m_nCurrentTick = jsonData["EventAdvanceTick_t"]["m_nCurrentTick"];
-EventAdvanceTick_t.m_nCurrentTickThisFrame = jsonData["EventAdvanceTick_t"]["m_nCurrentTickThisFrame"];
-EventAdvanceTick_t.m_nTotalTicksThisFrame = jsonData["EventAdvanceTick_t"]["m_nTotalTicksThisFrame"];
-EventAdvanceTick_t.m_nTotalTicks = jsonData["EventAdvanceTick_t"]["m_nTotalTicks"];
-
-// Atribuições para EventSplitScreenStateChanged_t
-// EventSplitScreenStateChanged_t Offsets
-
-// Atribuições para EventClientPostAdvanceTick_t
-// EventClientPostAdvanceTick_t Offsets
-
-// Atribuições para CVariantDefaultAllocator
-// CVariantDefaultAllocator Offsets
-
-// Atribuições para EventModInitialized_t
-// EventModInitialized_t Offsets
-
-// Atribuições para EventClientPreOutput_t
-// EventClientPreOutput_t Offsets
-EventClientPreOutput_t.m_LoopState = jsonData["EventClientPreOutput_t"]["m_LoopState"];
-EventClientPreOutput_t.m_flRenderTime = jsonData["EventClientPreOutput_t"]["m_flRenderTime"];
-EventClientPreOutput_t.m_flRenderFrameTime = jsonData["EventClientPreOutput_t"]["m_flRenderFrameTime"];
-EventClientPreOutput_t.m_flRenderFrameTimeUnbounded = jsonData["EventClientPreOutput_t"]["m_flRenderFrameTimeUnbounded"];
-EventClientPreOutput_t.m_flRealTime = jsonData["EventClientPreOutput_t"]["m_flRealTime"];
-EventClientPreOutput_t.m_bRenderOnly = jsonData["EventClientPreOutput_t"]["m_bRenderOnly"];
-
-// Atribuições para EventClientFrameSimulate_t
-// EventClientFrameSimulate_t Offsets
-EventClientFrameSimulate_t.m_LoopState = jsonData["EventClientFrameSimulate_t"]["m_LoopState"];
-EventClientFrameSimulate_t.m_flRealTime = jsonData["EventClientFrameSimulate_t"]["m_flRealTime"];
-EventClientFrameSimulate_t.m_flFrameTime = jsonData["EventClientFrameSimulate_t"]["m_flFrameTime"];
-EventClientFrameSimulate_t.m_bScheduleSendTickPacket = jsonData["EventClientFrameSimulate_t"]["m_bScheduleSendTickPacket"];
-
-// Atribuições para EventServerAdvanceTick_t
-// EventServerAdvanceTick_t Offsets
-
-// Atribuições para EventSetTime_t
-// EventSetTime_t Offsets
-EventSetTime_t.m_LoopState = jsonData["EventSetTime_t"]["m_LoopState"];
-EventSetTime_t.m_nClientOutputFrames = jsonData["EventSetTime_t"]["m_nClientOutputFrames"];
-EventSetTime_t.m_flRealTime = jsonData["EventSetTime_t"]["m_flRealTime"];
-EventSetTime_t.m_flRenderTime = jsonData["EventSetTime_t"]["m_flRenderTime"];
-EventSetTime_t.m_flRenderFrameTime = jsonData["EventSetTime_t"]["m_flRenderFrameTime"];
-EventSetTime_t.m_flRenderFrameTimeUnbounded = jsonData["EventSetTime_t"]["m_flRenderFrameTimeUnbounded"];
-EventSetTime_t.m_flRenderFrameTimeUnscaled = jsonData["EventSetTime_t"]["m_flRenderFrameTimeUnscaled"];
-EventSetTime_t.m_flTickRemainder = jsonData["EventSetTime_t"]["m_flTickRemainder"];
-
-// Atribuições para EntOutput_t
-// EntOutput_t Offsets
-
-// Atribuições para EventSimulate_t
-// EventSimulate_t Offsets
-EventSimulate_t.m_LoopState = jsonData["EventSimulate_t"]["m_LoopState"];
-EventSimulate_t.m_bFirstTick = jsonData["EventSimulate_t"]["m_bFirstTick"];
-EventSimulate_t.m_bLastTick = jsonData["EventSimulate_t"]["m_bLastTick"];
-
-// Atribuições para EventClientAdvanceNonRenderedFrame_t
-// EventClientAdvanceNonRenderedFrame_t Offsets
-
-// Atribuições para EventServerProcessNetworking_t
-// EventServerProcessNetworking_t Offsets
-
-// Atribuições para CEmptyEntityInstance
-// CEmptyEntityInstance Offsets
-
-// Atribuições para EntComponentInfo_t
-// EntComponentInfo_t Offsets
-EntComponentInfo_t.m_pName = jsonData["EntComponentInfo_t"]["m_pName"];
-EntComponentInfo_t.m_pCPPClassname = jsonData["EntComponentInfo_t"]["m_pCPPClassname"];
-EntComponentInfo_t.m_pNetworkDataReferencedDescription = jsonData["EntComponentInfo_t"]["m_pNetworkDataReferencedDescription"];
-EntComponentInfo_t.m_pNetworkDataReferencedPtrPropDescription = jsonData["EntComponentInfo_t"]["m_pNetworkDataReferencedPtrPropDescription"];
-EntComponentInfo_t.m_nRuntimeIndex = jsonData["EntComponentInfo_t"]["m_nRuntimeIndex"];
-EntComponentInfo_t.m_nFlags = jsonData["EntComponentInfo_t"]["m_nFlags"];
-EntComponentInfo_t.m_pBaseClassComponentHelper = jsonData["EntComponentInfo_t"]["m_pBaseClassComponentHelper"];
-
-// Atribuições para EngineLoopState_t
-// EngineLoopState_t Offsets
-EngineLoopState_t.m_nPlatWindowWidth = jsonData["EngineLoopState_t"]["m_nPlatWindowWidth"];
-EngineLoopState_t.m_nPlatWindowHeight = jsonData["EngineLoopState_t"]["m_nPlatWindowHeight"];
-EngineLoopState_t.m_nRenderWidth = jsonData["EngineLoopState_t"]["m_nRenderWidth"];
-EngineLoopState_t.m_nRenderHeight = jsonData["EngineLoopState_t"]["m_nRenderHeight"];
-
-// Atribuições para EventClientPollNetworking_t
-// EventClientPollNetworking_t Offsets
-EventClientPollNetworking_t.m_nTickCount = jsonData["EventClientPollNetworking_t"]["m_nTickCount"];
-
-// Atribuições para EventServerBeginAsyncPostTickWork_t
-// EventServerBeginAsyncPostTickWork_t Offsets
-
-// Atribuições para EventClientProcessInput_t
-// EventClientProcessInput_t Offsets
-EventClientProcessInput_t.m_LoopState = jsonData["EventClientProcessInput_t"]["m_LoopState"];
-EventClientProcessInput_t.m_flRealTime = jsonData["EventClientProcessInput_t"]["m_flRealTime"];
-EventClientProcessInput_t.m_flTickInterval = jsonData["EventClientProcessInput_t"]["m_flTickInterval"];
-EventClientProcessInput_t.m_flTickStartTime = jsonData["EventClientProcessInput_t"]["m_flTickStartTime"];
-
-// Atribuições para EventServerPollNetworking_t
-// EventServerPollNetworking_t Offsets
+// Atribuições para filesystem_stdio_dll
+// filesystem_stdio_dll Offsets
+filesystem_stdio_dll.VAsyncFileSystem2_001 = jsonData["filesystem_stdio_dll"]["VAsyncFileSystem2_001"];
+filesystem_stdio_dll.VFileSystem017 = jsonData["filesystem_stdio_dll"]["VFileSystem017"];
 
 // Atribuições para host_dll
 // host_dll Offsets
@@ -7888,22 +7163,6 @@ host_dll.PredictionDiffManager001 = jsonData["host_dll"]["PredictionDiffManager0
 host_dll.SaveRestoreDataVersion001 = jsonData["host_dll"]["SaveRestoreDataVersion001"];
 host_dll.SinglePlayerSharedMemory001 = jsonData["host_dll"]["SinglePlayerSharedMemory001"];
 host_dll.Source2Host001 = jsonData["host_dll"]["Source2Host001"];
-
-// Atribuições para EmptyTestScript
-// EmptyTestScript Offsets
-EmptyTestScript.m_hTest = jsonData["EmptyTestScript"]["m_hTest"];
-
-// Atribuições para CAnimScriptBase
-// CAnimScriptBase Offsets
-CAnimScriptBase.m_bIsValid = jsonData["CAnimScriptBase"]["m_bIsValid"];
-
-// Atribuições para interfaces
-// interfaces Offsets
-
-// Atribuições para filesystem_stdio_dll
-// filesystem_stdio_dll Offsets
-filesystem_stdio_dll.VAsyncFileSystem2_001 = jsonData["filesystem_stdio_dll"]["VAsyncFileSystem2_001"];
-filesystem_stdio_dll.VFileSystem017 = jsonData["filesystem_stdio_dll"]["VFileSystem017"];
 
 // Atribuições para imemanager_dll
 // imemanager_dll Offsets
@@ -8182,9 +7441,6 @@ MaterialParamTexture_t.m_pValue = jsonData["MaterialParamTexture_t"]["m_pValue"]
 // Atribuições para ChangeAccessorFieldPathIndex_t
 // ChangeAccessorFieldPathIndex_t Offsets
 ChangeAccessorFieldPathIndex_t.m_Value = jsonData["ChangeAccessorFieldPathIndex_t"]["m_Value"];
-
-// Atribuições para offsets
-// offsets Offsets
 
 // Atribuições para C_OP_RemapGravityToVector
 // C_OP_RemapGravityToVector Offsets
@@ -8476,9 +7732,6 @@ C_OP_RemapScalarOnceTimed.m_flOutputMin = jsonData["C_OP_RemapScalarOnceTimed"][
 C_OP_RemapScalarOnceTimed.m_flOutputMax = jsonData["C_OP_RemapScalarOnceTimed"]["m_flOutputMax"];
 C_OP_RemapScalarOnceTimed.m_flRemapTime = jsonData["C_OP_RemapScalarOnceTimed"]["m_flRemapTime"];
 
-// Atribuições para C_INIT_RandomNamedModelSequence
-// C_INIT_RandomNamedModelSequence Offsets
-
 // Atribuições para C_OP_PlaneCull
 // C_OP_PlaneCull Offsets
 C_OP_PlaneCull.m_nPlaneControlPoint = jsonData["C_OP_PlaneCull"]["m_nPlaneControlPoint"];
@@ -8602,9 +7855,6 @@ CBaseRendererSource2.m_nSortMethod = jsonData["CBaseRendererSource2"]["m_nSortMe
 CBaseRendererSource2.m_bBlendFramesSeq0 = jsonData["CBaseRendererSource2"]["m_bBlendFramesSeq0"];
 CBaseRendererSource2.m_bMaxLuminanceBlendingSequence0 = jsonData["CBaseRendererSource2"]["m_bMaxLuminanceBlendingSequence0"];
 
-// Atribuições para CSpinUpdateBase
-// CSpinUpdateBase Offsets
-
 // Atribuições para C_OP_OrientTo2dDirection
 // C_OP_OrientTo2dDirection Offsets
 C_OP_OrientTo2dDirection.m_flRotOffset = jsonData["C_OP_OrientTo2dDirection"]["m_flRotOffset"];
@@ -8672,9 +7922,6 @@ C_OP_DecayMaintainCount.m_bKillNewest = jsonData["C_OP_DecayMaintainCount"]["m_b
 C_INIT_RandomModelSequence.m_ActivityName = jsonData["C_INIT_RandomModelSequence"]["m_ActivityName"];
 C_INIT_RandomModelSequence.m_SequenceName = jsonData["C_INIT_RandomModelSequence"]["m_SequenceName"];
 C_INIT_RandomModelSequence.m_hModel = jsonData["C_INIT_RandomModelSequence"]["m_hModel"];
-
-// Atribuições para CPerParticleVecInput
-// CPerParticleVecInput Offsets
 
 // Atribuições para C_OP_ExternalGameImpulseForce
 // C_OP_ExternalGameImpulseForce Offsets
@@ -8883,9 +8130,6 @@ C_OP_SetUserEvent.m_nFallingEventType = jsonData["C_OP_SetUserEvent"]["m_nFallin
 C_OP_QuantizeFloat.m_InputValue = jsonData["C_OP_QuantizeFloat"]["m_InputValue"];
 C_OP_QuantizeFloat.m_nOutputField = jsonData["C_OP_QuantizeFloat"]["m_nOutputField"];
 
-// Atribuições para CParticleCollectionBindingInstance
-// CParticleCollectionBindingInstance Offsets
-
 // Atribuições para C_OP_BasicMovement
 // C_OP_BasicMovement Offsets
 C_OP_BasicMovement.m_Gravity = jsonData["C_OP_BasicMovement"]["m_Gravity"];
@@ -8907,9 +8151,6 @@ C_INIT_RandomNamedModelElement.m_nFieldOutput = jsonData["C_INIT_RandomNamedMode
 // C_INIT_InitFromParentKilled Offsets
 C_INIT_InitFromParentKilled.m_nAttributeToCopy = jsonData["C_INIT_InitFromParentKilled"]["m_nAttributeToCopy"];
 C_INIT_InitFromParentKilled.m_nEventType = jsonData["C_INIT_InitFromParentKilled"]["m_nEventType"];
-
-// Atribuições para C_OP_Callback
-// C_OP_Callback Offsets
 
 // Atribuições para CParticleFunction
 // CParticleFunction Offsets
@@ -9007,9 +8248,6 @@ C_INIT_RandomLifeTime.m_fLifetimeMin = jsonData["C_INIT_RandomLifeTime"]["m_fLif
 C_INIT_RandomLifeTime.m_fLifetimeMax = jsonData["C_INIT_RandomLifeTime"]["m_fLifetimeMax"];
 C_INIT_RandomLifeTime.m_fLifetimeRandExponent = jsonData["C_INIT_RandomLifeTime"]["m_fLifetimeRandExponent"];
 
-// Atribuições para C_INIT_RemapParticleCountToNamedModelSequenceScalar
-// C_INIT_RemapParticleCountToNamedModelSequenceScalar Offsets
-
 // Atribuições para C_INIT_VelocityRadialRandom
 // C_INIT_VelocityRadialRandom Offsets
 C_INIT_VelocityRadialRandom.m_nControlPointNumber = jsonData["C_INIT_VelocityRadialRandom"]["m_nControlPointNumber"];
@@ -9082,12 +8320,6 @@ C_OP_LightningSnapshotGenerator.m_flRadiusStart = jsonData["C_OP_LightningSnapsh
 C_OP_LightningSnapshotGenerator.m_flRadiusEnd = jsonData["C_OP_LightningSnapshotGenerator"]["m_flRadiusEnd"];
 C_OP_LightningSnapshotGenerator.m_flDedicatedPool = jsonData["C_OP_LightningSnapshotGenerator"]["m_flDedicatedPool"];
 
-// Atribuições para C_OP_RemapNamedModelMeshGroupOnceTimed
-// C_OP_RemapNamedModelMeshGroupOnceTimed Offsets
-
-// Atribuições para CParticleInput
-// CParticleInput Offsets
-
 // Atribuições para C_INIT_RemapSpeedToScalar
 // C_INIT_RemapSpeedToScalar Offsets
 C_INIT_RemapSpeedToScalar.m_nFieldOutput = jsonData["C_INIT_RemapSpeedToScalar"]["m_nFieldOutput"];
@@ -9132,9 +8364,6 @@ C_OP_SetControlPointFieldToScalarExpression.m_flInput2 = jsonData["C_OP_SetContr
 C_OP_SetControlPointFieldToScalarExpression.m_flOutputRemap = jsonData["C_OP_SetControlPointFieldToScalarExpression"]["m_flOutputRemap"];
 C_OP_SetControlPointFieldToScalarExpression.m_nOutputCP = jsonData["C_OP_SetControlPointFieldToScalarExpression"]["m_nOutputCP"];
 C_OP_SetControlPointFieldToScalarExpression.m_nOutVectorField = jsonData["C_OP_SetControlPointFieldToScalarExpression"]["m_nOutVectorField"];
-
-// Atribuições para CParticleFunctionForce
-// CParticleFunctionForce Offsets
 
 // Atribuições para C_INIT_RandomVectorComponent
 // C_INIT_RandomVectorComponent Offsets
@@ -9245,9 +8474,6 @@ C_OP_ControlPointToRadialScreenSpace.m_nCPOut = jsonData["C_OP_ControlPointToRad
 C_OP_ControlPointToRadialScreenSpace.m_nCPOutField = jsonData["C_OP_ControlPointToRadialScreenSpace"]["m_nCPOutField"];
 C_OP_ControlPointToRadialScreenSpace.m_nCPSSPosOut = jsonData["C_OP_ControlPointToRadialScreenSpace"]["m_nCPSSPosOut"];
 
-// Atribuições para C_OP_SpinUpdate
-// C_OP_SpinUpdate Offsets
-
 // Atribuições para C_INIT_NormalOffset
 // C_INIT_NormalOffset Offsets
 C_INIT_NormalOffset.m_OffsetMin = jsonData["C_INIT_NormalOffset"]["m_OffsetMin"];
@@ -9285,9 +8511,6 @@ C_INIT_CreationNoise.m_flNoiseScale = jsonData["C_INIT_CreationNoise"]["m_flNois
 C_INIT_CreationNoise.m_flNoiseScaleLoc = jsonData["C_INIT_CreationNoise"]["m_flNoiseScaleLoc"];
 C_INIT_CreationNoise.m_vecOffsetLoc = jsonData["C_INIT_CreationNoise"]["m_vecOffsetLoc"];
 C_INIT_CreationNoise.m_flWorldTimeScale = jsonData["C_INIT_CreationNoise"]["m_flWorldTimeScale"];
-
-// Atribuições para C_OP_Spin
-// C_OP_Spin Offsets
 
 // Atribuições para ParticleNamedValueConfiguration_t
 // ParticleNamedValueConfiguration_t Offsets
@@ -9577,9 +8800,6 @@ C_OP_RemapControlPointDirectionToVector.m_nFieldOutput = jsonData["C_OP_RemapCon
 C_OP_RemapControlPointDirectionToVector.m_flScale = jsonData["C_OP_RemapControlPointDirectionToVector"]["m_flScale"];
 C_OP_RemapControlPointDirectionToVector.m_nControlPointNumber = jsonData["C_OP_RemapControlPointDirectionToVector"]["m_nControlPointNumber"];
 
-// Atribuições para CParticleFunctionOperator
-// CParticleFunctionOperator Offsets
-
 // Atribuições para C_OP_DragRelativeToPlane
 // C_OP_DragRelativeToPlane Offsets
 C_OP_DragRelativeToPlane.m_flDragAtPlane = jsonData["C_OP_DragRelativeToPlane"]["m_flDragAtPlane"];
@@ -9600,9 +8820,6 @@ ParticleNamedValueSource_t.m_IsPublic = jsonData["ParticleNamedValueSource_t"]["
 ParticleNamedValueSource_t.m_ValueType = jsonData["ParticleNamedValueSource_t"]["m_ValueType"];
 ParticleNamedValueSource_t.m_DefaultConfig = jsonData["ParticleNamedValueSource_t"]["m_DefaultConfig"];
 ParticleNamedValueSource_t.m_NamedConfigs = jsonData["ParticleNamedValueSource_t"]["m_NamedConfigs"];
-
-// Atribuições para C_INIT_RandomYaw
-// C_INIT_RandomYaw Offsets
 
 // Atribuições para C_OP_SnapshotRigidSkinToBones
 // C_OP_SnapshotRigidSkinToBones Offsets
@@ -9709,9 +8926,6 @@ CParticleSystemDefinition.m_nSkipRenderControlPoint = jsonData["CParticleSystemD
 CParticleSystemDefinition.m_nAllowRenderControlPoint = jsonData["CParticleSystemDefinition"]["m_nAllowRenderControlPoint"];
 CParticleSystemDefinition.m_bShouldSort = jsonData["CParticleSystemDefinition"]["m_bShouldSort"];
 CParticleSystemDefinition.m_controlPointConfigurations = jsonData["CParticleSystemDefinition"]["m_controlPointConfigurations"];
-
-// Atribuições para C_OP_RemapNamedModelMeshGroupEndCap
-// C_OP_RemapNamedModelMeshGroupEndCap Offsets
 
 // Atribuições para C_OP_PercentageBetweenTransformsVector
 // C_OP_PercentageBetweenTransformsVector Offsets
@@ -9873,9 +9087,6 @@ C_OP_WorldTraceConstraint.m_nStickOnCollisionField = jsonData["C_OP_WorldTraceCo
 C_OP_WorldTraceConstraint.m_flStopSpeed = jsonData["C_OP_WorldTraceConstraint"]["m_flStopSpeed"];
 C_OP_WorldTraceConstraint.m_nEntityStickDataField = jsonData["C_OP_WorldTraceConstraint"]["m_nEntityStickDataField"];
 C_OP_WorldTraceConstraint.m_nEntityStickNormalField = jsonData["C_OP_WorldTraceConstraint"]["m_nEntityStickNormalField"];
-
-// Atribuições para CParticleCollectionVecInput
-// CParticleCollectionVecInput Offsets
 
 // Atribuições para C_OP_RenderBlobs
 // C_OP_RenderBlobs Offsets
@@ -10074,9 +9285,6 @@ C_OP_RemapDistanceToLineSegmentToScalar.m_nFieldOutput = jsonData["C_OP_RemapDis
 C_OP_RemapDistanceToLineSegmentToScalar.m_flMinOutputValue = jsonData["C_OP_RemapDistanceToLineSegmentToScalar"]["m_flMinOutputValue"];
 C_OP_RemapDistanceToLineSegmentToScalar.m_flMaxOutputValue = jsonData["C_OP_RemapDistanceToLineSegmentToScalar"]["m_flMaxOutputValue"];
 
-// Atribuições para CParticleRemapFloatInput
-// CParticleRemapFloatInput Offsets
-
 // Atribuições para C_OP_RemapVectortoCP
 // C_OP_RemapVectortoCP Offsets
 C_OP_RemapVectortoCP.m_nOutControlPointNumber = jsonData["C_OP_RemapVectortoCP"]["m_nOutControlPointNumber"];
@@ -10178,9 +9386,6 @@ C_OP_ColorInterpolateRandom.m_flFadeStartTime = jsonData["C_OP_ColorInterpolateR
 C_OP_ColorInterpolateRandom.m_flFadeEndTime = jsonData["C_OP_ColorInterpolateRandom"]["m_flFadeEndTime"];
 C_OP_ColorInterpolateRandom.m_nFieldOutput = jsonData["C_OP_ColorInterpolateRandom"]["m_nFieldOutput"];
 C_OP_ColorInterpolateRandom.m_bEaseInOut = jsonData["C_OP_ColorInterpolateRandom"]["m_bEaseInOut"];
-
-// Atribuições para C_INIT_RemapNamedModelSequenceToScalar
-// C_INIT_RemapNamedModelSequenceToScalar Offsets
 
 // Atribuições para C_OP_RenderLights
 // C_OP_RenderLights Offsets
@@ -10289,9 +9494,6 @@ C_OP_RestartAfterDuration.m_nCPField = jsonData["C_OP_RestartAfterDuration"]["m_
 C_OP_RestartAfterDuration.m_nChildGroupID = jsonData["C_OP_RestartAfterDuration"]["m_nChildGroupID"];
 C_OP_RestartAfterDuration.m_bOnlyChildren = jsonData["C_OP_RestartAfterDuration"]["m_bOnlyChildren"];
 
-// Atribuições para C_OP_RenderClothForce
-// C_OP_RenderClothForce Offsets
-
 // Atribuições para C_OP_RemapVisibilityScalar
 // C_OP_RemapVisibilityScalar Offsets
 C_OP_RemapVisibilityScalar.m_nFieldInput = jsonData["C_OP_RemapVisibilityScalar"]["m_nFieldInput"];
@@ -10384,9 +9586,6 @@ C_OP_LerpToInitialPosition.m_nCacheField = jsonData["C_OP_LerpToInitialPosition"
 C_OP_LerpToInitialPosition.m_flScale = jsonData["C_OP_LerpToInitialPosition"]["m_flScale"];
 C_OP_LerpToInitialPosition.m_vecScale = jsonData["C_OP_LerpToInitialPosition"]["m_vecScale"];
 
-// Atribuições para C_INIT_RandomRotation
-// C_INIT_RandomRotation Offsets
-
 // Atribuições para C_OP_LerpEndCapVector
 // C_OP_LerpEndCapVector Offsets
 C_OP_LerpEndCapVector.m_nFieldOutput = jsonData["C_OP_LerpEndCapVector"]["m_nFieldOutput"];
@@ -10452,9 +9651,6 @@ C_OP_RemapTransformOrientationToRotations.m_TransformInput = jsonData["C_OP_Rema
 C_OP_RemapTransformOrientationToRotations.m_vecRotation = jsonData["C_OP_RemapTransformOrientationToRotations"]["m_vecRotation"];
 C_OP_RemapTransformOrientationToRotations.m_bUseQuat = jsonData["C_OP_RemapTransformOrientationToRotations"]["m_bUseQuat"];
 C_OP_RemapTransformOrientationToRotations.m_bWriteNormal = jsonData["C_OP_RemapTransformOrientationToRotations"]["m_bWriteNormal"];
-
-// Atribuições para C_INIT_RandomRotationSpeed
-// C_INIT_RandomRotationSpeed Offsets
 
 // Atribuições para C_OP_InheritFromParentParticlesV2
 // C_OP_InheritFromParentParticlesV2 Offsets
@@ -10582,9 +9778,6 @@ C_OP_LockToBone.m_bRigidRotationLock = jsonData["C_OP_LockToBone"]["m_bRigidRota
 C_OP_LockToBone.m_vecRotation = jsonData["C_OP_LockToBone"]["m_vecRotation"];
 C_OP_LockToBone.m_flRotLerp = jsonData["C_OP_LockToBone"]["m_flRotLerp"];
 
-// Atribuições para C_OP_RemapNamedModelBodyPartOnceTimed
-// C_OP_RemapNamedModelBodyPartOnceTimed Offsets
-
 // Atribuições para C_OP_MovementMaintainOffset
 // C_OP_MovementMaintainOffset Offsets
 C_OP_MovementMaintainOffset.m_vecOffset = jsonData["C_OP_MovementMaintainOffset"]["m_vecOffset"];
@@ -10606,12 +9799,6 @@ C_INIT_CreateFromParentParticles.m_flIncrement = jsonData["C_INIT_CreateFromPare
 C_INIT_CreateFromParentParticles.m_bRandomDistribution = jsonData["C_INIT_CreateFromParentParticles"]["m_bRandomDistribution"];
 C_INIT_CreateFromParentParticles.m_nRandomSeed = jsonData["C_INIT_CreateFromParentParticles"]["m_nRandomSeed"];
 C_INIT_CreateFromParentParticles.m_bSubFrame = jsonData["C_INIT_CreateFromParentParticles"]["m_bSubFrame"];
-
-// Atribuições para IParticleEffect
-// IParticleEffect Offsets
-
-// Atribuições para C_INIT_RandomNamedModelBodyPart
-// C_INIT_RandomNamedModelBodyPart Offsets
 
 // Atribuições para PARTICLE_EHANDLE__
 // PARTICLE_EHANDLE__ Offsets
@@ -10643,12 +9830,6 @@ C_OP_ConnectParentParticleToNearest.m_nSecondControlPoint = jsonData["C_OP_Conne
 C_OP_ConnectParentParticleToNearest.m_bUseRadius = jsonData["C_OP_ConnectParentParticleToNearest"]["m_bUseRadius"];
 C_OP_ConnectParentParticleToNearest.m_flRadiusScale = jsonData["C_OP_ConnectParentParticleToNearest"]["m_flRadiusScale"];
 C_OP_ConnectParentParticleToNearest.m_flParentRadiusScale = jsonData["C_OP_ConnectParentParticleToNearest"]["m_flParentRadiusScale"];
-
-// Atribuições para CPerParticleFloatInput
-// CPerParticleFloatInput Offsets
-
-// Atribuições para C_INIT_RemapParticleCountToNamedModelBodyPartScalar
-// C_INIT_RemapParticleCountToNamedModelBodyPartScalar Offsets
 
 // Atribuições para C_INIT_InitSkinnedPositionFromCPSnapshot
 // C_INIT_InitSkinnedPositionFromCPSnapshot Offsets
@@ -10839,12 +10020,6 @@ C_OP_PercentageBetweenTransforms.m_bRadialCheck = jsonData["C_OP_PercentageBetwe
 C_INIT_PlaneCull.m_nControlPoint = jsonData["C_INIT_PlaneCull"]["m_nControlPoint"];
 C_INIT_PlaneCull.m_flDistance = jsonData["C_INIT_PlaneCull"]["m_flDistance"];
 C_INIT_PlaneCull.m_bCullInside = jsonData["C_INIT_PlaneCull"]["m_bCullInside"];
-
-// Atribuições para C_OP_RemapNamedModelSequenceEndCap
-// C_OP_RemapNamedModelSequenceEndCap Offsets
-
-// Atribuições para CParticleCollectionRendererFloatInput
-// CParticleCollectionRendererFloatInput Offsets
 
 // Atribuições para C_INIT_InitFromCPSnapshot
 // C_INIT_InitFromCPSnapshot Offsets
@@ -11119,9 +10294,6 @@ C_OP_PerParticleForce.m_flForceScale = jsonData["C_OP_PerParticleForce"]["m_flFo
 C_OP_PerParticleForce.m_vForce = jsonData["C_OP_PerParticleForce"]["m_vForce"];
 C_OP_PerParticleForce.m_nCP = jsonData["C_OP_PerParticleForce"]["m_nCP"];
 
-// Atribuições para C_INIT_RandomNamedModelMeshGroup
-// C_INIT_RandomNamedModelMeshGroup Offsets
-
 // Atribuições para C_OP_RenderProjected
 // C_OP_RenderProjected Offsets
 C_OP_RenderProjected.m_bProjectCharacter = jsonData["C_OP_RenderProjected"]["m_bProjectCharacter"];
@@ -11215,9 +10387,6 @@ C_OP_RampScalarSpline.m_nField = jsonData["C_OP_RampScalarSpline"]["m_nField"];
 C_OP_RampScalarSpline.m_bProportionalOp = jsonData["C_OP_RampScalarSpline"]["m_bProportionalOp"];
 C_OP_RampScalarSpline.m_bEaseOut = jsonData["C_OP_RampScalarSpline"]["m_bEaseOut"];
 
-// Atribuições para C_OP_RemapNamedModelSequenceOnceTimed
-// C_OP_RemapNamedModelSequenceOnceTimed Offsets
-
 // Atribuições para C_OP_SetControlPointFromObjectScale
 // C_OP_SetControlPointFromObjectScale Offsets
 C_OP_SetControlPointFromObjectScale.m_nCPInput = jsonData["C_OP_SetControlPointFromObjectScale"]["m_nCPInput"];
@@ -11232,9 +10401,6 @@ C_OP_MaintainSequentialPath.m_flTolerance = jsonData["C_OP_MaintainSequentialPat
 C_OP_MaintainSequentialPath.m_bLoop = jsonData["C_OP_MaintainSequentialPath"]["m_bLoop"];
 C_OP_MaintainSequentialPath.m_bUseParticleCount = jsonData["C_OP_MaintainSequentialPath"]["m_bUseParticleCount"];
 C_OP_MaintainSequentialPath.m_PathParams = jsonData["C_OP_MaintainSequentialPath"]["m_PathParams"];
-
-// Atribuições para C_OP_RemapNamedModelBodyPartEndCap
-// C_OP_RemapNamedModelBodyPartEndCap Offsets
 
 // Atribuições para C_OP_StopAfterCPDuration
 // C_OP_StopAfterCPDuration Offsets
@@ -11293,12 +10459,6 @@ C_INIT_RemapCPtoScalar.m_flStartTime = jsonData["C_INIT_RemapCPtoScalar"]["m_flS
 C_INIT_RemapCPtoScalar.m_flEndTime = jsonData["C_INIT_RemapCPtoScalar"]["m_flEndTime"];
 C_INIT_RemapCPtoScalar.m_nSetMethod = jsonData["C_INIT_RemapCPtoScalar"]["m_nSetMethod"];
 C_INIT_RemapCPtoScalar.m_flRemapBias = jsonData["C_INIT_RemapCPtoScalar"]["m_flRemapBias"];
-
-// Atribuições para IParticleSystemDefinition
-// IParticleSystemDefinition Offsets
-
-// Atribuições para CParticleCollectionFloatInput
-// CParticleCollectionFloatInput Offsets
 
 // Atribuições para C_OP_WindForce
 // C_OP_WindForce Offsets
@@ -11571,9 +10731,6 @@ C_INIT_CreateWithinSphereTransform.m_nFieldVelocity = jsonData["C_INIT_CreateWit
 // Atribuições para C_OP_RadiusDecay
 // C_OP_RadiusDecay Offsets
 C_OP_RadiusDecay.m_flMinRadius = jsonData["C_OP_RadiusDecay"]["m_flMinRadius"];
-
-// Atribuições para C_INIT_RemapNamedModelBodyPartToScalar
-// C_INIT_RemapNamedModelBodyPartToScalar Offsets
 
 // Atribuições para C_INIT_RemapScalarToVector
 // C_INIT_RemapScalarToVector Offsets
@@ -11894,9 +11051,6 @@ CReplicationParameters.m_vMinRandomDisplacement = jsonData["CReplicationParamete
 CReplicationParameters.m_vMaxRandomDisplacement = jsonData["CReplicationParameters"]["m_vMaxRandomDisplacement"];
 CReplicationParameters.m_flModellingScale = jsonData["CReplicationParameters"]["m_flModellingScale"];
 
-// Atribuições para C_OP_EndCapDecay
-// C_OP_EndCapDecay Offsets
-
 // Atribuições para C_OP_ForceBasedOnDistanceToPlane
 // C_OP_ForceBasedOnDistanceToPlane Offsets
 C_OP_ForceBasedOnDistanceToPlane.m_flMinDist = jsonData["C_OP_ForceBasedOnDistanceToPlane"]["m_flMinDist"];
@@ -11936,9 +11090,6 @@ C_INIT_SetRigidAttachment.m_bLocalSpace = jsonData["C_INIT_SetRigidAttachment"][
 MaterialVariable_t.m_strVariable = jsonData["MaterialVariable_t"]["m_strVariable"];
 MaterialVariable_t.m_nVariableField = jsonData["MaterialVariable_t"]["m_nVariableField"];
 MaterialVariable_t.m_flScale = jsonData["MaterialVariable_t"]["m_flScale"];
-
-// Atribuições para CParticleFunctionConstraint
-// CParticleFunctionConstraint Offsets
 
 // Atribuições para C_OP_RemapSpeed
 // C_OP_RemapSpeed Offsets
@@ -12017,9 +11168,6 @@ C_OP_RenderClientPhysicsImpulse.m_nSimIdFilter = jsonData["C_OP_RenderClientPhys
 // CParticleFunctionEmitter Offsets
 CParticleFunctionEmitter.m_nEmitterIndex = jsonData["CParticleFunctionEmitter"]["m_nEmitterIndex"];
 
-// Atribuições para C_INIT_RemapNamedModelMeshGroupToScalar
-// C_INIT_RemapNamedModelMeshGroupToScalar Offsets
-
 // Atribuições para C_OP_SetControlPointOrientationToCPVelocity
 // C_OP_SetControlPointOrientationToCPVelocity Offsets
 C_OP_SetControlPointOrientationToCPVelocity.m_nCPInput = jsonData["C_OP_SetControlPointOrientationToCPVelocity"]["m_nCPInput"];
@@ -12055,9 +11203,6 @@ C_OP_VectorNoise.m_fl4NoiseScale = jsonData["C_OP_VectorNoise"]["m_fl4NoiseScale
 C_OP_VectorNoise.m_bAdditive = jsonData["C_OP_VectorNoise"]["m_bAdditive"];
 C_OP_VectorNoise.m_bOffset = jsonData["C_OP_VectorNoise"]["m_bOffset"];
 C_OP_VectorNoise.m_flNoiseAnimationTimeScale = jsonData["C_OP_VectorNoise"]["m_flNoiseAnimationTimeScale"];
-
-// Atribuições para IParticleCollection
-// IParticleCollection Offsets
 
 // Atribuições para C_OP_RemapParticleCountToScalar
 // C_OP_RemapParticleCountToScalar Offsets
@@ -12131,9 +11276,6 @@ C_OP_ClientPhysics.m_bKillParticles = jsonData["C_OP_ClientPhysics"]["m_bKillPar
 C_OP_ClientPhysics.m_bDeleteSim = jsonData["C_OP_ClientPhysics"]["m_bDeleteSim"];
 C_OP_ClientPhysics.m_nControlPoint = jsonData["C_OP_ClientPhysics"]["m_nControlPoint"];
 C_OP_ClientPhysics.m_nColorBlendType = jsonData["C_OP_ClientPhysics"]["m_nColorBlendType"];
-
-// Atribuições para C_OP_SpinYaw
-// C_OP_SpinYaw Offsets
 
 // Atribuições para PointDefinitionWithTimeValues_t
 // PointDefinitionWithTimeValues_t Offsets
@@ -12235,9 +11377,6 @@ C_OP_RenderTreeShake.m_flRadialAmount = jsonData["C_OP_RenderTreeShake"]["m_flRa
 C_OP_RenderTreeShake.m_flControlPointOrientationAmount = jsonData["C_OP_RenderTreeShake"]["m_flControlPointOrientationAmount"];
 C_OP_RenderTreeShake.m_nControlPointForLinearDirection = jsonData["C_OP_RenderTreeShake"]["m_nControlPointForLinearDirection"];
 
-// Atribuições para C_OP_WorldCollideConstraint
-// C_OP_WorldCollideConstraint Offsets
-
 // Atribuições para C_OP_SetAttributeToScalarExpression
 // C_OP_SetAttributeToScalarExpression Offsets
 C_OP_SetAttributeToScalarExpression.m_nExpression = jsonData["C_OP_SetAttributeToScalarExpression"]["m_nExpression"];
@@ -12276,9 +11415,6 @@ C_OP_RenderMaterialProxy.m_nColorBlendType = jsonData["C_OP_RenderMaterialProxy"
 FloatInputMaterialVariable_t.m_strVariable = jsonData["FloatInputMaterialVariable_t"]["m_strVariable"];
 FloatInputMaterialVariable_t.m_flInput = jsonData["FloatInputMaterialVariable_t"]["m_flInput"];
 
-// Atribuições para CParticleCollectionRendererVecInput
-// CParticleCollectionRendererVecInput Offsets
-
 // Atribuições para C_OP_RampScalarLinear
 // C_OP_RampScalarLinear Offsets
 C_OP_RampScalarLinear.m_RateMin = jsonData["C_OP_RampScalarLinear"]["m_RateMin"];
@@ -12304,9 +11440,6 @@ C_OP_RotateVector.m_flScale = jsonData["C_OP_RotateVector"]["m_flScale"];
 // C_INIT_InitVecCollection Offsets
 C_INIT_InitVecCollection.m_InputValue = jsonData["C_INIT_InitVecCollection"]["m_InputValue"];
 C_INIT_InitVecCollection.m_nOutputField = jsonData["C_INIT_InitVecCollection"]["m_nOutputField"];
-
-// Atribuições para C_INIT_RemapParticleCountToNamedModelMeshGroupScalar
-// C_INIT_RemapParticleCountToNamedModelMeshGroupScalar Offsets
 
 // Atribuições para C_INIT_SequenceFromCP
 // C_INIT_SequenceFromCP Offsets
@@ -12335,21 +11468,9 @@ C_OP_LerpEndCapScalar.m_nFieldOutput = jsonData["C_OP_LerpEndCapScalar"]["m_nFie
 C_OP_LerpEndCapScalar.m_flOutput = jsonData["C_OP_LerpEndCapScalar"]["m_flOutput"];
 C_OP_LerpEndCapScalar.m_flLerpTime = jsonData["C_OP_LerpEndCapScalar"]["m_flLerpTime"];
 
-// Atribuições para CParticleProperty
-// CParticleProperty Offsets
-
 // Atribuições para CPulseCell_Step_PublicOutput
 // CPulseCell_Step_PublicOutput Offsets
 CPulseCell_Step_PublicOutput.m_OutputIndex = jsonData["CPulseCell_Step_PublicOutput"]["m_OutputIndex"];
-
-// Atribuições para CPulseCell_Val_TestDomainFindEntityByName
-// CPulseCell_Val_TestDomainFindEntityByName Offsets
-
-// Atribuições para CPulseTestFuncs_LibraryA
-// CPulseTestFuncs_LibraryA Offsets
-
-// Atribuições para CPulseCell_Step_TestDomainDestroyFakeEntity
-// CPulseCell_Step_TestDomainDestroyFakeEntity Offsets
 
 // Atribuições para CPulseCell_Test_MultiOutflow_WithParams
 // CPulseCell_Test_MultiOutflow_WithParams Offsets
@@ -12387,9 +11508,6 @@ CPulseCell_Outflow_CycleOrdered__InstanceState_t.m_nNextIndex = jsonData["CPulse
 CPulseCell_WaitForCursorsWithTagBase.m_nCursorsAllowedToWait = jsonData["CPulseCell_WaitForCursorsWithTagBase"]["m_nCursorsAllowedToWait"];
 CPulseCell_WaitForCursorsWithTagBase.m_WaitComplete = jsonData["CPulseCell_WaitForCursorsWithTagBase"]["m_WaitComplete"];
 
-// Atribuições para CPulseTestScriptLib
-// CPulseTestScriptLib Offsets
-
 // Atribuições para PulseRuntimeRegisterIndex_t
 // PulseRuntimeRegisterIndex_t Offsets
 PulseRuntimeRegisterIndex_t.m_Value = jsonData["PulseRuntimeRegisterIndex_t"]["m_Value"];
@@ -12411,9 +11529,6 @@ CPulse_OutflowConnection.m_OutflowRegisterMap = jsonData["CPulse_OutflowConnecti
 // Atribuições para PulseCursorID_t
 // PulseCursorID_t Offsets
 PulseCursorID_t.m_Value = jsonData["PulseCursorID_t"]["m_Value"];
-
-// Atribuições para CBasePulseGraphInstance
-// CBasePulseGraphInstance Offsets
 
 // Atribuições para CPulseCell_Base
 // CPulseCell_Base Offsets
@@ -12457,24 +11572,9 @@ PulseRegisterMap_t.m_Outparams = jsonData["PulseRegisterMap_t"]["m_Outparams"];
 // CPulseCell_CursorQueue Offsets
 CPulseCell_CursorQueue.m_nCursorsAllowedToRunParallel = jsonData["CPulseCell_CursorQueue"]["m_nCursorsAllowedToRunParallel"];
 
-// Atribuições para CPulseCell_BaseRequirement
-// CPulseCell_BaseRequirement Offsets
-
 // Atribuições para PulseNodeDynamicOutflows_t
 // PulseNodeDynamicOutflows_t Offsets
 PulseNodeDynamicOutflows_t.m_Outflows = jsonData["PulseNodeDynamicOutflows_t"]["m_Outflows"];
-
-// Atribuições para CPulseCell_Value_TestValue50
-// CPulseCell_Value_TestValue50 Offsets
-
-// Atribuições para CPulseCell_Test_MultiInflow_WithDefault
-// CPulseCell_Test_MultiInflow_WithDefault Offsets
-
-// Atribuições para IGapHost_ExecLog
-// IGapHost_ExecLog Offsets
-
-// Atribuições para CPulseTestGapTypeQueryRegistration
-// CPulseTestGapTypeQueryRegistration Offsets
 
 // Atribuições para CPulseCell_Unknown
 // CPulseCell_Unknown Offsets
@@ -12484,9 +11584,6 @@ CPulseCell_Unknown.m_UnknownKeys = jsonData["CPulseCell_Unknown"]["m_UnknownKeys
 // CPulseCell_Outflow_StringSwitch Offsets
 CPulseCell_Outflow_StringSwitch.m_DefaultCaseOutflow = jsonData["CPulseCell_Outflow_StringSwitch"]["m_DefaultCaseOutflow"];
 CPulseCell_Outflow_StringSwitch.m_CaseOutflows = jsonData["CPulseCell_Outflow_StringSwitch"]["m_CaseOutflows"];
-
-// Atribuições para CPulseCell_Test_NoInflow
-// CPulseCell_Test_NoInflow Offsets
 
 // Atribuições para CPulseCell_FireCursors
 // CPulseCell_FireCursors Offsets
@@ -12499,12 +11596,6 @@ CPulseCell_FireCursors.m_OnCanceled = jsonData["CPulseCell_FireCursors"]["m_OnCa
 // CPulseCell_Outflow_CycleShuffled__InstanceState_t Offsets
 CPulseCell_Outflow_CycleShuffled__InstanceState_t.m_Shuffle = jsonData["CPulseCell_Outflow_CycleShuffled__InstanceState_t"]["m_Shuffle"];
 CPulseCell_Outflow_CycleShuffled__InstanceState_t.m_nNextShuffle = jsonData["CPulseCell_Outflow_CycleShuffled__InstanceState_t"]["m_nNextShuffle"];
-
-// Atribuições para CPulseCell_BaseValue
-// CPulseCell_BaseValue Offsets
-
-// Atribuições para CPulse_ResumePoint
-// CPulse_ResumePoint Offsets
 
 // Atribuições para CPulseCell_Outflow_CycleRandom
 // CPulseCell_Outflow_CycleRandom Offsets
@@ -12519,17 +11610,11 @@ CPulseCell_Inflow_EventHandler.m_EventName = jsonData["CPulseCell_Inflow_EventHa
 CPulseCell_BaseLerp__CursorState_t.m_StartTime = jsonData["CPulseCell_BaseLerp__CursorState_t"]["m_StartTime"];
 CPulseCell_BaseLerp__CursorState_t.m_EndTime = jsonData["CPulseCell_BaseLerp__CursorState_t"]["m_EndTime"];
 
-// Atribuições para IGapHost_Cursor
-// IGapHost_Cursor Offsets
-
 // Atribuições para CPulse_PublicOutput
 // CPulse_PublicOutput Offsets
 CPulse_PublicOutput.m_Name = jsonData["CPulse_PublicOutput"]["m_Name"];
 CPulse_PublicOutput.m_Description = jsonData["CPulse_PublicOutput"]["m_Description"];
 CPulse_PublicOutput.m_ParamType = jsonData["CPulse_PublicOutput"]["m_ParamType"];
-
-// Atribuições para CPulseCursorFuncs
-// CPulseCursorFuncs Offsets
 
 // Atribuições para CPulseCell_Timeline
 // CPulseCell_Timeline Offsets
@@ -12554,12 +11639,6 @@ CPulseCell_LimitCount.m_nLimitCount = jsonData["CPulseCell_LimitCount"]["m_nLimi
 PulseGraphExecutionHistoryNodeDesc_t.strCellDesc = jsonData["PulseGraphExecutionHistoryNodeDesc_t"]["strCellDesc"];
 PulseGraphExecutionHistoryNodeDesc_t.strBindingName = jsonData["PulseGraphExecutionHistoryNodeDesc_t"]["strBindingName"];
 
-// Atribuições para SignatureOutflow_Resume
-// SignatureOutflow_Resume Offsets
-
-// Atribuições para FakeEntity_tAPI
-// FakeEntity_tAPI Offsets
-
 // Atribuições para CPulseCell_Step_CallExternalMethod
 // CPulseCell_Step_CallExternalMethod Offsets
 CPulseCell_Step_CallExternalMethod.m_MethodName = jsonData["CPulseCell_Step_CallExternalMethod"]["m_MethodName"];
@@ -12567,12 +11646,6 @@ CPulseCell_Step_CallExternalMethod.m_GameBlackboard = jsonData["CPulseCell_Step_
 CPulseCell_Step_CallExternalMethod.m_ExpectedArgs = jsonData["CPulseCell_Step_CallExternalMethod"]["m_ExpectedArgs"];
 CPulseCell_Step_CallExternalMethod.m_nAsyncCallMode = jsonData["CPulseCell_Step_CallExternalMethod"]["m_nAsyncCallMode"];
 CPulseCell_Step_CallExternalMethod.m_OnFinished = jsonData["CPulseCell_Step_CallExternalMethod"]["m_OnFinished"];
-
-// Atribuições para CPulseGraphInstance_TurtleGraphics
-// CPulseGraphInstance_TurtleGraphics Offsets
-
-// Atribuições para CPulseCell_BaseFlow
-// CPulseCell_BaseFlow Offsets
 
 // Atribuições para PulseGraphExecutionHistoryEntry_t
 // PulseGraphExecutionHistoryEntry_t Offsets
@@ -12604,9 +11677,6 @@ CPulseCell_TestWaitWithCursorState.m_WakeFail = jsonData["CPulseCell_TestWaitWit
 // CPulseCell_Inflow_ObservableVariableListener Offsets
 CPulseCell_Inflow_ObservableVariableListener.m_BlackboardReference = jsonData["CPulseCell_Inflow_ObservableVariableListener"]["m_BlackboardReference"];
 CPulseCell_Inflow_ObservableVariableListener.m_bSelfReference = jsonData["CPulseCell_Inflow_ObservableVariableListener"]["m_bSelfReference"];
-
-// Atribuições para CPulseCell_BaseYieldingInflow
-// CPulseCell_BaseYieldingInflow Offsets
 
 // Atribuições para PGDInstruction_t
 // PGDInstruction_t Offsets
@@ -12658,9 +11728,6 @@ CPulseGraphInstance_TestDomain.m_nNextValidateIndex = jsonData["CPulseGraphInsta
 CPulseGraphInstance_TestDomain.m_Tracepoints = jsonData["CPulseGraphInstance_TestDomain"]["m_Tracepoints"];
 CPulseGraphInstance_TestDomain.m_bTestYesOrNoPath = jsonData["CPulseGraphInstance_TestDomain"]["m_bTestYesOrNoPath"];
 
-// Atribuições para FakeEntityDerivedB_tAPI
-// FakeEntityDerivedB_tAPI Offsets
-
 // Atribuições para PulseNodeDynamicOutflows_t__DynamicOutflow_t
 // PulseNodeDynamicOutflows_t__DynamicOutflow_t Offsets
 PulseNodeDynamicOutflows_t__DynamicOutflow_t.m_OutflowID = jsonData["PulseNodeDynamicOutflows_t__DynamicOutflow_t"]["m_OutflowID"];
@@ -12689,25 +11756,13 @@ CPulse_DomainValue.m_nType = jsonData["CPulse_DomainValue"]["m_nType"];
 CPulse_DomainValue.m_Value = jsonData["CPulse_DomainValue"]["m_Value"];
 CPulse_DomainValue.m_ExpectedRuntimeType = jsonData["CPulse_DomainValue"]["m_ExpectedRuntimeType"];
 
-// Atribuições para CPulseCell_Step_TestDomainCreateFakeEntity
-// CPulseCell_Step_TestDomainCreateFakeEntity Offsets
-
 // Atribuições para CPulseCell_Step_TestDomainEntFire
 // CPulseCell_Step_TestDomainEntFire Offsets
 CPulseCell_Step_TestDomainEntFire.m_Input = jsonData["CPulseCell_Step_TestDomainEntFire"]["m_Input"];
 
-// Atribuições para CPulseMathlib
-// CPulseMathlib Offsets
-
 // Atribuições para PulseRuntimeBlackboardReferenceIndex_t
 // PulseRuntimeBlackboardReferenceIndex_t Offsets
 PulseRuntimeBlackboardReferenceIndex_t.m_Value = jsonData["PulseRuntimeBlackboardReferenceIndex_t"]["m_Value"];
-
-// Atribuições para IGapHost_YieldingCursor
-// IGapHost_YieldingCursor Offsets
-
-// Atribuições para SignatureOutflow_Continue
-// SignatureOutflow_Continue Offsets
 
 // Atribuições para CPulseCell_Test_MultiOutflow_WithParams_Yielding
 // CPulseCell_Test_MultiOutflow_WithParams_Yielding Offsets
@@ -12732,12 +11787,6 @@ CPulseCell_Inflow_EntOutputHandler.m_ExpectedParamType = jsonData["CPulseCell_In
 // PulseRuntimeConstantIndex_t Offsets
 PulseRuntimeConstantIndex_t.m_Value = jsonData["PulseRuntimeConstantIndex_t"]["m_Value"];
 
-// Atribuições para FakeEntityDerivedA_tAPI
-// FakeEntityDerivedA_tAPI Offsets
-
-// Atribuições para CPulseCell_Step_TestDomainTracepoint
-// CPulseCell_Step_TestDomainTracepoint Offsets
-
 // Atribuições para PulseDocNodeID_t
 // PulseDocNodeID_t Offsets
 PulseDocNodeID_t.m_Value = jsonData["PulseDocNodeID_t"]["m_Value"];
@@ -12752,9 +11801,6 @@ CPulse_BlackboardReference.m_NodeName = jsonData["CPulse_BlackboardReference"]["
 // Atribuições para CPulseCell_LimitCount__InstanceState_t
 // CPulseCell_LimitCount__InstanceState_t Offsets
 CPulseCell_LimitCount__InstanceState_t.m_nCurrentCount = jsonData["CPulseCell_LimitCount__InstanceState_t"]["m_nCurrentCount"];
-
-// Atribuições para CPulseCell_Val_TestDomainGetEntityName
-// CPulseCell_Val_TestDomainGetEntityName Offsets
 
 // Atribuições para CPulse_CallInfo
 // CPulse_CallInfo Offsets
@@ -12773,15 +11819,9 @@ CPulse_RegisterInfo.m_OriginName = jsonData["CPulse_RegisterInfo"]["m_OriginName
 CPulse_RegisterInfo.m_nWrittenByInstruction = jsonData["CPulse_RegisterInfo"]["m_nWrittenByInstruction"];
 CPulse_RegisterInfo.m_nLastReadByInstruction = jsonData["CPulse_RegisterInfo"]["m_nLastReadByInstruction"];
 
-// Atribuições para CPulseCell_Value_RandomFloat
-// CPulseCell_Value_RandomFloat Offsets
-
 // Atribuições para PulseRuntimeCellIndex_t
 // PulseRuntimeCellIndex_t Offsets
 PulseRuntimeCellIndex_t.m_Value = jsonData["PulseRuntimeCellIndex_t"]["m_Value"];
-
-// Atribuições para CPulseExecCursor
-// CPulseExecCursor Offsets
 
 // Atribuições para PulseGraphInstanceID_t
 // PulseGraphInstanceID_t Offsets
@@ -12808,9 +11848,6 @@ CPulseGraphDef.m_Constants = jsonData["CPulseGraphDef"]["m_Constants"];
 CPulseGraphDef.m_DomainValues = jsonData["CPulseGraphDef"]["m_DomainValues"];
 CPulseGraphDef.m_BlackboardReferences = jsonData["CPulseGraphDef"]["m_BlackboardReferences"];
 CPulseGraphDef.m_OutputConnections = jsonData["CPulseGraphDef"]["m_OutputConnections"];
-
-// Atribuições para CPulseCell_Test_MultiInflow_NoDefault
-// CPulseCell_Test_MultiInflow_NoDefault Offsets
 
 // Atribuições para CPulse_Constant
 // CPulse_Constant Offsets
@@ -12845,9 +11882,6 @@ CPulseCell_Outflow_TestExplicitYesNo.m_No = jsonData["CPulseCell_Outflow_TestExp
 CPulseCell_Outflow_TestRandomYesNo.m_Yes = jsonData["CPulseCell_Outflow_TestRandomYesNo"]["m_Yes"];
 CPulseCell_Outflow_TestRandomYesNo.m_No = jsonData["CPulseCell_Outflow_TestRandomYesNo"]["m_No"];
 
-// Atribuições para CPulseCell_Step_DebugLog
-// CPulseCell_Step_DebugLog Offsets
-
 // Atribuições para PulseRuntimeChunkIndex_t
 // PulseRuntimeChunkIndex_t Offsets
 PulseRuntimeChunkIndex_t.m_Value = jsonData["PulseRuntimeChunkIndex_t"]["m_Value"];
@@ -12865,9 +11899,6 @@ CPulseRuntimeMethodArg.m_Type = jsonData["CPulseRuntimeMethodArg"]["m_Type"];
 // Atribuições para PulseRuntimeStateOffset_t
 // PulseRuntimeStateOffset_t Offsets
 PulseRuntimeStateOffset_t.m_Value = jsonData["PulseRuntimeStateOffset_t"]["m_Value"];
-
-// Atribuições para CPulseCell_Value_RandomInt
-// CPulseCell_Value_RandomInt Offsets
 
 // Atribuições para CPulseTurtleGraphicsCursor
 // CPulseTurtleGraphicsCursor Offsets
@@ -12897,34 +11928,10 @@ RenderInputLayoutField_t.m_nSlot = jsonData["RenderInputLayoutField_t"]["m_nSlot
 RenderInputLayoutField_t.m_nSlotType = jsonData["RenderInputLayoutField_t"]["m_nSlotType"];
 RenderInputLayoutField_t.m_nInstanceStepRate = jsonData["RenderInputLayoutField_t"]["m_nInstanceStepRate"];
 
-// Atribuições para InfoForResourceTypeCNmIKRig
-// InfoForResourceTypeCNmIKRig Offsets
-
-// Atribuições para InfoForResourceTypeCResponseRulesList
-// InfoForResourceTypeCResponseRulesList Offsets
-
-// Atribuições para InfoForResourceTypeCDotaItemDefinitionResource
-// InfoForResourceTypeCDotaItemDefinitionResource Offsets
-
-// Atribuições para InfoForResourceTypeCMorphSetData
-// InfoForResourceTypeCMorphSetData Offsets
-
-// Atribuições para InfoForResourceTypeCChoreoSceneFileData
-// InfoForResourceTypeCChoreoSceneFileData Offsets
-
-// Atribuições para InfoForResourceTypeCVSoundStackScriptList
-// InfoForResourceTypeCVSoundStackScriptList Offsets
-
 // Atribuições para PackedAABB_t
 // PackedAABB_t Offsets
 PackedAABB_t.m_nPackedMin = jsonData["PackedAABB_t"]["m_nPackedMin"];
 PackedAABB_t.m_nPackedMax = jsonData["PackedAABB_t"]["m_nPackedMax"];
-
-// Atribuições para InfoForResourceTypeCVPhysXSurfacePropertiesList
-// InfoForResourceTypeCVPhysXSurfacePropertiesList Offsets
-
-// Atribuições para InfoForResourceTypeManifestTestResource_t
-// InfoForResourceTypeManifestTestResource_t Offsets
 
 // Atribuições para ConstantInfo_t
 // ConstantInfo_t Offsets
@@ -12936,15 +11943,6 @@ ConstantInfo_t.m_flValue = jsonData["ConstantInfo_t"]["m_flValue"];
 // FuseFunctionIndex_t Offsets
 FuseFunctionIndex_t.m_Value = jsonData["FuseFunctionIndex_t"]["m_Value"];
 
-// Atribuições para InfoForResourceTypeCGcExportableExternalData
-// InfoForResourceTypeCGcExportableExternalData Offsets
-
-// Atribuições para InfoForResourceTypeIAnimGraphModelBinding
-// InfoForResourceTypeIAnimGraphModelBinding Offsets
-
-// Atribuições para InfoForResourceTypeCJavaScriptResource
-// InfoForResourceTypeCJavaScriptResource Offsets
-
 // Atribuições para CFuseSymbolTable
 // CFuseSymbolTable Offsets
 CFuseSymbolTable.m_constants = jsonData["CFuseSymbolTable"]["m_constants"];
@@ -12954,35 +11952,14 @@ CFuseSymbolTable.m_constantMap = jsonData["CFuseSymbolTable"]["m_constantMap"];
 CFuseSymbolTable.m_variableMap = jsonData["CFuseSymbolTable"]["m_variableMap"];
 CFuseSymbolTable.m_functionMap = jsonData["CFuseSymbolTable"]["m_functionMap"];
 
-// Atribuições para InfoForResourceTypeCRenderMesh
-// InfoForResourceTypeCRenderMesh Offsets
-
-// Atribuições para InfoForResourceTypeCVoxelVisibility
-// InfoForResourceTypeCVoxelVisibility Offsets
-
 // Atribuições para TestResource_t
 // TestResource_t Offsets
 TestResource_t.m_name = jsonData["TestResource_t"]["m_name"];
-
-// Atribuições para InfoForResourceTypeCPhysAggregateData
-// InfoForResourceTypeCPhysAggregateData Offsets
-
-// Atribuições para InfoForResourceTypeCNmClip
-// InfoForResourceTypeCNmClip Offsets
-
-// Atribuições para InfoForResourceTypeWorld_t
-// InfoForResourceTypeWorld_t Offsets
-
-// Atribuições para InfoForResourceTypeProceduralTestResource_t
-// InfoForResourceTypeProceduralTestResource_t Offsets
 
 // Atribuições para AABB_t
 // AABB_t Offsets
 AABB_t.m_vMinBounds = jsonData["AABB_t"]["m_vMinBounds"];
 AABB_t.m_vMaxBounds = jsonData["AABB_t"]["m_vMaxBounds"];
-
-// Atribuições para InfoForResourceTypeCPostProcessingResource
-// InfoForResourceTypeCPostProcessingResource Offsets
 
 // Atribuições para VariableInfo_t
 // VariableInfo_t Offsets
@@ -12993,9 +11970,6 @@ VariableInfo_t.m_nNumComponents = jsonData["VariableInfo_t"]["m_nNumComponents"]
 VariableInfo_t.m_eVarType = jsonData["VariableInfo_t"]["m_eVarType"];
 VariableInfo_t.m_eAccess = jsonData["VariableInfo_t"]["m_eAccess"];
 
-// Atribuições para InfoForResourceTypeIParticleSnapshot
-// InfoForResourceTypeIParticleSnapshot Offsets
-
 // Atribuições para FourQuaternions
 // FourQuaternions Offsets
 FourQuaternions.x = jsonData["FourQuaternions"]["x"];
@@ -13003,72 +11977,12 @@ FourQuaternions.y = jsonData["FourQuaternions"]["y"];
 FourQuaternions.z = jsonData["FourQuaternions"]["z"];
 FourQuaternions.w = jsonData["FourQuaternions"]["w"];
 
-// Atribuições para InfoForResourceTypeCPanoramaLayout
-// InfoForResourceTypeCPanoramaLayout Offsets
-
-// Atribuições para InfoForResourceTypeCTypeScriptResource
-// InfoForResourceTypeCTypeScriptResource Offsets
-
-// Atribuições para InfoForResourceTypeCNmSkeleton
-// InfoForResourceTypeCNmSkeleton Offsets
-
-// Atribuições para InfoForResourceTypeTestResource_t
-// InfoForResourceTypeTestResource_t Offsets
-
-// Atribuições para InfoForResourceTypeCAnimationGroup
-// InfoForResourceTypeCAnimationGroup Offsets
-
-// Atribuições para InfoForResourceTypeCVSoundEventScriptList
-// InfoForResourceTypeCVSoundEventScriptList Offsets
-
-// Atribuições para InfoForResourceTypeCVoiceContainerBase
-// InfoForResourceTypeCVoiceContainerBase Offsets
-
-// Atribuições para InfoForResourceTypeCPanoramaStyle
-// InfoForResourceTypeCPanoramaStyle Offsets
-
-// Atribuições para InfoForResourceTypeCWorldNode
-// InfoForResourceTypeCWorldNode Offsets
-
-// Atribuições para InfoForResourceTypeCNmGraphVariation
-// InfoForResourceTypeCNmGraphVariation Offsets
-
-// Atribuições para InfoForResourceTypeCCSGOEconItem
-// InfoForResourceTypeCCSGOEconItem Offsets
-
-// Atribuições para InfoForResourceTypeCNmGraphDefinition
-// InfoForResourceTypeCNmGraphDefinition Offsets
-
-// Atribuições para InfoForResourceTypeCSmartProp
-// InfoForResourceTypeCSmartProp Offsets
-
 // Atribuições para CFuseProgram
 // CFuseProgram Offsets
 CFuseProgram.m_programBuffer = jsonData["CFuseProgram"]["m_programBuffer"];
 CFuseProgram.m_variablesRead = jsonData["CFuseProgram"]["m_variablesRead"];
 CFuseProgram.m_variablesWritten = jsonData["CFuseProgram"]["m_variablesWritten"];
 CFuseProgram.m_nMaxTempVarsUsed = jsonData["CFuseProgram"]["m_nMaxTempVarsUsed"];
-
-// Atribuições para InfoForResourceTypeCCompositeMaterialKit
-// InfoForResourceTypeCCompositeMaterialKit Offsets
-
-// Atribuições para InfoForResourceTypeCVMixListResource
-// InfoForResourceTypeCVMixListResource Offsets
-
-// Atribuições para InfoForResourceTypeCAnimData
-// InfoForResourceTypeCAnimData Offsets
-
-// Atribuições para InfoForResourceTypeIMaterial2
-// InfoForResourceTypeIMaterial2 Offsets
-
-// Atribuições para InfoForResourceTypeIVectorGraphic
-// InfoForResourceTypeIVectorGraphic Offsets
-
-// Atribuições para InfoForResourceTypeCPanoramaDynamicImages
-// InfoForResourceTypeCPanoramaDynamicImages Offsets
-
-// Atribuições para InfoForResourceTypeIPulseGraphDef
-// InfoForResourceTypeIPulseGraphDef Offsets
 
 // Atribuições para FunctionInfo_t
 // FunctionInfo_t Offsets
@@ -13078,38 +11992,14 @@ FunctionInfo_t.m_nParamCount = jsonData["FunctionInfo_t"]["m_nParamCount"];
 FunctionInfo_t.m_nIndex = jsonData["FunctionInfo_t"]["m_nIndex"];
 FunctionInfo_t.m_bIsPure = jsonData["FunctionInfo_t"]["m_bIsPure"];
 
-// Atribuições para InfoForResourceTypeCVDataResource
-// InfoForResourceTypeCVDataResource Offsets
-
-// Atribuições para InfoForResourceTypeCModel
-// InfoForResourceTypeCModel Offsets
-
-// Atribuições para InfoForResourceTypeCDOTANovelsList
-// InfoForResourceTypeCDOTANovelsList Offsets
-
-// Atribuições para InfoForResourceTypeCTextureBase
-// InfoForResourceTypeCTextureBase Offsets
-
 // Atribuições para FuseVariableIndex_t
 // FuseVariableIndex_t Offsets
 FuseVariableIndex_t.m_Value = jsonData["FuseVariableIndex_t"]["m_Value"];
-
-// Atribuições para InfoForResourceTypeIParticleSystemDefinition
-// InfoForResourceTypeIParticleSystemDefinition Offsets
-
-// Atribuições para InfoForResourceTypeCSequenceGroupData
-// InfoForResourceTypeCSequenceGroupData Offsets
 
 // Atribuições para ManifestTestResource_t
 // ManifestTestResource_t Offsets
 ManifestTestResource_t.m_name = jsonData["ManifestTestResource_t"]["m_name"];
 ManifestTestResource_t.m_child = jsonData["ManifestTestResource_t"]["m_child"];
-
-// Atribuições para InfoForResourceTypeCEntityLump
-// InfoForResourceTypeCEntityLump Offsets
-
-// Atribuições para InfoForResourceTypeCDOTAPatchNotesList
-// InfoForResourceTypeCDOTAPatchNotesList Offsets
 
 // Atribuições para CSSDSMsg_ViewTarget
 // CSSDSMsg_ViewTarget Offsets
@@ -13134,9 +12024,6 @@ SceneViewId_t.m_nFrameCount = jsonData["SceneViewId_t"]["m_nFrameCount"];
 CSSDSEndFrameViewInfo.m_nViewId = jsonData["CSSDSEndFrameViewInfo"]["m_nViewId"];
 CSSDSEndFrameViewInfo.m_ViewName = jsonData["CSSDSEndFrameViewInfo"]["m_ViewName"];
 
-// Atribuições para CSSDSMsg_PostLayer
-// CSSDSMsg_PostLayer Offsets
-
 // Atribuições para CSSDSMsg_LayerBase
 // CSSDSMsg_LayerBase Offsets
 CSSDSMsg_LayerBase.m_viewId = jsonData["CSSDSMsg_LayerBase"]["m_viewId"];
@@ -13145,9 +12032,6 @@ CSSDSMsg_LayerBase.m_nLayerIndex = jsonData["CSSDSMsg_LayerBase"]["m_nLayerIndex
 CSSDSMsg_LayerBase.m_nLayerId = jsonData["CSSDSMsg_LayerBase"]["m_nLayerId"];
 CSSDSMsg_LayerBase.m_LayerName = jsonData["CSSDSMsg_LayerBase"]["m_LayerName"];
 CSSDSMsg_LayerBase.m_displayText = jsonData["CSSDSMsg_LayerBase"]["m_displayText"];
-
-// Atribuições para CSSDSMsg_PreLayer
-// CSSDSMsg_PreLayer Offsets
 
 // Atribuições para CSSDSMsg_ViewTargetList
 // CSSDSMsg_ViewTargetList Offsets
@@ -13163,9 +12047,6 @@ CSSDSMsg_ViewRender.m_ViewName = jsonData["CSSDSMsg_ViewRender"]["m_ViewName"];
 // Atribuições para CSSDSMsg_EndFrame
 // CSSDSMsg_EndFrame Offsets
 CSSDSMsg_EndFrame.m_Views = jsonData["CSSDSMsg_EndFrame"]["m_Views"];
-
-// Atribuições para InfoForResourceTypeCResourceManifestInternal
-// InfoForResourceTypeCResourceManifestInternal Offsets
 
 // Atribuições para CSchemaSystemInternalRegistration
 // CSchemaSystemInternalRegistration Offsets
@@ -13248,9 +12129,6 @@ CDynamicProp.m_nGlowRangeMin = jsonData["CDynamicProp"]["m_nGlowRangeMin"];
 CDynamicProp.m_glowColor = jsonData["CDynamicProp"]["m_glowColor"];
 CDynamicProp.m_nGlowTeam = jsonData["CDynamicProp"]["m_nGlowTeam"];
 
-// Atribuições para CFuncIllusionary
-// CFuncIllusionary Offsets
-
 // Atribuições para CFists
 // CFists Offsets
 CFists.m_bPlayingUninterruptableAct = jsonData["CFists"]["m_bPlayingUninterruptableAct"];
@@ -13274,15 +12152,6 @@ CFilterName.m_iFilterName = jsonData["CFilterName"]["m_iFilterName"];
 CProjectedDecal.m_nTexture = jsonData["CProjectedDecal"]["m_nTexture"];
 CProjectedDecal.m_flDistance = jsonData["CProjectedDecal"]["m_flDistance"];
 
-// Atribuições para CFuncTrackAuto
-// CFuncTrackAuto Offsets
-
-// Atribuições para CPushable
-// CPushable Offsets
-
-// Atribuições para CTriggerTripWire
-// CTriggerTripWire Offsets
-
 // Atribuições para CTriggerMultiple
 // CTriggerMultiple Offsets
 CTriggerMultiple.m_OnTrigger = jsonData["CTriggerMultiple"]["m_OnTrigger"];
@@ -13302,9 +12171,6 @@ CTriggerPush.m_splinePushType = jsonData["CTriggerPush"]["m_splinePushType"];
 FilterHealth.m_bAdrenalineActive = jsonData["FilterHealth"]["m_bAdrenalineActive"];
 FilterHealth.m_iHealthMin = jsonData["FilterHealth"]["m_iHealthMin"];
 FilterHealth.m_iHealthMax = jsonData["FilterHealth"]["m_iHealthMax"];
-
-// Atribuições para CCSGO_TeamSelectCounterTerroristPosition
-// CCSGO_TeamSelectCounterTerroristPosition Offsets
 
 // Atribuições para CTriggerProximity
 // CTriggerProximity Offsets
@@ -13364,9 +12230,6 @@ CEnvBeam.m_OnTouchedByEntity = jsonData["CEnvBeam"]["m_OnTouchedByEntity"];
 CTonemapTrigger.m_tonemapControllerName = jsonData["CTonemapTrigger"]["m_tonemapControllerName"];
 CTonemapTrigger.m_hTonemapController = jsonData["CTonemapTrigger"]["m_hTonemapController"];
 
-// Atribuições para CItem_Healthshot
-// CItem_Healthshot Offsets
-
 // Atribuições para CFogTrigger
 // CFogTrigger Offsets
 CFogTrigger.m_fog = jsonData["CFogTrigger"]["m_fog"];
@@ -13379,9 +12242,6 @@ CLogicCollisionPair.m_supportMultipleEntitiesWithSameName = jsonData["CLogicColl
 CLogicCollisionPair.m_disabled = jsonData["CLogicCollisionPair"]["m_disabled"];
 CLogicCollisionPair.m_succeeded = jsonData["CLogicCollisionPair"]["m_succeeded"];
 
-// Atribuições para CTriggerHostageReset
-// CTriggerHostageReset Offsets
-
 // Atribuições para CPointTeleport
 // CPointTeleport Offsets
 CPointTeleport.m_vSaveOrigin = jsonData["CPointTeleport"]["m_vSaveOrigin"];
@@ -13389,17 +12249,11 @@ CPointTeleport.m_vSaveAngles = jsonData["CPointTeleport"]["m_vSaveAngles"];
 CPointTeleport.m_bTeleportParentedEntities = jsonData["CPointTeleport"]["m_bTeleportParentedEntities"];
 CPointTeleport.m_bTeleportUseCurrentAngle = jsonData["CPointTeleport"]["m_bTeleportUseCurrentAngle"];
 
-// Atribuições para CInfoInstructorHintBombTargetB
-// CInfoInstructorHintBombTargetB Offsets
-
 // Atribuições para CBtNodeConditionInactive
 // CBtNodeConditionInactive Offsets
 CBtNodeConditionInactive.m_flRoundStartThresholdSeconds = jsonData["CBtNodeConditionInactive"]["m_flRoundStartThresholdSeconds"];
 CBtNodeConditionInactive.m_flSensorInactivityThresholdSeconds = jsonData["CBtNodeConditionInactive"]["m_flSensorInactivityThresholdSeconds"];
 CBtNodeConditionInactive.m_SensorInactivityTimer = jsonData["CBtNodeConditionInactive"]["m_SensorInactivityTimer"];
-
-// Atribuições para CWeaponSawedoff
-// CWeaponSawedoff Offsets
 
 // Atribuições para CTriggerBuoyancy
 // CTriggerBuoyancy Offsets
@@ -13431,17 +12285,11 @@ CBtActionAim.m_SniperHoldTimer = jsonData["CBtActionAim"]["m_SniperHoldTimer"];
 CBtActionAim.m_FocusIntervalTimer = jsonData["CBtActionAim"]["m_FocusIntervalTimer"];
 CBtActionAim.m_bAcquired = jsonData["CBtActionAim"]["m_bAcquired"];
 
-// Atribuições para CEnvSoundscapeTriggerable
-// CEnvSoundscapeTriggerable Offsets
-
 // Atribuições para CFogController
 // CFogController Offsets
 CFogController.m_fog = jsonData["CFogController"]["m_fog"];
 CFogController.m_bUseAngles = jsonData["CFogController"]["m_bUseAngles"];
 CFogController.m_iChangedVariables = jsonData["CFogController"]["m_iChangedVariables"];
-
-// Atribuições para CCSGO_TeamIntroCharacterPosition
-// CCSGO_TeamIntroCharacterPosition Offsets
 
 // Atribuições para CDecoyProjectile
 // CDecoyProjectile Offsets
@@ -13449,12 +12297,6 @@ CDecoyProjectile.m_nDecoyShotTick = jsonData["CDecoyProjectile"]["m_nDecoyShotTi
 CDecoyProjectile.m_shotsRemaining = jsonData["CDecoyProjectile"]["m_shotsRemaining"];
 CDecoyProjectile.m_fExpireTime = jsonData["CDecoyProjectile"]["m_fExpireTime"];
 CDecoyProjectile.m_decoyWeaponDefIndex = jsonData["CDecoyProjectile"]["m_decoyWeaponDefIndex"];
-
-// Atribuições para CEnableMotionFixup
-// CEnableMotionFixup Offsets
-
-// Atribuições para CWeaponMP9
-// CWeaponMP9 Offsets
 
 // Atribuições para CPhysicsEntitySolver
 // CPhysicsEntitySolver Offsets
@@ -13471,18 +12313,6 @@ CPlayerPing.m_iType = jsonData["CPlayerPing"]["m_iType"];
 CPlayerPing.m_bUrgent = jsonData["CPlayerPing"]["m_bUrgent"];
 CPlayerPing.m_szPlaceName = jsonData["CPlayerPing"]["m_szPlaceName"];
 
-// Atribuições para CCSServerPointScriptEntity
-// CCSServerPointScriptEntity Offsets
-
-// Atribuições para CInfoLandmark
-// CInfoLandmark Offsets
-
-// Atribuições para CWeaponMP7
-// CWeaponMP7 Offsets
-
-// Atribuições para CWeaponFiveSeven
-// CWeaponFiveSeven Offsets
-
 // Atribuições para CEnvFireSensor
 // CEnvFireSensor Offsets
 CEnvFireSensor.m_bEnabled = jsonData["CEnvFireSensor"]["m_bEnabled"];
@@ -13498,9 +12328,6 @@ CEnvFireSensor.m_OnHeatLevelEnd = jsonData["CEnvFireSensor"]["m_OnHeatLevelEnd"]
 // CEnvWindShared__WindAveEvent_t Offsets
 CEnvWindShared__WindAveEvent_t.m_flStartWindSpeed = jsonData["CEnvWindShared__WindAveEvent_t"]["m_flStartWindSpeed"];
 CEnvWindShared__WindAveEvent_t.m_flAveWindSpeed = jsonData["CEnvWindShared__WindAveEvent_t"]["m_flAveWindSpeed"];
-
-// Atribuições para CDynamicPropAlias_cable_dynamic
-// CDynamicPropAlias_cable_dynamic Offsets
 
 // Atribuições para CPointGamestatsCounter
 // CPointGamestatsCounter Offsets
@@ -13520,9 +12347,6 @@ CEnvShake.m_currentAmp = jsonData["CEnvShake"]["m_currentAmp"];
 CEnvShake.m_maxForce = jsonData["CEnvShake"]["m_maxForce"];
 CEnvShake.m_shakeCallback = jsonData["CEnvShake"]["m_shakeCallback"];
 
-// Atribuições para CPrecipitationBlocker
-// CPrecipitationBlocker Offsets
-
 // Atribuições para CBaseMoveBehavior
 // CBaseMoveBehavior Offsets
 CBaseMoveBehavior.m_iPositionInterpolator = jsonData["CBaseMoveBehavior"]["m_iPositionInterpolator"];
@@ -13536,9 +12360,6 @@ CBaseMoveBehavior.m_pPreKeyFrame = jsonData["CBaseMoveBehavior"]["m_pPreKeyFrame
 CBaseMoveBehavior.m_pPostKeyFrame = jsonData["CBaseMoveBehavior"]["m_pPostKeyFrame"];
 CBaseMoveBehavior.m_flTimeIntoFrame = jsonData["CBaseMoveBehavior"]["m_flTimeIntoFrame"];
 CBaseMoveBehavior.m_iDirection = jsonData["CBaseMoveBehavior"]["m_iDirection"];
-
-// Atribuições para CFuncMoverAPI
-// CFuncMoverAPI Offsets
 
 // Atribuições para CFuncNavObstruction
 // CFuncNavObstruction Offsets
@@ -13598,9 +12419,6 @@ fogplayerparams_t.m_flNewMaxDensity = jsonData["fogplayerparams_t"]["m_flNewMaxD
 fogplayerparams_t.m_flNewHDRColorScale = jsonData["fogplayerparams_t"]["m_flNewHDRColorScale"];
 fogplayerparams_t.m_flNewFarZ = jsonData["fogplayerparams_t"]["m_flNewFarZ"];
 
-// Atribuições para CItemDefuserAlias_item_defuser
-// CItemDefuserAlias_item_defuser Offsets
-
 // Atribuições para CRevertSaved
 // CRevertSaved Offsets
 CRevertSaved.m_loadTime = jsonData["CRevertSaved"]["m_loadTime"];
@@ -13618,9 +12436,6 @@ CMultiLightProxy.m_flTargetBrightnessMultiplier = jsonData["CMultiLightProxy"]["
 CMultiLightProxy.m_flCurrentBrightnessMultiplier = jsonData["CMultiLightProxy"]["m_flCurrentBrightnessMultiplier"];
 CMultiLightProxy.m_vecLights = jsonData["CMultiLightProxy"]["m_vecLights"];
 
-// Atribuições para CEntityBlocker
-// CEntityBlocker Offsets
-
 // Atribuições para CLogicCase
 // CLogicCase Offsets
 CLogicCase.m_nCase = jsonData["CLogicCase"]["m_nCase"];
@@ -13634,12 +12449,6 @@ CLogicCase.m_OnDefault = jsonData["CLogicCase"]["m_OnDefault"];
 // CItemDefuser Offsets
 CItemDefuser.m_entitySpottedState = jsonData["CItemDefuser"]["m_entitySpottedState"];
 CItemDefuser.m_nSpotRules = jsonData["CItemDefuser"]["m_nSpotRules"];
-
-// Atribuições para CRuleBrushEntity
-// CRuleBrushEntity Offsets
-
-// Atribuições para CFireCrackerBlast
-// CFireCrackerBlast Offsets
 
 // Atribuições para CSoundEventEntity
 // CSoundEventEntity Offsets
@@ -13708,9 +12517,6 @@ CPhysicsPropRespawnable.m_vOriginalMins = jsonData["CPhysicsPropRespawnable"]["m
 CPhysicsPropRespawnable.m_vOriginalMaxs = jsonData["CPhysicsPropRespawnable"]["m_vOriginalMaxs"];
 CPhysicsPropRespawnable.m_flRespawnDuration = jsonData["CPhysicsPropRespawnable"]["m_flRespawnDuration"];
 
-// Atribuições para CEnvSoundscapeProxyAlias_snd_soundscape_proxy
-// CEnvSoundscapeProxyAlias_snd_soundscape_proxy Offsets
-
 // Atribuições para CPhysBallSocket
 // CPhysBallSocket Offsets
 CPhysBallSocket.m_flJointFriction = jsonData["CPhysBallSocket"]["m_flJointFriction"];
@@ -13719,9 +12525,6 @@ CPhysBallSocket.m_flSwingLimit = jsonData["CPhysBallSocket"]["m_flSwingLimit"];
 CPhysBallSocket.m_bEnableTwistLimit = jsonData["CPhysBallSocket"]["m_bEnableTwistLimit"];
 CPhysBallSocket.m_flMinTwistAngle = jsonData["CPhysBallSocket"]["m_flMinTwistAngle"];
 CPhysBallSocket.m_flMaxTwistAngle = jsonData["CPhysBallSocket"]["m_flMaxTwistAngle"];
-
-// Atribuições para CItemHeavyAssaultSuit
-// CItemHeavyAssaultSuit Offsets
 
 // Atribuições para CInfoPlayerStart
 // CInfoPlayerStart Offsets
@@ -13788,9 +12591,6 @@ CItemGeneric.m_bGlowWhenInTrigger = jsonData["CItemGeneric"]["m_bGlowWhenInTrigg
 CItemGeneric.m_glowColor = jsonData["CItemGeneric"]["m_glowColor"];
 CItemGeneric.m_bUseable = jsonData["CItemGeneric"]["m_bUseable"];
 CItemGeneric.m_hTriggerHelper = jsonData["CItemGeneric"]["m_hTriggerHelper"];
-
-// Atribuições para CLightSpotEntity
-// CLightSpotEntity Offsets
 
 // Atribuições para CPropDoorRotating
 // CPropDoorRotating Offsets
@@ -13912,16 +12712,10 @@ CBarnLight.m_vPrecomputedOBBExtent5 = jsonData["CBarnLight"]["m_vPrecomputedOBBE
 CBarnLight.m_bPvsModifyEntity = jsonData["CBarnLight"]["m_bPvsModifyEntity"];
 CBarnLight.m_VisClusters = jsonData["CBarnLight"]["m_VisClusters"];
 
-// Atribuições para CInfoDeathmatchSpawn
-// CInfoDeathmatchSpawn Offsets
-
 // Atribuições para CEnvViewPunch
 // CEnvViewPunch Offsets
 CEnvViewPunch.m_flRadius = jsonData["CEnvViewPunch"]["m_flRadius"];
 CEnvViewPunch.m_angViewPunch = jsonData["CEnvViewPunch"]["m_angViewPunch"];
-
-// Atribuições para CDEagle
-// CDEagle Offsets
 
 // Atribuições para CPathCorner
 // CPathCorner Offsets
@@ -13932,9 +12726,6 @@ CPathCorner.m_OnPass = jsonData["CPathCorner"]["m_OnPass"];
 // Atribuições para CAttributeContainer
 // CAttributeContainer Offsets
 CAttributeContainer.m_Item = jsonData["CAttributeContainer"]["m_Item"];
-
-// Atribuições para CHostageAlias_info_hostage_spawn
-// CHostageAlias_info_hostage_spawn Offsets
 
 // Atribuições para CMultiSource
 // CMultiSource Offsets
@@ -13963,9 +12754,6 @@ CEnvEntityMaker.m_bPostSpawnUseAngles = jsonData["CEnvEntityMaker"]["m_bPostSpaw
 CEnvEntityMaker.m_iszTemplate = jsonData["CEnvEntityMaker"]["m_iszTemplate"];
 CEnvEntityMaker.m_pOutputOnSpawned = jsonData["CEnvEntityMaker"]["m_pOutputOnSpawned"];
 CEnvEntityMaker.m_pOutputOnFailedSpawn = jsonData["CEnvEntityMaker"]["m_pOutputOnFailedSpawn"];
-
-// Atribuições para CPointEntity
-// CPointEntity Offsets
 
 // Atribuições para CLogicEventListener
 // CLogicEventListener Offsets
@@ -14072,12 +12860,6 @@ CTriggerFan.m_bRampDown = jsonData["CTriggerFan"]["m_bRampDown"];
 CTriggerFan.m_bAddNoise = jsonData["CTriggerFan"]["m_bAddNoise"];
 CTriggerFan.m_RampTimer = jsonData["CTriggerFan"]["m_RampTimer"];
 
-// Atribuições para CIncendiaryGrenade
-// CIncendiaryGrenade Offsets
-
-// Atribuições para CPathCornerCrash
-// CPathCornerCrash Offsets
-
 // Atribuições para CHandleTest
 // CHandleTest Offsets
 CHandleTest.m_Handle = jsonData["CHandleTest"]["m_Handle"];
@@ -14107,9 +12889,6 @@ CLogicAchievement.m_OnFired = jsonData["CLogicAchievement"]["m_OnFired"];
 // Atribuições para CBtActionParachutePositioning
 // CBtActionParachutePositioning Offsets
 CBtActionParachutePositioning.m_ActionTimer = jsonData["CBtActionParachutePositioning"]["m_ActionTimer"];
-
-// Atribuições para CTouchExpansionComponent
-// CTouchExpansionComponent Offsets
 
 // Atribuições para CItem
 // CItem Offsets
@@ -14177,12 +12956,6 @@ CSoundOpvarSetPointBase.m_iszOpvarName = jsonData["CSoundOpvarSetPointBase"]["m_
 CSoundOpvarSetPointBase.m_iOpvarIndex = jsonData["CSoundOpvarSetPointBase"]["m_iOpvarIndex"];
 CSoundOpvarSetPointBase.m_bUseAutoCompare = jsonData["CSoundOpvarSetPointBase"]["m_bUseAutoCompare"];
 
-// Atribuições para CLightDirectionalEntity
-// CLightDirectionalEntity Offsets
-
-// Atribuições para CLogicNPCCounterOBB
-// CLogicNPCCounterOBB Offsets
-
 // Atribuições para CFuncTrackChange
 // CFuncTrackChange Offsets
 CFuncTrackChange.m_trackTop = jsonData["CFuncTrackChange"]["m_trackTop"];
@@ -14214,9 +12987,6 @@ CMessageEntity.m_drawText = jsonData["CMessageEntity"]["m_drawText"];
 CMessageEntity.m_bDeveloperOnly = jsonData["CMessageEntity"]["m_bDeveloperOnly"];
 CMessageEntity.m_bEnabled = jsonData["CMessageEntity"]["m_bEnabled"];
 
-// Atribuições para CSmokeGrenade
-// CSmokeGrenade Offsets
-
 // Atribuições para CBaseViewModel
 // CBaseViewModel Offsets
 CBaseViewModel.m_vecLastFacing = jsonData["CBaseViewModel"]["m_vecLastFacing"];
@@ -14244,15 +13014,6 @@ CBaseFire.m_flScale = jsonData["CBaseFire"]["m_flScale"];
 CBaseFire.m_flStartScale = jsonData["CBaseFire"]["m_flStartScale"];
 CBaseFire.m_flScaleTime = jsonData["CBaseFire"]["m_flScaleTime"];
 CBaseFire.m_nFlags = jsonData["CBaseFire"]["m_nFlags"];
-
-// Atribuições para CWeaponMAC10
-// CWeaponMAC10 Offsets
-
-// Atribuições para CWeaponGlock
-// CWeaponGlock Offsets
-
-// Atribuições para CPredictedViewModel
-// CPredictedViewModel Offsets
 
 // Atribuições para CTriggerActiveWeaponDetect
 // CTriggerActiveWeaponDetect Offsets
@@ -14346,9 +13107,6 @@ CFogVolume.m_colorCorrectionName = jsonData["CFogVolume"]["m_colorCorrectionName
 CFogVolume.m_bDisabled = jsonData["CFogVolume"]["m_bDisabled"];
 CFogVolume.m_bInFogVolumesList = jsonData["CFogVolume"]["m_bInFogVolumesList"];
 
-// Atribuições para CInfoPlayerCounterterrorist
-// CInfoPlayerCounterterrorist Offsets
-
 // Atribuições para CFire
 // CFire Offsets
 CFire.m_hEffect = jsonData["CFire"]["m_hEffect"];
@@ -14370,9 +13128,6 @@ CFire.m_bStartDisabled = jsonData["CFire"]["m_bStartDisabled"];
 CFire.m_bDidActivate = jsonData["CFire"]["m_bDidActivate"];
 CFire.m_OnIgnited = jsonData["CFire"]["m_OnIgnited"];
 CFire.m_OnExtinguished = jsonData["CFire"]["m_OnExtinguished"];
-
-// Atribuições para CWeaponBizon
-// CWeaponBizon Offsets
 
 // Atribuições para CFuncPlat
 // CFuncPlat Offsets
@@ -14429,12 +13184,6 @@ CGenericConstraint.m_NotifyForceReachedX = jsonData["CGenericConstraint"]["m_Not
 CGenericConstraint.m_NotifyForceReachedY = jsonData["CGenericConstraint"]["m_NotifyForceReachedY"];
 CGenericConstraint.m_NotifyForceReachedZ = jsonData["CGenericConstraint"]["m_NotifyForceReachedZ"];
 
-// Atribuições para CDecoyGrenade
-// CDecoyGrenade Offsets
-
-// Atribuições para CWeaponG3SG1
-// CWeaponG3SG1 Offsets
-
 // Atribuições para CPhysTorque
 // CPhysTorque Offsets
 CPhysTorque.m_axis = jsonData["CPhysTorque"]["m_axis"];
@@ -14469,12 +13218,6 @@ CRagdollProp.m_ragdollMaxs = jsonData["CRagdollProp"]["m_ragdollMaxs"];
 CRagdollProp.m_bShouldDeleteActivationRecord = jsonData["CRagdollProp"]["m_bShouldDeleteActivationRecord"];
 CRagdollProp.m_bValidatePoweredRagdollPose = jsonData["CRagdollProp"]["m_bValidatePoweredRagdollPose"];
 
-// Atribuições para CItemSoda
-// CItemSoda Offsets
-
-// Atribuições para CEnvCubemapBox
-// CEnvCubemapBox Offsets
-
 // Atribuições para CEnvDetailController
 // CEnvDetailController Offsets
 CEnvDetailController.m_flFadeStartDist = jsonData["CEnvDetailController"]["m_flFadeStartDist"];
@@ -14496,9 +13239,6 @@ CTriggerLook.m_bTestOcclusion = jsonData["CTriggerLook"]["m_bTestOcclusion"];
 CTriggerLook.m_OnTimeout = jsonData["CTriggerLook"]["m_OnTimeout"];
 CTriggerLook.m_OnStartLook = jsonData["CTriggerLook"]["m_OnStartLook"];
 CTriggerLook.m_OnEndLook = jsonData["CTriggerLook"]["m_OnEndLook"];
-
-// Atribuições para CInfoTeleportDestination
-// CInfoTeleportDestination Offsets
 
 // Atribuições para CMathRemap
 // CMathRemap Offsets
@@ -14549,12 +13289,6 @@ CFootstepControl.m_destination = jsonData["CFootstepControl"]["m_destination"];
 CTriggerVolume.m_iFilterName = jsonData["CTriggerVolume"]["m_iFilterName"];
 CTriggerVolume.m_hFilter = jsonData["CTriggerVolume"]["m_hFilter"];
 
-// Atribuições para CInfoInstructorHintHostageRescueZone
-// CInfoInstructorHintHostageRescueZone Offsets
-
-// Atribuições para CEnvSoundscapeAlias_snd_soundscape
-// CEnvSoundscapeAlias_snd_soundscape Offsets
-
 // Atribuições para CFishPool
 // CFishPool Offsets
 CFishPool.m_fishCount = jsonData["CFishPool"]["m_fishCount"];
@@ -14564,9 +13298,6 @@ CFishPool.m_waterLevel = jsonData["CFishPool"]["m_waterLevel"];
 CFishPool.m_isDormant = jsonData["CFishPool"]["m_isDormant"];
 CFishPool.m_fishes = jsonData["CFishPool"]["m_fishes"];
 CFishPool.m_visTimer = jsonData["CFishPool"]["m_visTimer"];
-
-// Atribuições para CPointClientCommand
-// CPointClientCommand Offsets
 
 // Atribuições para CFuncVPhysicsClip
 // CFuncVPhysicsClip Offsets
@@ -14619,15 +13350,9 @@ CParticleSystem.m_vecDataCPValue = jsonData["CParticleSystem"]["m_vecDataCPValue
 CParticleSystem.m_nTintCP = jsonData["CParticleSystem"]["m_nTintCP"];
 CParticleSystem.m_clrTint = jsonData["CParticleSystem"]["m_clrTint"];
 
-// Atribuições para CCSObserverPawn
-// CCSObserverPawn Offsets
-
 // Atribuições para CScriptItem
 // CScriptItem Offsets
 CScriptItem.m_MoveTypeOverride = jsonData["CScriptItem"]["m_MoveTypeOverride"];
-
-// Atribuições para CWeaponSG556
-// CWeaponSG556 Offsets
 
 // Atribuições para CAmbientGeneric
 // CAmbientGeneric Offsets
@@ -14653,18 +13378,6 @@ CDynamicLight.m_Exponent = jsonData["CDynamicLight"]["m_Exponent"];
 CDynamicLight.m_InnerAngle = jsonData["CDynamicLight"]["m_InnerAngle"];
 CDynamicLight.m_OuterAngle = jsonData["CDynamicLight"]["m_OuterAngle"];
 CDynamicLight.m_SpotRadius = jsonData["CDynamicLight"]["m_SpotRadius"];
-
-// Atribuições para CWeaponP90
-// CWeaponP90 Offsets
-
-// Atribuições para CTriggerToggleSave
-// CTriggerToggleSave Offsets
-
-// Atribuições para CPrecipitation
-// CPrecipitation Offsets
-
-// Atribuições para CPointServerCommand
-// CPointServerCommand Offsets
 
 // Atribuições para CPhysicsProp
 // CPhysicsProp Offsets
@@ -14706,17 +13419,11 @@ CPhysicsProp.m_nItemCount = jsonData["CPhysicsProp"]["m_nItemCount"];
 CPhysicsProp.m_bRemovableForAmmoBalancing = jsonData["CPhysicsProp"]["m_bRemovableForAmmoBalancing"];
 CPhysicsProp.m_bAwake = jsonData["CPhysicsProp"]["m_bAwake"];
 
-// Atribuições para CFuncWallToggle
-// CFuncWallToggle Offsets
-
 // Atribuições para CSensorGrenadeProjectile
 // CSensorGrenadeProjectile Offsets
 CSensorGrenadeProjectile.m_fExpireTime = jsonData["CSensorGrenadeProjectile"]["m_fExpireTime"];
 CSensorGrenadeProjectile.m_fNextDetectPlayerSound = jsonData["CSensorGrenadeProjectile"]["m_fNextDetectPlayerSound"];
 CSensorGrenadeProjectile.m_hDisplayGrenade = jsonData["CSensorGrenadeProjectile"]["m_hDisplayGrenade"];
-
-// Atribuições para CFuncLadderAlias_func_useableladder
-// CFuncLadderAlias_func_useableladder Offsets
 
 // Atribuições para CTriggerSndSosOpvar
 // CTriggerSndSosOpvar Offsets
@@ -14734,9 +13441,6 @@ CTriggerSndSosOpvar.m_stackNameChar = jsonData["CTriggerSndSosOpvar"]["m_stackNa
 CTriggerSndSosOpvar.m_operatorNameChar = jsonData["CTriggerSndSosOpvar"]["m_operatorNameChar"];
 CTriggerSndSosOpvar.m_VecNormPos = jsonData["CTriggerSndSosOpvar"]["m_VecNormPos"];
 CTriggerSndSosOpvar.m_flNormCenterSize = jsonData["CTriggerSndSosOpvar"]["m_flNormCenterSize"];
-
-// Atribuições para CItemAssaultSuit
-// CItemAssaultSuit Offsets
 
 // Atribuições para CScriptedSequence
 // CScriptedSequence Offsets
@@ -14813,12 +13517,6 @@ CScriptedSequence.m_matOtherToMain = jsonData["CScriptedSequence"]["m_matOtherTo
 CScriptedSequence.m_hInteractionMainEntity = jsonData["CScriptedSequence"]["m_hInteractionMainEntity"];
 CScriptedSequence.m_iPlayerDeathBehavior = jsonData["CScriptedSequence"]["m_iPlayerDeathBehavior"];
 
-// Atribuições para CWeaponNegev
-// CWeaponNegev Offsets
-
-// Atribuições para CWeaponGalilAR
-// CWeaponGalilAR Offsets
-
 // Atribuições para CEnvProjectedTexture
 // CEnvProjectedTexture Offsets
 CEnvProjectedTexture.m_hTargetEntity = jsonData["CEnvProjectedTexture"]["m_hTargetEntity"];
@@ -14852,9 +13550,6 @@ CEnvProjectedTexture.m_flProjectionSize = jsonData["CEnvProjectedTexture"]["m_fl
 CEnvProjectedTexture.m_flRotation = jsonData["CEnvProjectedTexture"]["m_flRotation"];
 CEnvProjectedTexture.m_bFlipHorizontal = jsonData["CEnvProjectedTexture"]["m_bFlipHorizontal"];
 
-// Atribuições para CDynamicPropAlias_prop_dynamic_override
-// CDynamicPropAlias_prop_dynamic_override Offsets
-
 // Atribuições para CSceneListManager
 // CSceneListManager Offsets
 CSceneListManager.m_hListManagers = jsonData["CSceneListManager"]["m_hListManagers"];
@@ -14865,12 +13560,6 @@ CSceneListManager.m_hScenes = jsonData["CSceneListManager"]["m_hScenes"];
 // CSplineConstraint Offsets
 CSplineConstraint.m_vAnchorOffsetRestore = jsonData["CSplineConstraint"]["m_vAnchorOffsetRestore"];
 
-// Atribuições para CDynamicPropAlias_dynamic_prop
-// CDynamicPropAlias_dynamic_prop Offsets
-
-// Atribuições para CPhysicsPropMultiplayer
-// CPhysicsPropMultiplayer Offsets
-
 // Atribuições para CBasePlatTrain
 // CBasePlatTrain Offsets
 CBasePlatTrain.m_NoiseMoving = jsonData["CBasePlatTrain"]["m_NoiseMoving"];
@@ -14878,15 +13567,6 @@ CBasePlatTrain.m_NoiseArrived = jsonData["CBasePlatTrain"]["m_NoiseArrived"];
 CBasePlatTrain.m_volume = jsonData["CBasePlatTrain"]["m_volume"];
 CBasePlatTrain.m_flTWidth = jsonData["CBasePlatTrain"]["m_flTWidth"];
 CBasePlatTrain.m_flTLength = jsonData["CBasePlatTrain"]["m_flTLength"];
-
-// Atribuições para CSimpleMarkupVolumeTagged
-// CSimpleMarkupVolumeTagged Offsets
-
-// Atribuições para CInfoPlayerTerrorist
-// CInfoPlayerTerrorist Offsets
-
-// Atribuições para CPhysHingeAlias_phys_hinge_local
-// CPhysHingeAlias_phys_hinge_local Offsets
 
 // Atribuições para CTankTargetChange
 // CTankTargetChange Offsets
@@ -14911,9 +13591,6 @@ CKeepUpright.m_attachedObject = jsonData["CKeepUpright"]["m_attachedObject"];
 CKeepUpright.m_angularLimit = jsonData["CKeepUpright"]["m_angularLimit"];
 CKeepUpright.m_bActive = jsonData["CKeepUpright"]["m_bActive"];
 CKeepUpright.m_bDampAllRotation = jsonData["CKeepUpright"]["m_bDampAllRotation"];
-
-// Atribuições para CModelPointEntity
-// CModelPointEntity Offsets
 
 // Atribuições para CFuncTimescale
 // CFuncTimescale Offsets
@@ -14951,9 +13628,6 @@ CTonemapController2.m_flExposureAdaptationSpeedUp = jsonData["CTonemapController
 CTonemapController2.m_flExposureAdaptationSpeedDown = jsonData["CTonemapController2"]["m_flExposureAdaptationSpeedDown"];
 CTonemapController2.m_flTonemapEVSmoothingRange = jsonData["CTonemapController2"]["m_flTonemapEVSmoothingRange"];
 
-// Atribuições para CRopeKeyframeAlias_move_rope
-// CRopeKeyframeAlias_move_rope Offsets
-
 // Atribuições para CEnvInstructorVRHint
 // CEnvInstructorVRHint Offsets
 CEnvInstructorVRHint.m_iszName = jsonData["CEnvInstructorVRHint"]["m_iszName"];
@@ -14965,9 +13639,6 @@ CEnvInstructorVRHint.m_iLayoutFileType = jsonData["CEnvInstructorVRHint"]["m_iLa
 CEnvInstructorVRHint.m_iszCustomLayoutFile = jsonData["CEnvInstructorVRHint"]["m_iszCustomLayoutFile"];
 CEnvInstructorVRHint.m_iAttachType = jsonData["CEnvInstructorVRHint"]["m_iAttachType"];
 CEnvInstructorVRHint.m_flHeightOffset = jsonData["CEnvInstructorVRHint"]["m_flHeightOffset"];
-
-// Atribuições para CWeaponXM1014
-// CWeaponXM1014 Offsets
 
 // Atribuições para CPlatTrigger
 // CPlatTrigger Offsets
@@ -15006,9 +13677,6 @@ CEnvWindShared.m_bGusting = jsonData["CEnvWindShared"]["m_bGusting"];
 CEnvWindShared.m_flWindAngleVariation = jsonData["CEnvWindShared"]["m_flWindAngleVariation"];
 CEnvWindShared.m_flWindSpeedVariation = jsonData["CEnvWindShared"]["m_flWindSpeedVariation"];
 CEnvWindShared.m_hEntOwner = jsonData["CEnvWindShared"]["m_hEntOwner"];
-
-// Atribuições para CMolotovGrenade
-// CMolotovGrenade Offsets
 
 // Atribuições para CPointHurt
 // CPointHurt Offsets
@@ -15072,12 +13740,6 @@ CLogicNPCCounterAABB.m_vDistanceOuterMins = jsonData["CLogicNPCCounterAABB"]["m_
 CLogicNPCCounterAABB.m_vDistanceOuterMaxs = jsonData["CLogicNPCCounterAABB"]["m_vDistanceOuterMaxs"];
 CLogicNPCCounterAABB.m_vOuterMins = jsonData["CLogicNPCCounterAABB"]["m_vOuterMins"];
 CLogicNPCCounterAABB.m_vOuterMaxs = jsonData["CLogicNPCCounterAABB"]["m_vOuterMaxs"];
-
-// Atribuições para CLightOrthoEntity
-// CLightOrthoEntity Offsets
-
-// Atribuições para CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable
-// CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable Offsets
 
 // Atribuições para CSoundOpvarSetPointEntity
 // CSoundOpvarSetPointEntity Offsets
@@ -15161,9 +13823,6 @@ CEnvCombinedLightProbeVolume.m_Entity_nLightProbeAtlasY = jsonData["CEnvCombined
 CEnvCombinedLightProbeVolume.m_Entity_nLightProbeAtlasZ = jsonData["CEnvCombinedLightProbeVolume"]["m_Entity_nLightProbeAtlasZ"];
 CEnvCombinedLightProbeVolume.m_Entity_bEnabled = jsonData["CEnvCombinedLightProbeVolume"]["m_Entity_bEnabled"];
 
-// Atribuições para CWeaponM249
-// CWeaponM249 Offsets
-
 // Atribuições para CEnvParticleGlow
 // CEnvParticleGlow Offsets
 CEnvParticleGlow.m_flAlphaScale = jsonData["CEnvParticleGlow"]["m_flAlphaScale"];
@@ -15171,9 +13830,6 @@ CEnvParticleGlow.m_flRadiusScale = jsonData["CEnvParticleGlow"]["m_flRadiusScale
 CEnvParticleGlow.m_flSelfIllumScale = jsonData["CEnvParticleGlow"]["m_flSelfIllumScale"];
 CEnvParticleGlow.m_ColorTint = jsonData["CEnvParticleGlow"]["m_ColorTint"];
 CEnvParticleGlow.m_hTextureOverride = jsonData["CEnvParticleGlow"]["m_hTextureOverride"];
-
-// Atribuições para CFuncVehicleClip
-// CFuncVehicleClip Offsets
 
 // Atribuições para CSoundAreaEntitySphere
 // CSoundAreaEntitySphere Offsets
@@ -15190,9 +13846,6 @@ CFuncMonitor.m_hTargetCamera = jsonData["CFuncMonitor"]["m_hTargetCamera"];
 CFuncMonitor.m_bEnabled = jsonData["CFuncMonitor"]["m_bEnabled"];
 CFuncMonitor.m_bDraw3DSkybox = jsonData["CFuncMonitor"]["m_bDraw3DSkybox"];
 CFuncMonitor.m_bStartEnabled = jsonData["CFuncMonitor"]["m_bStartEnabled"];
-
-// Atribuições para CEnvFunnel
-// CEnvFunnel Offsets
 
 // Atribuições para CPointAngularVelocitySensor
 // CPointAngularVelocitySensor Offsets
@@ -15219,9 +13872,6 @@ CMolotovProjectile.m_bIsIncGrenade = jsonData["CMolotovProjectile"]["m_bIsIncGre
 CMolotovProjectile.m_bDetonated = jsonData["CMolotovProjectile"]["m_bDetonated"];
 CMolotovProjectile.m_stillTimer = jsonData["CMolotovProjectile"]["m_stillTimer"];
 CMolotovProjectile.m_bHasBouncedOffPlayer = jsonData["CMolotovProjectile"]["m_bHasBouncedOffPlayer"];
-
-// Atribuições para CPointPulse
-// CPointPulse Offsets
 
 // Atribuições para CEnvInstructorHint
 // CEnvInstructorHint Offsets
@@ -15320,12 +13970,6 @@ CPathKeyFrame.m_flMoveSpeed = jsonData["CPathKeyFrame"]["m_flMoveSpeed"];
 CFuncInteractionLayerClip.m_bDisabled = jsonData["CFuncInteractionLayerClip"]["m_bDisabled"];
 CFuncInteractionLayerClip.m_iszInteractsAs = jsonData["CFuncInteractionLayerClip"]["m_iszInteractsAs"];
 CFuncInteractionLayerClip.m_iszInteractsWith = jsonData["CFuncInteractionLayerClip"]["m_iszInteractsWith"];
-
-// Atribuições para CMultiplayRules
-// CMultiplayRules Offsets
-
-// Atribuições para CWeaponRevolver
-// CWeaponRevolver Offsets
 
 // Atribuições para COrnamentProp
 // COrnamentProp Offsets
@@ -15607,11 +14251,11 @@ CSoundAreaEntityBase.m_bDisabled = jsonData["CSoundAreaEntityBase"]["m_bDisabled
 CSoundAreaEntityBase.m_iszSoundAreaType = jsonData["CSoundAreaEntityBase"]["m_iszSoundAreaType"];
 CSoundAreaEntityBase.m_vPos = jsonData["CSoundAreaEntityBase"]["m_vPos"];
 
-// Atribuições para CCSGO_TeamSelectCharacterPosition
-// CCSGO_TeamSelectCharacterPosition Offsets
-
-// Atribuições para CItemKevlar
-// CItemKevlar Offsets
+// Atribuições para CCSPlayer_UseServices
+// CCSPlayer_UseServices Offsets
+CCSPlayer_UseServices.m_hLastKnownUseEntity = jsonData["CCSPlayer_UseServices"]["m_hLastKnownUseEntity"];
+CCSPlayer_UseServices.m_flLastUseTimeStamp = jsonData["CCSPlayer_UseServices"]["m_flLastUseTimeStamp"];
+CCSPlayer_UseServices.m_flTimeLastUsedWindow = jsonData["CCSPlayer_UseServices"]["m_flTimeLastUsedWindow"];
 
 // Atribuições para CTriggerHurt
 // CTriggerHurt Offsets
@@ -15673,18 +14317,12 @@ CMapVetoPickController.m_OnSidesPicked = jsonData["CMapVetoPickController"]["m_O
 CMapVetoPickController.m_OnNewPhaseStarted = jsonData["CMapVetoPickController"]["m_OnNewPhaseStarted"];
 CMapVetoPickController.m_OnLevelTransition = jsonData["CMapVetoPickController"]["m_OnLevelTransition"];
 
-// Atribuições para CCSMinimapBoundary
-// CCSMinimapBoundary Offsets
-
 // Atribuições para CSoundEnt
 // CSoundEnt Offsets
 CSoundEnt.m_iFreeSound = jsonData["CSoundEnt"]["m_iFreeSound"];
 CSoundEnt.m_iActiveSound = jsonData["CSoundEnt"]["m_iActiveSound"];
 CSoundEnt.m_cLastActiveSounds = jsonData["CSoundEnt"]["m_cLastActiveSounds"];
 CSoundEnt.m_SoundPool = jsonData["CSoundEnt"]["m_SoundPool"];
-
-// Atribuições para CInfoSpawnGroupLandmark
-// CInfoSpawnGroupLandmark Offsets
 
 // Atribuições para CTriggerSave
 // CTriggerSave Offsets
@@ -15729,12 +14367,6 @@ CEnvSoundscape.m_positionNames = jsonData["CEnvSoundscape"]["m_positionNames"];
 CEnvSoundscape.m_hProxySoundscape = jsonData["CEnvSoundscape"]["m_hProxySoundscape"];
 CEnvSoundscape.m_bDisabled = jsonData["CEnvSoundscape"]["m_bDisabled"];
 
-// Atribuições para CSoundOpvarSetOBBEntity
-// CSoundOpvarSetOBBEntity Offsets
-
-// Atribuições para CWeaponM4A1
-// CWeaponM4A1 Offsets
-
 // Atribuições para CEnvLaser
 // CEnvLaser Offsets
 CEnvLaser.m_iszLaserTarget = jsonData["CEnvLaser"]["m_iszLaserTarget"];
@@ -15743,21 +14375,12 @@ CEnvLaser.m_iszSpriteName = jsonData["CEnvLaser"]["m_iszSpriteName"];
 CEnvLaser.m_firePosition = jsonData["CEnvLaser"]["m_firePosition"];
 CEnvLaser.m_flStartFrame = jsonData["CEnvLaser"]["m_flStartFrame"];
 
-// Atribuições para CCommentaryViewPosition
-// CCommentaryViewPosition Offsets
-
-// Atribuições para CTonemapController2Alias_env_tonemap_controller2
-// CTonemapController2Alias_env_tonemap_controller2 Offsets
-
 // Atribuições para CPhysPulley
 // CPhysPulley Offsets
 CPhysPulley.m_position2 = jsonData["CPhysPulley"]["m_position2"];
 CPhysPulley.m_offset = jsonData["CPhysPulley"]["m_offset"];
 CPhysPulley.m_addLength = jsonData["CPhysPulley"]["m_addLength"];
 CPhysPulley.m_gearRatio = jsonData["CPhysPulley"]["m_gearRatio"];
-
-// Atribuições para CGameRulesProxy
-// CGameRulesProxy Offsets
 
 // Atribuições para CBasePlayerWeapon
 // CBasePlayerWeapon Offsets
@@ -15769,9 +14392,6 @@ CBasePlayerWeapon.m_iClip1 = jsonData["CBasePlayerWeapon"]["m_iClip1"];
 CBasePlayerWeapon.m_iClip2 = jsonData["CBasePlayerWeapon"]["m_iClip2"];
 CBasePlayerWeapon.m_pReserveAmmo = jsonData["CBasePlayerWeapon"]["m_pReserveAmmo"];
 CBasePlayerWeapon.m_OnPlayerUse = jsonData["CBasePlayerWeapon"]["m_OnPlayerUse"];
-
-// Atribuições para CBaseFlexAlias_funCBaseFlex
-// CBaseFlexAlias_funCBaseFlex Offsets
 
 // Atribuições para CFish
 // CFish Offsets
@@ -15806,9 +14426,6 @@ CEnvFireSource.m_bEnabled = jsonData["CEnvFireSource"]["m_bEnabled"];
 CEnvFireSource.m_radius = jsonData["CEnvFireSource"]["m_radius"];
 CEnvFireSource.m_damage = jsonData["CEnvFireSource"]["m_damage"];
 
-// Atribuições para CInfoLadderDismount
-// CInfoLadderDismount Offsets
-
 // Atribuições para CTriggerGameEvent
 // CTriggerGameEvent Offsets
 CTriggerGameEvent.m_strStartTouchEventName = jsonData["CTriggerGameEvent"]["m_strStartTouchEventName"];
@@ -15831,12 +14448,6 @@ CPhysSlideConstraint.m_soundInfo = jsonData["CPhysSlideConstraint"]["m_soundInfo
 // Atribuições para CDebugHistory
 // CDebugHistory Offsets
 CDebugHistory.m_nNpcEvents = jsonData["CDebugHistory"]["m_nNpcEvents"];
-
-// Atribuições para CInfoData
-// CInfoData Offsets
-
-// Atribuições para CHostageCarriableProp
-// CHostageCarriableProp Offsets
 
 // Atribuições para CLightEntity
 // CLightEntity Offsets
@@ -15886,9 +14497,6 @@ CBaseCSGrenadeProjectile.m_bClearFromPlayers = jsonData["CBaseCSGrenadeProjectil
 // Atribuições para CCSPlace
 // CCSPlace Offsets
 CCSPlace.m_name = jsonData["CCSPlace"]["m_name"];
-
-// Atribuições para CFuncTrainControls
-// CFuncTrainControls Offsets
 
 // Atribuições para CEntityDissolve
 // CEntityDissolve Offsets
@@ -16017,9 +14625,6 @@ CPhysMagnet.m_flRadius = jsonData["CPhysMagnet"]["m_flRadius"];
 CPhysMagnet.m_flNextSuckTime = jsonData["CPhysMagnet"]["m_flNextSuckTime"];
 CPhysMagnet.m_iMaxObjectsAttached = jsonData["CPhysMagnet"]["m_iMaxObjectsAttached"];
 
-// Atribuições para CSceneEntityAlias_logic_choreographed_scene
-// CSceneEntityAlias_logic_choreographed_scene Offsets
-
 // Atribuições para CFuncNavBlocker
 // CFuncNavBlocker Offsets
 CFuncNavBlocker.m_bDisabled = jsonData["CFuncNavBlocker"]["m_bDisabled"];
@@ -16050,15 +14655,6 @@ CPointProximitySensor.m_Distance = jsonData["CPointProximitySensor"]["m_Distance
 // Atribuições para CFilterClass
 // CFilterClass Offsets
 CFilterClass.m_iFilterClass = jsonData["CFilterClass"]["m_iFilterClass"];
-
-// Atribuições para CMelee
-// CMelee Offsets
-
-// Atribuições para CTeamplayRules
-// CTeamplayRules Offsets
-
-// Atribuições para CFilterLOS
-// CFilterLOS Offsets
 
 // Atribuições para CPhysBox
 // CPhysBox Offsets
@@ -16109,12 +14705,6 @@ CTimerEntity.m_flLowerRandomBound = jsonData["CTimerEntity"]["m_flLowerRandomBou
 CTimerEntity.m_flUpperRandomBound = jsonData["CTimerEntity"]["m_flUpperRandomBound"];
 CTimerEntity.m_flRemainingTime = jsonData["CTimerEntity"]["m_flRemainingTime"];
 CTimerEntity.m_bPaused = jsonData["CTimerEntity"]["m_bPaused"];
-
-// Atribuições para CCSGO_TeamIntroCounterTerroristPosition
-// CCSGO_TeamIntroCounterTerroristPosition Offsets
-
-// Atribuições para CHEGrenadeProjectile
-// CHEGrenadeProjectile Offsets
 
 // Atribuições para CEnvWind
 // CEnvWind Offsets
@@ -16186,9 +14776,6 @@ CCSWeaponBase.m_iIronSightMode = jsonData["CCSWeaponBase"]["m_iIronSightMode"];
 CCSWeaponBase.m_flLastLOSTraceFailureTime = jsonData["CCSWeaponBase"]["m_flLastLOSTraceFailureTime"];
 CCSWeaponBase.m_iNumEmptyAttacks = jsonData["CCSWeaponBase"]["m_iNumEmptyAttacks"];
 CCSWeaponBase.m_flWatTickOffset = jsonData["CCSWeaponBase"]["m_flWatTickOffset"];
-
-// Atribuições para CHandleDummy
-// CHandleDummy Offsets
 
 // Atribuições para CRagdollConstraint
 // CRagdollConstraint Offsets
@@ -16289,15 +14876,9 @@ CSun.m_flFarZScale = jsonData["CSun"]["m_flFarZScale"];
 CTriggerDetectBulletFire.m_bPlayerFireOnly = jsonData["CTriggerDetectBulletFire"]["m_bPlayerFireOnly"];
 CTriggerDetectBulletFire.m_OnDetectedBulletFire = jsonData["CTriggerDetectBulletFire"]["m_OnDetectedBulletFire"];
 
-// Atribuições para CWorld
-// CWorld Offsets
-
 // Atribuições para CPointGiveAmmo
 // CPointGiveAmmo Offsets
 CPointGiveAmmo.m_pActivator = jsonData["CPointGiveAmmo"]["m_pActivator"];
-
-// Atribuições para CFuncMoveLinearAlias_momentary_door
-// CFuncMoveLinearAlias_momentary_door Offsets
 
 // Atribuições para CPathParticleRope
 // CPathParticleRope Offsets
@@ -16327,21 +14908,12 @@ CPlayerVisibility.m_flFadeTime = jsonData["CPlayerVisibility"]["m_flFadeTime"];
 CPlayerVisibility.m_bStartDisabled = jsonData["CPlayerVisibility"]["m_bStartDisabled"];
 CPlayerVisibility.m_bIsEnabled = jsonData["CPlayerVisibility"]["m_bIsEnabled"];
 
-// Atribuições para CServerOnlyPointEntity
-// CServerOnlyPointEntity Offsets
-
-// Atribuições para CAK47
-// CAK47 Offsets
-
 // Atribuições para CTriggerTeleport
 // CTriggerTeleport Offsets
 CTriggerTeleport.m_iLandmark = jsonData["CTriggerTeleport"]["m_iLandmark"];
 CTriggerTeleport.m_bUseLandmarkAngles = jsonData["CTriggerTeleport"]["m_bUseLandmarkAngles"];
 CTriggerTeleport.m_bMirrorPlayer = jsonData["CTriggerTeleport"]["m_bMirrorPlayer"];
 CTriggerTeleport.m_bCheckDestIfClearForPlayer = jsonData["CTriggerTeleport"]["m_bCheckDestIfClearForPlayer"];
-
-// Atribuições para CCSGO_TeamIntroTerroristPosition
-// CCSGO_TeamIntroTerroristPosition Offsets
 
 // Atribuições para CFuncMover
 // CFuncMover Offsets
@@ -16383,15 +14955,6 @@ CFuncMover.m_flTimeStartOrientationChange = jsonData["CFuncMover"]["m_flTimeStar
 CFuncMover.m_flTimeToBlendToNewOrientation = jsonData["CFuncMover"]["m_flTimeToBlendToNewOrientation"];
 CFuncMover.m_flDurationBlendToNewOrientationRan = jsonData["CFuncMover"]["m_flDurationBlendToNewOrientationRan"];
 CFuncMover.m_qOriginalOrientation = jsonData["CFuncMover"]["m_qOriginalOrientation"];
-
-// Atribuições para CHEGrenade
-// CHEGrenade Offsets
-
-// Atribuições para CGameEnd
-// CGameEnd Offsets
-
-// Atribuições para CTriggerCallback
-// CTriggerCallback Offsets
 
 // Atribuições para CBubbling
 // CBubbling Offsets
@@ -16591,9 +15154,6 @@ CCSGameRules.m_iRoundStartRoundNumber = jsonData["CCSGameRules"]["m_iRoundStartR
 CCSGameRules.m_nRoundStartCount = jsonData["CCSGameRules"]["m_nRoundStartCount"];
 CCSGameRules.m_flLastPerfSampleTime = jsonData["CCSGameRules"]["m_flLastPerfSampleTime"];
 
-// Atribuições para CPhysicsPropOverride
-// CPhysicsPropOverride Offsets
-
 // Atribuições para CAI_ChangeHintGroup
 // CAI_ChangeHintGroup Offsets
 CAI_ChangeHintGroup.m_iSearchType = jsonData["CAI_ChangeHintGroup"]["m_iSearchType"];
@@ -16622,9 +15182,6 @@ CFilterEnemy.m_flOuterRadius = jsonData["CFilterEnemy"]["m_flOuterRadius"];
 CFilterEnemy.m_nMaxSquadmatesPerEnemy = jsonData["CFilterEnemy"]["m_nMaxSquadmatesPerEnemy"];
 CFilterEnemy.m_iszPlayerName = jsonData["CFilterEnemy"]["m_iszPlayerName"];
 
-// Atribuições para CShower
-// CShower Offsets
-
 // Atribuições para CEnvCubemapFog
 // CEnvCubemapFog Offsets
 CEnvCubemapFog.m_flEndDistance = jsonData["CEnvCubemapFog"]["m_flEndDistance"];
@@ -16645,9 +15202,6 @@ CEnvCubemapFog.m_iszSkyEntity = jsonData["CEnvCubemapFog"]["m_iszSkyEntity"];
 CEnvCubemapFog.m_hFogCubemapTexture = jsonData["CEnvCubemapFog"]["m_hFogCubemapTexture"];
 CEnvCubemapFog.m_bHasHeightFogEnd = jsonData["CEnvCubemapFog"]["m_bHasHeightFogEnd"];
 CEnvCubemapFog.m_bFirstTime = jsonData["CEnvCubemapFog"]["m_bFirstTime"];
-
-// Atribuições para CPhysicalButton
-// CPhysicalButton Offsets
 
 // Atribuições para CEnvExplosion
 // CEnvExplosion Offsets
@@ -16672,12 +15226,6 @@ CEnvExplosion.m_hEntityIgnore = jsonData["CEnvExplosion"]["m_hEntityIgnore"];
 // CSoundEventAABBEntity Offsets
 CSoundEventAABBEntity.m_vMins = jsonData["CSoundEventAABBEntity"]["m_vMins"];
 CSoundEventAABBEntity.m_vMaxs = jsonData["CSoundEventAABBEntity"]["m_vMaxs"];
-
-// Atribuições para CTriggerOnce
-// CTriggerOnce Offsets
-
-// Atribuições para CLogicProximity
-// CLogicProximity Offsets
 
 // Atribuições para CPointCommentaryNode
 // CPointCommentaryNode Offsets
@@ -16742,9 +15290,6 @@ CPointClientUIWorldPanel.m_nExplicitImageLayout = jsonData["CPointClientUIWorldP
 // CFilterContext Offsets
 CFilterContext.m_iFilterContext = jsonData["CFilterContext"]["m_iFilterContext"];
 
-// Atribuições para CPathParticleRopeAlias_path_particle_rope_clientside
-// CPathParticleRopeAlias_path_particle_rope_clientside Offsets
-
 // Atribuições para CFilterAttributeInt
 // CFilterAttributeInt Offsets
 CFilterAttributeInt.m_sAttributeName = jsonData["CFilterAttributeInt"]["m_sAttributeName"];
@@ -16804,9 +15349,6 @@ FilterTeam.m_iFilterTeam = jsonData["FilterTeam"]["m_iFilterTeam"];
 // CFuncTankTrain Offsets
 CFuncTankTrain.m_OnDeath = jsonData["CFuncTankTrain"]["m_OnDeath"];
 
-// Atribuições para CNullEntity
-// CNullEntity Offsets
-
 // Atribuições para CMarkupVolumeTagged_NavGame
 // CMarkupVolumeTagged_NavGame Offsets
 CMarkupVolumeTagged_NavGame.m_bFloodFillAttribute = jsonData["CMarkupVolumeTagged_NavGame"]["m_bFloodFillAttribute"];
@@ -16854,9 +15396,6 @@ CEnvWindShared__WindVariationEvent_t.m_flWindSpeedVariation = jsonData["CEnvWind
 // CScriptTriggerOnce Offsets
 CScriptTriggerOnce.m_vExtent = jsonData["CScriptTriggerOnce"]["m_vExtent"];
 
-// Atribuições para CNavWalkable
-// CNavWalkable Offsets
-
 // Atribuições para CFlashbangProjectile
 // CFlashbangProjectile Offsets
 CFlashbangProjectile.m_flTimeToDetonate = jsonData["CFlashbangProjectile"]["m_flTimeToDetonate"];
@@ -16867,24 +15406,12 @@ CFlashbangProjectile.m_numTeammatesHit = jsonData["CFlashbangProjectile"]["m_num
 // CPointClientUIWorldTextPanel Offsets
 CPointClientUIWorldTextPanel.m_messageText = jsonData["CPointClientUIWorldTextPanel"]["m_messageText"];
 
-// Atribuições para CInfoInstructorHintTarget
-// CInfoInstructorHintTarget Offsets
-
-// Atribuições para CWeaponSSG08
-// CWeaponSSG08 Offsets
-
 // Atribuições para CLogicBranch
 // CLogicBranch Offsets
 CLogicBranch.m_bInValue = jsonData["CLogicBranch"]["m_bInValue"];
 CLogicBranch.m_Listeners = jsonData["CLogicBranch"]["m_Listeners"];
 CLogicBranch.m_OnTrue = jsonData["CLogicBranch"]["m_OnTrue"];
 CLogicBranch.m_OnFalse = jsonData["CLogicBranch"]["m_OnFalse"];
-
-// Atribuições para CWeaponUMP45
-// CWeaponUMP45 Offsets
-
-// Atribuições para CSpriteAlias_env_glow
-// CSpriteAlias_env_glow Offsets
 
 // Atribuições para CBaseButton
 // CBaseButton Offsets
@@ -17096,9 +15623,6 @@ CTeam.m_aPlayers = jsonData["CTeam"]["m_aPlayers"];
 CTeam.m_iScore = jsonData["CTeam"]["m_iScore"];
 CTeam.m_szTeamname = jsonData["CTeam"]["m_szTeamname"];
 
-// Atribuições para CWeaponUSPSilencer
-// CWeaponUSPSilencer Offsets
-
 // Atribuições para CSprite
 // CSprite Offsets
 CSprite.m_hSpriteMaterial = jsonData["CSprite"]["m_hSpriteMaterial"];
@@ -17125,23 +15649,11 @@ CSprite.m_flBrightnessTimeStart = jsonData["CSprite"]["m_flBrightnessTimeStart"]
 CSprite.m_nSpriteWidth = jsonData["CSprite"]["m_nSpriteWidth"];
 CSprite.m_nSpriteHeight = jsonData["CSprite"]["m_nSpriteHeight"];
 
-// Atribuições para CTriggerGravity
-// CTriggerGravity Offsets
-
-// Atribuições para CServerRagdollTrigger
-// CServerRagdollTrigger Offsets
-
 // Atribuições para CPathMover
 // CPathMover Offsets
 CPathMover.m_vecPathNodes = jsonData["CPathMover"]["m_vecPathNodes"];
 CPathMover.m_flPathLength = jsonData["CPathMover"]["m_flPathLength"];
 CPathMover.m_bClosedLoop = jsonData["CPathMover"]["m_bClosedLoop"];
-
-// Atribuições para CFlashbang
-// CFlashbang Offsets
-
-// Atribuições para CWeaponAug
-// CWeaponAug Offsets
 
 // Atribuições para CChicken
 // CChicken Offsets
@@ -17216,9 +15728,6 @@ CBaseTrigger.m_OnNotTouching = jsonData["CBaseTrigger"]["m_OnNotTouching"];
 CBaseTrigger.m_hTouchingEntities = jsonData["CBaseTrigger"]["m_hTouchingEntities"];
 CBaseTrigger.m_bClientSidePredicted = jsonData["CBaseTrigger"]["m_bClientSidePredicted"];
 
-// Atribuições para CLogicScript
-// CLogicScript Offsets
-
 // Atribuições para CEconEntity
 // CEconEntity Offsets
 CEconEntity.m_AttributeManager = jsonData["CEconEntity"]["m_AttributeManager"];
@@ -17230,9 +15739,6 @@ CEconEntity.m_flFallbackWear = jsonData["CEconEntity"]["m_flFallbackWear"];
 CEconEntity.m_nFallbackStatTrak = jsonData["CEconEntity"]["m_nFallbackStatTrak"];
 CEconEntity.m_hOldProvidee = jsonData["CEconEntity"]["m_hOldProvidee"];
 CEconEntity.m_iOldOwnerClass = jsonData["CEconEntity"]["m_iOldOwnerClass"];
-
-// Atribuições para CServerOnlyEntity
-// CServerOnlyEntity Offsets
 
 // Atribuições para CPointWorldText
 // CPointWorldText Offsets
@@ -17269,9 +15775,6 @@ CTriggerPhysics.m_vecLinearForcePointAtWorld = jsonData["CTriggerPhysics"]["m_ve
 CTriggerPhysics.m_vecLinearForceDirection = jsonData["CTriggerPhysics"]["m_vecLinearForceDirection"];
 CTriggerPhysics.m_bConvertToDebrisWhenPossible = jsonData["CTriggerPhysics"]["m_bConvertToDebrisWhenPossible"];
 
-// Atribuições para CPointBroadcastClientCommand
-// CPointBroadcastClientCommand Offsets
-
 // Atribuições para CFuncShatterglass
 // CFuncShatterglass Offsets
 CFuncShatterglass.m_matPanelTransform = jsonData["CFuncShatterglass"]["m_matPanelTransform"];
@@ -17301,15 +15804,9 @@ CFuncShatterglass.m_OnBroken = jsonData["CFuncShatterglass"]["m_OnBroken"];
 CFuncShatterglass.m_iSurfaceType = jsonData["CFuncShatterglass"]["m_iSurfaceType"];
 CFuncShatterglass.m_hMaterialDamageBase = jsonData["CFuncShatterglass"]["m_hMaterialDamageBase"];
 
-// Atribuições para CRotButton
-// CRotButton Offsets
-
 // Atribuições para CSoundEventSphereEntity
 // CSoundEventSphereEntity Offsets
 CSoundEventSphereEntity.m_flRadius = jsonData["CSoundEventSphereEntity"]["m_flRadius"];
-
-// Atribuições para CWeaponHKP2000
-// CWeaponHKP2000 Offsets
 
 // Atribuições para CPlantedC4
 // CPlantedC4 Offsets
@@ -17350,9 +15847,6 @@ CPointClientUIDialog.m_bStartEnabled = jsonData["CPointClientUIDialog"]["m_bStar
 // CEnvSplash Offsets
 CEnvSplash.m_flScale = jsonData["CEnvSplash"]["m_flScale"];
 
-// Atribuições para CWeaponNOVA
-// CWeaponNOVA Offsets
-
 // Atribuições para CPointCameraVFOV
 // CPointCameraVFOV Offsets
 CPointCameraVFOV.m_flVerticalFOV = jsonData["CPointCameraVFOV"]["m_flVerticalFOV"];
@@ -17361,9 +15855,6 @@ CPointCameraVFOV.m_flVerticalFOV = jsonData["CPointCameraVFOV"]["m_flVerticalFOV
 // CWeaponTaser Offsets
 CWeaponTaser.m_fFireTime = jsonData["CWeaponTaser"]["m_fFireTime"];
 CWeaponTaser.m_nLastAttackTick = jsonData["CWeaponTaser"]["m_nLastAttackTick"];
-
-// Atribuições para CWaterBullet
-// CWaterBullet Offsets
 
 // Atribuições para CMarkupVolume
 // CMarkupVolume Offsets
@@ -17445,9 +15936,6 @@ CMomentaryRotButton.m_flStartPosition = jsonData["CMomentaryRotButton"]["m_flSta
 CGameText.m_iszMessage = jsonData["CGameText"]["m_iszMessage"];
 CGameText.m_textParms = jsonData["CGameText"]["m_textParms"];
 
-// Atribuições para CWeaponMP5SD
-// CWeaponMP5SD Offsets
-
 // Atribuições para CTextureBasedAnimatable
 // CTextureBasedAnimatable Offsets
 CTextureBasedAnimatable.m_bLoop = jsonData["CTextureBasedAnimatable"]["m_bLoop"];
@@ -17468,9 +15956,6 @@ CMarkupVolumeWithRef.m_flRefDot = jsonData["CMarkupVolumeWithRef"]["m_flRefDot"]
 // Atribuições para CPhysThruster
 // CPhysThruster Offsets
 CPhysThruster.m_localOrigin = jsonData["CPhysThruster"]["m_localOrigin"];
-
-// Atribuições para CWeaponFamas
-// CWeaponFamas Offsets
 
 // Atribuições para CShatterGlassShardPhysics
 // CShatterGlassShardPhysics Offsets
@@ -17541,12 +16026,6 @@ CInfoVisibilityBox.m_nMode = jsonData["CInfoVisibilityBox"]["m_nMode"];
 CInfoVisibilityBox.m_vBoxSize = jsonData["CInfoVisibilityBox"]["m_vBoxSize"];
 CInfoVisibilityBox.m_bEnabled = jsonData["CInfoVisibilityBox"]["m_bEnabled"];
 
-// Atribuições para CGamePlayerEquip
-// CGamePlayerEquip Offsets
-
-// Atribuições para CInfoTargetServerOnly
-// CInfoTargetServerOnly Offsets
-
 // Atribuições para CSoundOpvarSetPathCornerEntity
 // CSoundOpvarSetPathCornerEntity Offsets
 CSoundOpvarSetPathCornerEntity.m_flDistMinSqr = jsonData["CSoundOpvarSetPathCornerEntity"]["m_flDistMinSqr"];
@@ -17606,9 +16085,6 @@ CGunTarget.m_OnDeath = jsonData["CGunTarget"]["m_OnDeath"];
 CSoundEventParameter.m_iszParamName = jsonData["CSoundEventParameter"]["m_iszParamName"];
 CSoundEventParameter.m_flFloatValue = jsonData["CSoundEventParameter"]["m_flFloatValue"];
 
-// Atribuições para CPulseGraphInstance_GameBlackboard
-// CPulseGraphInstance_GameBlackboard Offsets
-
 // Atribuições para CMarkupVolumeTagged
 // CMarkupVolumeTagged Offsets
 CMarkupVolumeTagged.m_bIsGroup = jsonData["CMarkupVolumeTagged"]["m_bIsGroup"];
@@ -17625,9 +16101,6 @@ CTestEffect.m_pBeam = jsonData["CTestEffect"]["m_pBeam"];
 CTestEffect.m_flBeamTime = jsonData["CTestEffect"]["m_flBeamTime"];
 CTestEffect.m_flStartTime = jsonData["CTestEffect"]["m_flStartTime"];
 
-// Atribuições para CWeaponM4A1Silencer
-// CWeaponM4A1Silencer Offsets
-
 // Atribuições para CScriptNavBlocker
 // CScriptNavBlocker Offsets
 CScriptNavBlocker.m_vExtent = jsonData["CScriptNavBlocker"]["m_vExtent"];
@@ -17635,12 +16108,6 @@ CScriptNavBlocker.m_vExtent = jsonData["CScriptNavBlocker"]["m_vExtent"];
 // Atribuições para CConstraintAnchor
 // CConstraintAnchor Offsets
 CConstraintAnchor.m_massScale = jsonData["CConstraintAnchor"]["m_massScale"];
-
-// Atribuições para CWeaponTec9
-// CWeaponTec9 Offsets
-
-// Atribuições para CMarkupVolumeTagged_Nav
-// CMarkupVolumeTagged_Nav Offsets
 
 // Atribuições para CSceneEntity
 // CSceneEntity Offsets
@@ -17711,9 +16178,6 @@ CSceneEntity.m_hActivator = jsonData["CSceneEntity"]["m_hActivator"];
 CSceneEntity.m_BusyActor = jsonData["CSceneEntity"]["m_BusyActor"];
 CSceneEntity.m_iPlayerDeathBehavior = jsonData["CSceneEntity"]["m_iPlayerDeathBehavior"];
 
-// Atribuições para CLightEnvironmentEntity
-// CLightEnvironmentEntity Offsets
-
 // Atribuições para CLogicActiveAutosave
 // CLogicActiveAutosave Offsets
 CLogicActiveAutosave.m_TriggerHitPoints = jsonData["CLogicActiveAutosave"]["m_TriggerHitPoints"];
@@ -17742,12 +16206,6 @@ CVoteController.m_playerOverrideForVote = jsonData["CVoteController"]["m_playerO
 CVoteController.m_nHighestCountIndex = jsonData["CVoteController"]["m_nHighestCountIndex"];
 CVoteController.m_potentialIssues = jsonData["CVoteController"]["m_potentialIssues"];
 CVoteController.m_VoteOptions = jsonData["CVoteController"]["m_VoteOptions"];
-
-// Atribuições para CWeaponCZ75a
-// CWeaponCZ75a Offsets
-
-// Atribuições para CWeaponP250
-// CWeaponP250 Offsets
 
 // Atribuições para CBaseFlex
 // CBaseFlex Offsets
@@ -17916,12 +16374,6 @@ CEconItemView.m_NetworkedDynamicAttributes = jsonData["CEconItemView"]["m_Networ
 CEconItemView.m_szCustomName = jsonData["CEconItemView"]["m_szCustomName"];
 CEconItemView.m_szCustomNameOverride = jsonData["CEconItemView"]["m_szCustomNameOverride"];
 
-// Atribuições para CInfoInstructorHintBombTargetA
-// CInfoInstructorHintBombTargetA Offsets
-
-// Atribuições para CWeaponAWP
-// CWeaponAWP Offsets
-
 // Atribuições para CBasePlayerPawn
 // CBasePlayerPawn Offsets
 CBasePlayerPawn.m_pWeaponServices = jsonData["CBasePlayerPawn"]["m_pWeaponServices"];
@@ -17979,9 +16431,6 @@ CSpotlightEnd.m_vSpotlightOrg = jsonData["CSpotlightEnd"]["m_vSpotlightOrg"];
 // Atribuições para CRuleEntity
 // CRuleEntity Offsets
 CRuleEntity.m_iszMaster = jsonData["CRuleEntity"]["m_iszMaster"];
-
-// Atribuições para CSensorGrenade
-// CSensorGrenade Offsets
 
 // Atribuições para CCSGO_TeamPreviewCharacterPosition
 // CCSGO_TeamPreviewCharacterPosition Offsets
@@ -18048,9 +16497,6 @@ CFuncConveyor.m_nTransitionDurationTicks = jsonData["CFuncConveyor"]["m_nTransit
 CFuncConveyor.m_flTransitionStartSpeed = jsonData["CFuncConveyor"]["m_flTransitionStartSpeed"];
 CFuncConveyor.m_hConveyorModels = jsonData["CFuncConveyor"]["m_hConveyorModels"];
 
-// Atribuições para CWeaponMag7
-// CWeaponMag7 Offsets
-
 // Atribuições para CMathCounter
 // CMathCounter Offsets
 CMathCounter.m_flMin = jsonData["CMathCounter"]["m_flMin"];
@@ -18068,9 +16514,6 @@ CMathCounter.m_OnChangedFromMax = jsonData["CMathCounter"]["m_OnChangedFromMax"]
 // Atribuições para CRectLight
 // CRectLight Offsets
 CRectLight.m_bShowLight = jsonData["CRectLight"]["m_bShowLight"];
-
-// Atribuições para CCSGO_TeamSelectTerroristPosition
-// CCSGO_TeamSelectTerroristPosition Offsets
 
 // Atribuições para CRotDoor
 // CRotDoor Offsets
@@ -18113,9 +16556,6 @@ CEnvCubemap.m_Entity_bIndoorCubeMap = jsonData["CEnvCubemap"]["m_Entity_bIndoorC
 CEnvCubemap.m_Entity_bCopyDiffuseFromDefaultCubemap = jsonData["CEnvCubemap"]["m_Entity_bCopyDiffuseFromDefaultCubemap"];
 CEnvCubemap.m_Entity_bEnabled = jsonData["CEnvCubemap"]["m_Entity_bEnabled"];
 
-// Atribuições para CCSPlayer_DamageReactServices
-// CCSPlayer_DamageReactServices Offsets
-
 // Atribuições para CRetakeGameRules
 // CRetakeGameRules Offsets
 CRetakeGameRules.m_nMatchSeed = jsonData["CRetakeGameRules"]["m_nMatchSeed"];
@@ -18143,15 +16583,6 @@ CColorCorrection.m_MaxFalloff = jsonData["CColorCorrection"]["m_MaxFalloff"];
 CColorCorrection.m_flCurWeight = jsonData["CColorCorrection"]["m_flCurWeight"];
 CColorCorrection.m_netlookupFilename = jsonData["CColorCorrection"]["m_netlookupFilename"];
 CColorCorrection.m_lookupFilename = jsonData["CColorCorrection"]["m_lookupFilename"];
-
-// Atribuições para CWeaponElite
-// CWeaponElite Offsets
-
-// Atribuições para CSoundEventEntityAlias_snd_event_point
-// CSoundEventEntityAlias_snd_event_point Offsets
-
-// Atribuições para CBaseEntityAPI
-// CBaseEntityAPI Offsets
 
 // Atribuições para CC4
 // CC4 Offsets
@@ -18223,23 +16654,11 @@ CGameGibManager.m_iCurrentMaxPieces = jsonData["CGameGibManager"]["m_iCurrentMax
 CGameGibManager.m_iMaxPieces = jsonData["CGameGibManager"]["m_iMaxPieces"];
 CGameGibManager.m_iLastFrame = jsonData["CGameGibManager"]["m_iLastFrame"];
 
-// Atribuições para CRagdollPropAlias_physics_prop_ragdoll
-// CRagdollPropAlias_physics_prop_ragdoll Offsets
-
-// Atribuições para CCSSprite
-// CCSSprite Offsets
-
-// Atribuições para CFuncPropRespawnZone
-// CFuncPropRespawnZone Offsets
-
 // Atribuições para SpawnPoint
 // SpawnPoint Offsets
 SpawnPoint.m_iPriority = jsonData["SpawnPoint"]["m_iPriority"];
 SpawnPoint.m_bEnabled = jsonData["SpawnPoint"]["m_bEnabled"];
 SpawnPoint.m_nType = jsonData["SpawnPoint"]["m_nType"];
-
-// Atribuições para CWeaponSCAR20
-// CWeaponSCAR20 Offsets
 
 // Atribuições para CFuncPlatRot
 // CFuncPlatRot Offsets
@@ -18352,9 +16771,6 @@ CMapInfo.m_bDisableAutoGeneratedDMSpawns = jsonData["CMapInfo"]["m_bDisableAutoG
 CMapInfo.m_flBotMaxVisionDistance = jsonData["CMapInfo"]["m_flBotMaxVisionDistance"];
 CMapInfo.m_iHostageCount = jsonData["CMapInfo"]["m_iHostageCount"];
 CMapInfo.m_bFadePlayerVisibilityFarZ = jsonData["CMapInfo"]["m_bFadePlayerVisibilityFarZ"];
-
-// Atribuições para CTriggerBombReset
-// CTriggerBombReset Offsets
 
 // Atribuições para CBaseEntity
 // CBaseEntity Offsets
@@ -18486,9 +16902,6 @@ CVoiceContainerRandomSampler.m_flMaxLength = jsonData["CVoiceContainerRandomSamp
 CVoiceContainerRandomSampler.m_nNumDelayVariations = jsonData["CVoiceContainerRandomSampler"]["m_nNumDelayVariations"];
 CVoiceContainerRandomSampler.m_grainResources = jsonData["CVoiceContainerRandomSampler"]["m_grainResources"];
 
-// Atribuições para CVoiceContainerDefault
-// CVoiceContainerDefault Offsets
-
 // Atribuições para CVSound
 // CVSound Offsets
 CVSound.m_nRate = jsonData["CVSound"]["m_nRate"];
@@ -18530,9 +16943,6 @@ CSosGroupActionSetSoundeventParameterSchema.m_nSortType = jsonData["CSosGroupAct
 CSoundContainerReference.m_bUseReference = jsonData["CSoundContainerReference"]["m_bUseReference"];
 CSoundContainerReference.m_sound = jsonData["CSoundContainerReference"]["m_sound"];
 CSoundContainerReference.m_pSound = jsonData["CSoundContainerReference"]["m_pSound"];
-
-// Atribuições para CVoiceContainerNull
-// CVoiceContainerNull Offsets
 
 // Atribuições para VMixSubgraphSwitchDesc_t
 // VMixSubgraphSwitchDesc_t Offsets
@@ -18769,9 +17179,6 @@ VMixConvolutionDesc_t.m_flHighCutoffFreq = jsonData["VMixConvolutionDesc_t"]["m_
 // CVoiceContainerSetElement Offsets
 CVoiceContainerSetElement.m_sound = jsonData["CVoiceContainerSetElement"]["m_sound"];
 CVoiceContainerSetElement.m_flVolumeDB = jsonData["CVoiceContainerSetElement"]["m_flVolumeDB"];
-
-// Atribuições para CSoundInfoHeader
-// CSoundInfoHeader Offsets
 
 // Atribuições para CSosSoundEventGroupListSchema
 // CSosSoundEventGroupListSchema Offsets
@@ -19612,9 +18019,6 @@ FeCtrlOffset_t.vOffset = jsonData["FeCtrlOffset_t"]["vOffset"];
 FeCtrlOffset_t.nCtrlParent = jsonData["FeCtrlOffset_t"]["nCtrlParent"];
 FeCtrlOffset_t.nCtrlChild = jsonData["FeCtrlOffset_t"]["nCtrlChild"];
 
-// Atribuições para IPhysicsPlayerController
-// IPhysicsPlayerController Offsets
-
 // Atribuições para FeNodeBase_t
 // FeNodeBase_t Offsets
 FeNodeBase_t.nNode = jsonData["FeNodeBase_t"]["nNode"];
@@ -19873,9 +18277,6 @@ NodeData_t.m_flMinimumDistance = jsonData["NodeData_t"]["m_flMinimumDistance"];
 NodeData_t.m_ChildNodeIndices = jsonData["NodeData_t"]["m_ChildNodeIndices"];
 NodeData_t.m_worldNodePrefix = jsonData["NodeData_t"]["m_worldNodePrefix"];
 
-// Atribuições para VMapResourceData_t
-// VMapResourceData_t Offsets
-
 // Atribuições para ClutterSceneObject_t
 // ClutterSceneObject_t Offsets
 ClutterSceneObject_t.m_Bounds = jsonData["ClutterSceneObject_t"]["m_Bounds"];
@@ -19948,9 +18349,6 @@ BakedLightingInfo_t.m_lightMaps = jsonData["BakedLightingInfo_t"]["m_lightMaps"]
 // VoxelVisBlockOffset_t Offsets
 VoxelVisBlockOffset_t.m_nOffset = jsonData["VoxelVisBlockOffset_t"]["m_nOffset"];
 VoxelVisBlockOffset_t.m_nElementCount = jsonData["VoxelVisBlockOffset_t"]["m_nElementCount"];
-
-// Atribuições para InfoForResourceTypeVMapResourceData_t
-// InfoForResourceTypeVMapResourceData_t Offsets
 
 // Atribuições para WorldNodeOnDiskBufferData_t
 // WorldNodeOnDiskBufferData_t Offsets
