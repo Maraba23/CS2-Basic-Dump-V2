@@ -3629,7 +3629,6 @@ client_dll.dwSensitivity_sensitivity = findOffsetByName(j, "client_dll", "dwSens
 client_dll.dwViewAngles = findOffsetByName(j, "client_dll", "dwViewAngles");
 client_dll.dwViewMatrix = findOffsetByName(j, "client_dll", "dwViewMatrix");
 client_dll.dwViewRender = findOffsetByName(j, "client_dll", "dwViewRender");
-client_dll.dwWeaponC4 = findOffsetByName(j, "client_dll", "dwWeaponC4");
 
 // Atribuições para engine2_dll
 // engine2_dll Offsets

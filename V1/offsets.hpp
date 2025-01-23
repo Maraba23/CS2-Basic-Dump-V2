@@ -3628,7 +3628,6 @@ inline struct client_dllOffsets {
 	DWORD dwViewAngles;
 	DWORD dwViewMatrix;
 	DWORD dwViewRender;
-	DWORD dwWeaponC4;
 } client_dll;
 
 inline struct engine2_dllOffsets {
