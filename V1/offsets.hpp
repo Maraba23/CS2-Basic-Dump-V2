@@ -139,7 +139,6 @@ inline struct C_CSGameRulesOffsets {
 	DWORD m_iMatchStats_PlayersAlive_T;
 	DWORD m_TeamRespawnWaveTimes;
 	DWORD m_flNextRespawnWave;
-	DWORD m_nServerQuestID;
 	DWORD m_vMinimapMins;
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
@@ -3246,6 +3245,7 @@ inline struct CCSPlayerControllerOffsets {
 	DWORD m_pDamageServices;
 	DWORD m_iPing;
 	DWORD m_bHasCommunicationAbuseMute;
+	DWORD m_uiCommunicationMuteFlags;
 	DWORD m_szCrosshairCodes;
 	DWORD m_iPendingTeamNum;
 	DWORD m_flForceTeamTime;
@@ -3265,6 +3265,7 @@ inline struct CCSPlayerControllerOffsets {
 	DWORD m_iCompetitiveRankingPredicted_Tie;
 	DWORD m_nEndMatchNextMapVote;
 	DWORD m_unActiveQuestId;
+	DWORD m_rtActiveMissionPeriod;
 	DWORD m_nQuestProgressReason;
 	DWORD m_unPlayerTvControlFlags;
 	DWORD m_iDraftIndex;
