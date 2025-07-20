@@ -143,7 +143,6 @@ C_CSGameRules.m_flNextRespawnWave = findOffsetByName(j, "C_CSGameRules", "m_flNe
 C_CSGameRules.m_vMinimapMins = findOffsetByName(j, "C_CSGameRules", "m_vMinimapMins");
 C_CSGameRules.m_vMinimapMaxs = findOffsetByName(j, "C_CSGameRules", "m_vMinimapMaxs");
 C_CSGameRules.m_MinimapVerticalSectionHeights = findOffsetByName(j, "C_CSGameRules", "m_MinimapVerticalSectionHeights");
-C_CSGameRules.m_bSpawnedTerrorHuntHeavy = findOffsetByName(j, "C_CSGameRules", "m_bSpawnedTerrorHuntHeavy");
 C_CSGameRules.m_ullLocalMatchID = findOffsetByName(j, "C_CSGameRules", "m_ullLocalMatchID");
 C_CSGameRules.m_nEndMatchMapGroupVoteTypes = findOffsetByName(j, "C_CSGameRules", "m_nEndMatchMapGroupVoteTypes");
 C_CSGameRules.m_nEndMatchMapGroupVoteOptions = findOffsetByName(j, "C_CSGameRules", "m_nEndMatchMapGroupVoteOptions");
@@ -1594,7 +1593,6 @@ C_PointCameraVFOV.m_flVerticalFOV = findOffsetByName(j, "C_PointCameraVFOV", "m_
 // CCSPlayer_ItemServices Offsets
 CCSPlayer_ItemServices.m_bHasDefuser = findOffsetByName(j, "CCSPlayer_ItemServices", "m_bHasDefuser");
 CCSPlayer_ItemServices.m_bHasHelmet = findOffsetByName(j, "CCSPlayer_ItemServices", "m_bHasHelmet");
-CCSPlayer_ItemServices.m_bHasHeavyArmor = findOffsetByName(j, "CCSPlayer_ItemServices", "m_bHasHeavyArmor");
 
 // Atribuições para C_BarnLight
 // C_BarnLight Offsets
@@ -1983,8 +1981,8 @@ C_EconItemView.m_iEntityQuantity = findOffsetByName(j, "C_EconItemView", "m_iEnt
 C_EconItemView.m_iRarityOverride = findOffsetByName(j, "C_EconItemView", "m_iRarityOverride");
 C_EconItemView.m_iQualityOverride = findOffsetByName(j, "C_EconItemView", "m_iQualityOverride");
 C_EconItemView.m_iOriginOverride = findOffsetByName(j, "C_EconItemView", "m_iOriginOverride");
+C_EconItemView.m_ubStyleOverride = findOffsetByName(j, "C_EconItemView", "m_ubStyleOverride");
 C_EconItemView.m_unClientFlags = findOffsetByName(j, "C_EconItemView", "m_unClientFlags");
-C_EconItemView.m_unOverrideStyle = findOffsetByName(j, "C_EconItemView", "m_unOverrideStyle");
 C_EconItemView.m_AttributeList = findOffsetByName(j, "C_EconItemView", "m_AttributeList");
 C_EconItemView.m_NetworkedDynamicAttributes = findOffsetByName(j, "C_EconItemView", "m_NetworkedDynamicAttributes");
 C_EconItemView.m_szCustomName = findOffsetByName(j, "C_EconItemView", "m_szCustomName");

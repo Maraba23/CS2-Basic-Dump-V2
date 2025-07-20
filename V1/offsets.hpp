@@ -142,7 +142,6 @@ inline struct C_CSGameRulesOffsets {
 	DWORD m_vMinimapMins;
 	DWORD m_vMinimapMaxs;
 	DWORD m_MinimapVerticalSectionHeights;
-	DWORD m_bSpawnedTerrorHuntHeavy;
 	DWORD m_ullLocalMatchID;
 	DWORD m_nEndMatchMapGroupVoteTypes;
 	DWORD m_nEndMatchMapGroupVoteOptions;
@@ -1593,7 +1592,6 @@ inline struct C_PointCameraVFOVOffsets {
 inline struct CCSPlayer_ItemServicesOffsets {
 	DWORD m_bHasDefuser;
 	DWORD m_bHasHelmet;
-	DWORD m_bHasHeavyArmor;
 } CCSPlayer_ItemServices;
 
 inline struct C_BarnLightOffsets {
@@ -1982,8 +1980,8 @@ inline struct C_EconItemViewOffsets {
 	DWORD m_iRarityOverride;
 	DWORD m_iQualityOverride;
 	DWORD m_iOriginOverride;
+	DWORD m_ubStyleOverride;
 	DWORD m_unClientFlags;
-	DWORD m_unOverrideStyle;
 	DWORD m_AttributeList;
 	DWORD m_NetworkedDynamicAttributes;
 	DWORD m_szCustomName;
