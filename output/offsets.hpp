@@ -9,14 +9,18 @@ namespace cs2_dumper {
     namespace offsets {
         // Module: client.dll
         namespace client_dll {
-            constexpr std::ptrdiff_t dwCSGOInput = 0x1D2BE10;
-            constexpr std::ptrdiff_t dwEntityList = 0x1CBE4A0;
-            constexpr std::ptrdiff_t dwGameRules = 0x1D1D2E0;
-            constexpr std::ptrdiff_t dwGlobalVars = 0x1AE92E8;
+            constexpr std::ptrdiff_t dwCSGOInput = 0x191F4D8;
+            constexpr std::ptrdiff_t dwEntityList = 0x18A7A38;
+            constexpr std::ptrdiff_t dwGameRules = 0x182C250;
+            constexpr std::ptrdiff_t dwGlobalVars = 0x18185E0;
             constexpr std::ptrdiff_t dwGlowManager = 0x1D1D308;
-            constexpr std::ptrdiff_t dwPlantedC4 = 0x1D26E00;
-            constexpr std::ptrdiff_t dwViewMatrix = 0x1D21800;
+            constexpr std::ptrdiff_t dwPlantedC4 = 0x17BF8C8;
+            constexpr std::ptrdiff_t dwWeaponC4 = 0x18DAF68;
+            constexpr std::ptrdiff_t dwViewMatrix = 0x187B2B0;
             constexpr std::ptrdiff_t dwViewRender = 0x1D22440;
+            constexpr std::ptrdiff_t dwLocalPlayerController = 0x18A1C90;
+            constexpr std::ptrdiff_t dwSensitivity = 0x18C5EF0;
+            constexpr std::ptrdiff_t dwViewAngles = 0x1B7AA70;
         }
         // Module: engine2.dll
         namespace engine2_dll {
