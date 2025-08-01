@@ -1002,6 +1002,7 @@ inline struct C_CSWeaponBaseOffsets {
 	DWORD m_nPostponeFireReadyTicks;
 	DWORD m_flPostponeFireReadyFrac;
 	DWORD m_bInReload;
+	DWORD m_flDisallowAttackAfterReloadStartUntilTime;
 	DWORD m_flDroppedAtTime;
 	DWORD m_bIsHauledBack;
 	DWORD m_bSilencerOn;
