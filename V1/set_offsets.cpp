@@ -1003,6 +1003,7 @@ C_CSWeaponBase.m_flLastBurstModeChangeTime = findOffsetByName(j, "C_CSWeaponBase
 C_CSWeaponBase.m_nPostponeFireReadyTicks = findOffsetByName(j, "C_CSWeaponBase", "m_nPostponeFireReadyTicks");
 C_CSWeaponBase.m_flPostponeFireReadyFrac = findOffsetByName(j, "C_CSWeaponBase", "m_flPostponeFireReadyFrac");
 C_CSWeaponBase.m_bInReload = findOffsetByName(j, "C_CSWeaponBase", "m_bInReload");
+C_CSWeaponBase.m_flDisallowAttackAfterReloadStartUntilTime = findOffsetByName(j, "C_CSWeaponBase", "m_flDisallowAttackAfterReloadStartUntilTime");
 C_CSWeaponBase.m_flDroppedAtTime = findOffsetByName(j, "C_CSWeaponBase", "m_flDroppedAtTime");
 C_CSWeaponBase.m_bIsHauledBack = findOffsetByName(j, "C_CSWeaponBase", "m_bIsHauledBack");
 C_CSWeaponBase.m_bSilencerOn = findOffsetByName(j, "C_CSWeaponBase", "m_bSilencerOn");
