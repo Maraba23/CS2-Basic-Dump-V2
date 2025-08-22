@@ -128,6 +128,7 @@ inline struct CCSPlayerController_InventoryServicesOffsets {
 	DWORD m_nPersonaDataPublicCommendsFriendly;
 	DWORD m_nPersonaDataXpTrailLevel;
 	DWORD m_vecServerAuthoritativeWeaponSlots;
+	DWORD m_vecNetworkableLoadout;
 } CCSPlayerController_InventoryServices;
 
 inline struct C_EconEntity__AttachedModelData_tOffsets {
@@ -304,6 +305,12 @@ inline struct CPointOffScreenIndicatorUiOffsets {
 	DWORD m_pTargetPanel;
 } CPointOffScreenIndicatorUi;
 
+inline struct CSNetworkableLoadout_tOffsets {
+	DWORD m_Item;
+	DWORD m_unTeam;
+	DWORD m_unSlot;
+} CSNetworkableLoadout_t;
+
 inline struct C_PostProcessingVolumeOffsets {
 	DWORD m_hPostSettings;
 	DWORD m_flFadeDuration;
@@ -343,26 +350,13 @@ inline struct C_VoteControllerOffsets {
 
 inline struct C_CSPlayerPawnBaseOffsets {
 	DWORD m_pPingServices;
-	DWORD m_fRenderingClipPlane;
-	DWORD m_nLastClipPlaneSetupFrame;
-	DWORD m_vecLastClipCameraPos;
-	DWORD m_vecLastClipCameraForward;
-	DWORD m_bClipHitStaticWorld;
-	DWORD m_bCachedPlaneIsValid;
-	DWORD m_pClippingWeapon;
 	DWORD m_previousPlayerState;
 	DWORD m_iPlayerState;
-	DWORD m_bIsRescuing;
 	DWORD m_bHasMovedSinceSpawn;
-	DWORD m_fMolotovUseTime;
-	DWORD m_iThrowGrenadeCounter;
 	DWORD m_flLastSpawnTimeIndex;
 	DWORD m_iProgressBarDuration;
 	DWORD m_flProgressBarStartTime;
-	DWORD m_vecIntroStartEyePosition;
-	DWORD m_vecIntroStartPlayerForward;
 	DWORD m_flClientDeathTime;
-	DWORD m_bScreenTearFrameCaptured;
 	DWORD m_flFlashBangTime;
 	DWORD m_flFlashScreenshotAlpha;
 	DWORD m_flFlashOverlayAlpha;
@@ -373,10 +367,6 @@ inline struct C_CSPlayerPawnBaseOffsets {
 	DWORD m_flFlashDuration;
 	DWORD m_flClientHealthFadeChangeTimestamp;
 	DWORD m_nClientHealthFadeParityValue;
-	DWORD m_flDeathCCWeight;
-	DWORD m_flPrevRoundEndTime;
-	DWORD m_flPrevMatchEndTime;
-	DWORD m_angEyeAngles;
 	DWORD m_fNextThinkPushAway;
 	DWORD m_iIDEntIndex;
 	DWORD m_delayTargetIDTimer;
@@ -386,17 +376,9 @@ inline struct C_CSPlayerPawnBaseOffsets {
 	DWORD m_flCurrentMusicStartTime;
 	DWORD m_flMusicRoundStartTime;
 	DWORD m_bDeferStartMusicOnWarmup;
-	DWORD m_cycleLatch;
-	DWORD m_serverIntendedCycle;
 	DWORD m_flLastSmokeOverlayAlpha;
 	DWORD m_flLastSmokeAge;
 	DWORD m_vLastSmokeOverlayColor;
-	DWORD m_nPlayerInfernoBodyFx;
-	DWORD m_nPlayerInfernoFootFx;
-	DWORD m_flNextMagDropTime;
-	DWORD m_nLastMagDropAttachmentIndex;
-	DWORD m_vecLastAliveLocalVelocity;
-	DWORD m_bGuardianShouldSprayCustomXMark;
 	DWORD m_hOriginalController;
 } C_CSPlayerPawnBase;
 
@@ -461,6 +443,11 @@ inline struct C_RetakeGameRulesOffsets {
 	DWORD m_iFirstSecondHalfRound;
 	DWORD m_iBombSite;
 } C_RetakeGameRules;
+
+inline struct CPulseCell_WaitForObservableOffsets {
+	DWORD m_Condition;
+	DWORD m_OnTrue;
+} CPulseCell_WaitForObservable;
 
 inline struct C_SoundAreaEntitySphereOffsets {
 	DWORD m_flRadius;
@@ -657,39 +644,6 @@ inline struct CPointChildModifierOffsets {
 inline struct C_CSGO_TeamPreviewCameraOffsets {
 	DWORD m_nVariant;
 } C_CSGO_TeamPreviewCamera;
-
-inline struct C_TeamRoundTimerOffsets {
-	DWORD m_bTimerPaused;
-	DWORD m_flTimeRemaining;
-	DWORD m_flTimerEndTime;
-	DWORD m_bIsDisabled;
-	DWORD m_bShowInHUD;
-	DWORD m_nTimerLength;
-	DWORD m_nTimerInitialLength;
-	DWORD m_nTimerMaxLength;
-	DWORD m_bAutoCountdown;
-	DWORD m_nSetupTimeLength;
-	DWORD m_nState;
-	DWORD m_bStartPaused;
-	DWORD m_bInCaptureWatchState;
-	DWORD m_flTotalTime;
-	DWORD m_bStopWatchTimer;
-	DWORD m_bFireFinished;
-	DWORD m_bFire5MinRemain;
-	DWORD m_bFire4MinRemain;
-	DWORD m_bFire3MinRemain;
-	DWORD m_bFire2MinRemain;
-	DWORD m_bFire1MinRemain;
-	DWORD m_bFire30SecRemain;
-	DWORD m_bFire10SecRemain;
-	DWORD m_bFire5SecRemain;
-	DWORD m_bFire4SecRemain;
-	DWORD m_bFire3SecRemain;
-	DWORD m_bFire2SecRemain;
-	DWORD m_bFire1SecRemain;
-	DWORD m_nOldTimerLength;
-	DWORD m_nOldTimerState;
-} C_TeamRoundTimer;
 
 inline struct C_ColorCorrectionVolumeOffsets {
 	DWORD m_LastEnterWeight;
@@ -1002,7 +956,6 @@ inline struct C_CSWeaponBaseOffsets {
 	DWORD m_nPostponeFireReadyTicks;
 	DWORD m_flPostponeFireReadyFrac;
 	DWORD m_bInReload;
-	DWORD m_flDisallowAttackAfterReloadStartUntilTime;
 	DWORD m_flDroppedAtTime;
 	DWORD m_bIsHauledBack;
 	DWORD m_bSilencerOn;
@@ -1294,6 +1247,16 @@ inline struct C_CSPlayerPawnOffsets {
 	DWORD m_bGunGameImmunity;
 	DWORD m_fImmuneToGunGameDamageTimeLast;
 	DWORD m_fMolotovDamageTime;
+	DWORD m_vecLastAliveLocalVelocity;
+	DWORD m_fRenderingClipPlane;
+	DWORD m_nLastClipPlaneSetupFrame;
+	DWORD m_vecLastClipCameraPos;
+	DWORD m_vecLastClipCameraForward;
+	DWORD m_bClipHitStaticWorld;
+	DWORD m_bCachedPlaneIsValid;
+	DWORD m_pClippingWeapon;
+	DWORD m_nPlayerInfernoBodyFx;
+	DWORD m_angEyeAngles;
 } C_CSPlayerPawn;
 
 inline struct CPulseCell_WaitForCursorsWithTagBaseOffsets {
@@ -1357,6 +1320,9 @@ inline struct CGameSceneNodeOffsets {
 	DWORD m_vecAbsOrigin;
 	DWORD m_angAbsRotation;
 	DWORD m_flAbsScale;
+	DWORD m_vecWrappedLocalOrigin;
+	DWORD m_angWrappedLocalRotation;
+	DWORD m_flWrappedScale;
 	DWORD m_nParentAttachmentOrBone;
 	DWORD m_bDebugAbsOriginChanges;
 	DWORD m_bDormant;
@@ -1635,6 +1601,8 @@ inline struct C_BaseModelEntityOffsets {
 	DWORD m_vDecalForwardAxis;
 	DWORD m_flDecalHealBloodRate;
 	DWORD m_flDecalHealHeightRate;
+	DWORD m_nDecalMode;
+	DWORD m_nRequiredDecalMode;
 	DWORD m_ConfigEntitiesToPropagateMaterialDecalsTo;
 	DWORD m_vecViewOffset;
 	DWORD m_pClientAlphaProperty;
@@ -3674,6 +3642,11 @@ inline struct CMapInfoOffsets {
 	DWORD m_iHostageCount;
 	DWORD m_bFadePlayerVisibilityFarZ;
 	DWORD m_bRainTraceToSkyEnabled;
+	DWORD m_flEnvRainStrength;
+	DWORD m_flEnvPuddleRippleStrength;
+	DWORD m_flEnvPuddleRippleDirection;
+	DWORD m_flEnvWetnessCoverage;
+	DWORD m_flEnvWetnessDryingAmount;
 } CMapInfo;
 
 inline struct C_BaseGrenadeOffsets {
@@ -3801,6 +3774,7 @@ inline struct CBasePlayerWeaponVDataOffsets {
 	DWORD m_bAllowFlipping;
 	DWORD m_sMuzzleAttachment;
 	DWORD m_szMuzzleFlashParticle;
+	DWORD m_szMuzzleFlashParticleConfig;
 	DWORD m_szBarrelSmokeParticle;
 	DWORD m_nMuzzleSmokeShotThreshold;
 	DWORD m_flMuzzleSmokeTimeout;
@@ -3847,6 +3821,7 @@ inline struct C_PointClientUIWorldPanelOffsets {
 	DWORD m_vecCSSClasses;
 	DWORD m_bOpaque;
 	DWORD m_bNoDepth;
+	DWORD m_bVisibleWhenParentNoDraw;
 	DWORD m_bRenderBackface;
 	DWORD m_bUseOffScreenIndicator;
 	DWORD m_bExcludeFromSaveGames;
