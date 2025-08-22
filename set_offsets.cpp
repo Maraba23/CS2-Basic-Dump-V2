@@ -129,6 +129,7 @@ CCSPlayerController_InventoryServices.m_nPersonaDataPublicCommendsTeacher = find
 CCSPlayerController_InventoryServices.m_nPersonaDataPublicCommendsFriendly = findOffsetByName(j, "CCSPlayerController_InventoryServices", "m_nPersonaDataPublicCommendsFriendly");
 CCSPlayerController_InventoryServices.m_nPersonaDataXpTrailLevel = findOffsetByName(j, "CCSPlayerController_InventoryServices", "m_nPersonaDataXpTrailLevel");
 CCSPlayerController_InventoryServices.m_vecServerAuthoritativeWeaponSlots = findOffsetByName(j, "CCSPlayerController_InventoryServices", "m_vecServerAuthoritativeWeaponSlots");
+CCSPlayerController_InventoryServices.m_vecNetworkableLoadout = findOffsetByName(j, "CCSPlayerController_InventoryServices", "m_vecNetworkableLoadout");
 
 // Atribuições para C_EconEntity__AttachedModelData_t
 // C_EconEntity__AttachedModelData_t Offsets
@@ -304,6 +305,12 @@ CPointOffScreenIndicatorUi.m_bHide = findOffsetByName(j, "CPointOffScreenIndicat
 CPointOffScreenIndicatorUi.m_flSeenTargetTime = findOffsetByName(j, "CPointOffScreenIndicatorUi", "m_flSeenTargetTime");
 CPointOffScreenIndicatorUi.m_pTargetPanel = findOffsetByName(j, "CPointOffScreenIndicatorUi", "m_pTargetPanel");
 
+// Atribuições para CSNetworkableLoadout_t
+// CSNetworkableLoadout_t Offsets
+CSNetworkableLoadout_t.m_Item = findOffsetByName(j, "CSNetworkableLoadout_t", "m_Item");
+CSNetworkableLoadout_t.m_unTeam = findOffsetByName(j, "CSNetworkableLoadout_t", "m_unTeam");
+CSNetworkableLoadout_t.m_unSlot = findOffsetByName(j, "CSNetworkableLoadout_t", "m_unSlot");
+
 // Atribuições para C_PostProcessingVolume
 // C_PostProcessingVolume Offsets
 C_PostProcessingVolume.m_hPostSettings = findOffsetByName(j, "C_PostProcessingVolume", "m_hPostSettings");
@@ -344,26 +351,13 @@ C_VoteController.m_bIsYesNoVote = findOffsetByName(j, "C_VoteController", "m_bIs
 // Atribuições para C_CSPlayerPawnBase
 // C_CSPlayerPawnBase Offsets
 C_CSPlayerPawnBase.m_pPingServices = findOffsetByName(j, "C_CSPlayerPawnBase", "m_pPingServices");
-C_CSPlayerPawnBase.m_fRenderingClipPlane = findOffsetByName(j, "C_CSPlayerPawnBase", "m_fRenderingClipPlane");
-C_CSPlayerPawnBase.m_nLastClipPlaneSetupFrame = findOffsetByName(j, "C_CSPlayerPawnBase", "m_nLastClipPlaneSetupFrame");
-C_CSPlayerPawnBase.m_vecLastClipCameraPos = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vecLastClipCameraPos");
-C_CSPlayerPawnBase.m_vecLastClipCameraForward = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vecLastClipCameraForward");
-C_CSPlayerPawnBase.m_bClipHitStaticWorld = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bClipHitStaticWorld");
-C_CSPlayerPawnBase.m_bCachedPlaneIsValid = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bCachedPlaneIsValid");
-C_CSPlayerPawnBase.m_pClippingWeapon = findOffsetByName(j, "C_CSPlayerPawnBase", "m_pClippingWeapon");
 C_CSPlayerPawnBase.m_previousPlayerState = findOffsetByName(j, "C_CSPlayerPawnBase", "m_previousPlayerState");
 C_CSPlayerPawnBase.m_iPlayerState = findOffsetByName(j, "C_CSPlayerPawnBase", "m_iPlayerState");
-C_CSPlayerPawnBase.m_bIsRescuing = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bIsRescuing");
 C_CSPlayerPawnBase.m_bHasMovedSinceSpawn = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bHasMovedSinceSpawn");
-C_CSPlayerPawnBase.m_fMolotovUseTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_fMolotovUseTime");
-C_CSPlayerPawnBase.m_iThrowGrenadeCounter = findOffsetByName(j, "C_CSPlayerPawnBase", "m_iThrowGrenadeCounter");
 C_CSPlayerPawnBase.m_flLastSpawnTimeIndex = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flLastSpawnTimeIndex");
 C_CSPlayerPawnBase.m_iProgressBarDuration = findOffsetByName(j, "C_CSPlayerPawnBase", "m_iProgressBarDuration");
 C_CSPlayerPawnBase.m_flProgressBarStartTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flProgressBarStartTime");
-C_CSPlayerPawnBase.m_vecIntroStartEyePosition = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vecIntroStartEyePosition");
-C_CSPlayerPawnBase.m_vecIntroStartPlayerForward = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vecIntroStartPlayerForward");
 C_CSPlayerPawnBase.m_flClientDeathTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flClientDeathTime");
-C_CSPlayerPawnBase.m_bScreenTearFrameCaptured = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bScreenTearFrameCaptured");
 C_CSPlayerPawnBase.m_flFlashBangTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flFlashBangTime");
 C_CSPlayerPawnBase.m_flFlashScreenshotAlpha = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flFlashScreenshotAlpha");
 C_CSPlayerPawnBase.m_flFlashOverlayAlpha = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flFlashOverlayAlpha");
@@ -374,10 +368,6 @@ C_CSPlayerPawnBase.m_flFlashMaxAlpha = findOffsetByName(j, "C_CSPlayerPawnBase",
 C_CSPlayerPawnBase.m_flFlashDuration = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flFlashDuration");
 C_CSPlayerPawnBase.m_flClientHealthFadeChangeTimestamp = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flClientHealthFadeChangeTimestamp");
 C_CSPlayerPawnBase.m_nClientHealthFadeParityValue = findOffsetByName(j, "C_CSPlayerPawnBase", "m_nClientHealthFadeParityValue");
-C_CSPlayerPawnBase.m_flDeathCCWeight = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flDeathCCWeight");
-C_CSPlayerPawnBase.m_flPrevRoundEndTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flPrevRoundEndTime");
-C_CSPlayerPawnBase.m_flPrevMatchEndTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flPrevMatchEndTime");
-C_CSPlayerPawnBase.m_angEyeAngles = findOffsetByName(j, "C_CSPlayerPawnBase", "m_angEyeAngles");
 C_CSPlayerPawnBase.m_fNextThinkPushAway = findOffsetByName(j, "C_CSPlayerPawnBase", "m_fNextThinkPushAway");
 C_CSPlayerPawnBase.m_iIDEntIndex = findOffsetByName(j, "C_CSPlayerPawnBase", "m_iIDEntIndex");
 C_CSPlayerPawnBase.m_delayTargetIDTimer = findOffsetByName(j, "C_CSPlayerPawnBase", "m_delayTargetIDTimer");
@@ -387,17 +377,9 @@ C_CSPlayerPawnBase.m_holdTargetIDTimer = findOffsetByName(j, "C_CSPlayerPawnBase
 C_CSPlayerPawnBase.m_flCurrentMusicStartTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flCurrentMusicStartTime");
 C_CSPlayerPawnBase.m_flMusicRoundStartTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flMusicRoundStartTime");
 C_CSPlayerPawnBase.m_bDeferStartMusicOnWarmup = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bDeferStartMusicOnWarmup");
-C_CSPlayerPawnBase.m_cycleLatch = findOffsetByName(j, "C_CSPlayerPawnBase", "m_cycleLatch");
-C_CSPlayerPawnBase.m_serverIntendedCycle = findOffsetByName(j, "C_CSPlayerPawnBase", "m_serverIntendedCycle");
 C_CSPlayerPawnBase.m_flLastSmokeOverlayAlpha = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flLastSmokeOverlayAlpha");
 C_CSPlayerPawnBase.m_flLastSmokeAge = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flLastSmokeAge");
 C_CSPlayerPawnBase.m_vLastSmokeOverlayColor = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vLastSmokeOverlayColor");
-C_CSPlayerPawnBase.m_nPlayerInfernoBodyFx = findOffsetByName(j, "C_CSPlayerPawnBase", "m_nPlayerInfernoBodyFx");
-C_CSPlayerPawnBase.m_nPlayerInfernoFootFx = findOffsetByName(j, "C_CSPlayerPawnBase", "m_nPlayerInfernoFootFx");
-C_CSPlayerPawnBase.m_flNextMagDropTime = findOffsetByName(j, "C_CSPlayerPawnBase", "m_flNextMagDropTime");
-C_CSPlayerPawnBase.m_nLastMagDropAttachmentIndex = findOffsetByName(j, "C_CSPlayerPawnBase", "m_nLastMagDropAttachmentIndex");
-C_CSPlayerPawnBase.m_vecLastAliveLocalVelocity = findOffsetByName(j, "C_CSPlayerPawnBase", "m_vecLastAliveLocalVelocity");
-C_CSPlayerPawnBase.m_bGuardianShouldSprayCustomXMark = findOffsetByName(j, "C_CSPlayerPawnBase", "m_bGuardianShouldSprayCustomXMark");
 C_CSPlayerPawnBase.m_hOriginalController = findOffsetByName(j, "C_CSPlayerPawnBase", "m_hOriginalController");
 
 // Atribuições para C_C4
@@ -461,6 +443,11 @@ C_RetakeGameRules.m_bBlockersPresent = findOffsetByName(j, "C_RetakeGameRules", 
 C_RetakeGameRules.m_bRoundInProgress = findOffsetByName(j, "C_RetakeGameRules", "m_bRoundInProgress");
 C_RetakeGameRules.m_iFirstSecondHalfRound = findOffsetByName(j, "C_RetakeGameRules", "m_iFirstSecondHalfRound");
 C_RetakeGameRules.m_iBombSite = findOffsetByName(j, "C_RetakeGameRules", "m_iBombSite");
+
+// Atribuições para CPulseCell_WaitForObservable
+// CPulseCell_WaitForObservable Offsets
+CPulseCell_WaitForObservable.m_Condition = findOffsetByName(j, "CPulseCell_WaitForObservable", "m_Condition");
+CPulseCell_WaitForObservable.m_OnTrue = findOffsetByName(j, "CPulseCell_WaitForObservable", "m_OnTrue");
 
 // Atribuições para C_SoundAreaEntitySphere
 // C_SoundAreaEntitySphere Offsets
@@ -657,39 +644,6 @@ CPointChildModifier.m_bOrphanInsteadOfDeletingChildrenOnRemove = findOffsetByNam
 // Atribuições para C_CSGO_TeamPreviewCamera
 // C_CSGO_TeamPreviewCamera Offsets
 C_CSGO_TeamPreviewCamera.m_nVariant = findOffsetByName(j, "C_CSGO_TeamPreviewCamera", "m_nVariant");
-
-// Atribuições para C_TeamRoundTimer
-// C_TeamRoundTimer Offsets
-C_TeamRoundTimer.m_bTimerPaused = findOffsetByName(j, "C_TeamRoundTimer", "m_bTimerPaused");
-C_TeamRoundTimer.m_flTimeRemaining = findOffsetByName(j, "C_TeamRoundTimer", "m_flTimeRemaining");
-C_TeamRoundTimer.m_flTimerEndTime = findOffsetByName(j, "C_TeamRoundTimer", "m_flTimerEndTime");
-C_TeamRoundTimer.m_bIsDisabled = findOffsetByName(j, "C_TeamRoundTimer", "m_bIsDisabled");
-C_TeamRoundTimer.m_bShowInHUD = findOffsetByName(j, "C_TeamRoundTimer", "m_bShowInHUD");
-C_TeamRoundTimer.m_nTimerLength = findOffsetByName(j, "C_TeamRoundTimer", "m_nTimerLength");
-C_TeamRoundTimer.m_nTimerInitialLength = findOffsetByName(j, "C_TeamRoundTimer", "m_nTimerInitialLength");
-C_TeamRoundTimer.m_nTimerMaxLength = findOffsetByName(j, "C_TeamRoundTimer", "m_nTimerMaxLength");
-C_TeamRoundTimer.m_bAutoCountdown = findOffsetByName(j, "C_TeamRoundTimer", "m_bAutoCountdown");
-C_TeamRoundTimer.m_nSetupTimeLength = findOffsetByName(j, "C_TeamRoundTimer", "m_nSetupTimeLength");
-C_TeamRoundTimer.m_nState = findOffsetByName(j, "C_TeamRoundTimer", "m_nState");
-C_TeamRoundTimer.m_bStartPaused = findOffsetByName(j, "C_TeamRoundTimer", "m_bStartPaused");
-C_TeamRoundTimer.m_bInCaptureWatchState = findOffsetByName(j, "C_TeamRoundTimer", "m_bInCaptureWatchState");
-C_TeamRoundTimer.m_flTotalTime = findOffsetByName(j, "C_TeamRoundTimer", "m_flTotalTime");
-C_TeamRoundTimer.m_bStopWatchTimer = findOffsetByName(j, "C_TeamRoundTimer", "m_bStopWatchTimer");
-C_TeamRoundTimer.m_bFireFinished = findOffsetByName(j, "C_TeamRoundTimer", "m_bFireFinished");
-C_TeamRoundTimer.m_bFire5MinRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire5MinRemain");
-C_TeamRoundTimer.m_bFire4MinRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire4MinRemain");
-C_TeamRoundTimer.m_bFire3MinRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire3MinRemain");
-C_TeamRoundTimer.m_bFire2MinRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire2MinRemain");
-C_TeamRoundTimer.m_bFire1MinRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire1MinRemain");
-C_TeamRoundTimer.m_bFire30SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire30SecRemain");
-C_TeamRoundTimer.m_bFire10SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire10SecRemain");
-C_TeamRoundTimer.m_bFire5SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire5SecRemain");
-C_TeamRoundTimer.m_bFire4SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire4SecRemain");
-C_TeamRoundTimer.m_bFire3SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire3SecRemain");
-C_TeamRoundTimer.m_bFire2SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire2SecRemain");
-C_TeamRoundTimer.m_bFire1SecRemain = findOffsetByName(j, "C_TeamRoundTimer", "m_bFire1SecRemain");
-C_TeamRoundTimer.m_nOldTimerLength = findOffsetByName(j, "C_TeamRoundTimer", "m_nOldTimerLength");
-C_TeamRoundTimer.m_nOldTimerState = findOffsetByName(j, "C_TeamRoundTimer", "m_nOldTimerState");
 
 // Atribuições para C_ColorCorrectionVolume
 // C_ColorCorrectionVolume Offsets
@@ -1003,7 +957,6 @@ C_CSWeaponBase.m_flLastBurstModeChangeTime = findOffsetByName(j, "C_CSWeaponBase
 C_CSWeaponBase.m_nPostponeFireReadyTicks = findOffsetByName(j, "C_CSWeaponBase", "m_nPostponeFireReadyTicks");
 C_CSWeaponBase.m_flPostponeFireReadyFrac = findOffsetByName(j, "C_CSWeaponBase", "m_flPostponeFireReadyFrac");
 C_CSWeaponBase.m_bInReload = findOffsetByName(j, "C_CSWeaponBase", "m_bInReload");
-C_CSWeaponBase.m_flDisallowAttackAfterReloadStartUntilTime = findOffsetByName(j, "C_CSWeaponBase", "m_flDisallowAttackAfterReloadStartUntilTime");
 C_CSWeaponBase.m_flDroppedAtTime = findOffsetByName(j, "C_CSWeaponBase", "m_flDroppedAtTime");
 C_CSWeaponBase.m_bIsHauledBack = findOffsetByName(j, "C_CSWeaponBase", "m_bIsHauledBack");
 C_CSWeaponBase.m_bSilencerOn = findOffsetByName(j, "C_CSWeaponBase", "m_bSilencerOn");
@@ -1295,6 +1248,16 @@ C_CSPlayerPawn.m_fImmuneToGunGameDamageTime = findOffsetByName(j, "C_CSPlayerPaw
 C_CSPlayerPawn.m_bGunGameImmunity = findOffsetByName(j, "C_CSPlayerPawn", "m_bGunGameImmunity");
 C_CSPlayerPawn.m_fImmuneToGunGameDamageTimeLast = findOffsetByName(j, "C_CSPlayerPawn", "m_fImmuneToGunGameDamageTimeLast");
 C_CSPlayerPawn.m_fMolotovDamageTime = findOffsetByName(j, "C_CSPlayerPawn", "m_fMolotovDamageTime");
+C_CSPlayerPawn.m_vecLastAliveLocalVelocity = findOffsetByName(j, "C_CSPlayerPawn", "m_vecLastAliveLocalVelocity");
+C_CSPlayerPawn.m_fRenderingClipPlane = findOffsetByName(j, "C_CSPlayerPawn", "m_fRenderingClipPlane");
+C_CSPlayerPawn.m_nLastClipPlaneSetupFrame = findOffsetByName(j, "C_CSPlayerPawn", "m_nLastClipPlaneSetupFrame");
+C_CSPlayerPawn.m_vecLastClipCameraPos = findOffsetByName(j, "C_CSPlayerPawn", "m_vecLastClipCameraPos");
+C_CSPlayerPawn.m_vecLastClipCameraForward = findOffsetByName(j, "C_CSPlayerPawn", "m_vecLastClipCameraForward");
+C_CSPlayerPawn.m_bClipHitStaticWorld = findOffsetByName(j, "C_CSPlayerPawn", "m_bClipHitStaticWorld");
+C_CSPlayerPawn.m_bCachedPlaneIsValid = findOffsetByName(j, "C_CSPlayerPawn", "m_bCachedPlaneIsValid");
+C_CSPlayerPawn.m_pClippingWeapon = findOffsetByName(j, "C_CSPlayerPawn", "m_pClippingWeapon");
+C_CSPlayerPawn.m_nPlayerInfernoBodyFx = findOffsetByName(j, "C_CSPlayerPawn", "m_nPlayerInfernoBodyFx");
+C_CSPlayerPawn.m_angEyeAngles = findOffsetByName(j, "C_CSPlayerPawn", "m_angEyeAngles");
 
 // Atribuições para CPulseCell_WaitForCursorsWithTagBase
 // CPulseCell_WaitForCursorsWithTagBase Offsets
@@ -1358,6 +1321,9 @@ CGameSceneNode.m_flScale = findOffsetByName(j, "CGameSceneNode", "m_flScale");
 CGameSceneNode.m_vecAbsOrigin = findOffsetByName(j, "CGameSceneNode", "m_vecAbsOrigin");
 CGameSceneNode.m_angAbsRotation = findOffsetByName(j, "CGameSceneNode", "m_angAbsRotation");
 CGameSceneNode.m_flAbsScale = findOffsetByName(j, "CGameSceneNode", "m_flAbsScale");
+CGameSceneNode.m_vecWrappedLocalOrigin = findOffsetByName(j, "CGameSceneNode", "m_vecWrappedLocalOrigin");
+CGameSceneNode.m_angWrappedLocalRotation = findOffsetByName(j, "CGameSceneNode", "m_angWrappedLocalRotation");
+CGameSceneNode.m_flWrappedScale = findOffsetByName(j, "CGameSceneNode", "m_flWrappedScale");
 CGameSceneNode.m_nParentAttachmentOrBone = findOffsetByName(j, "CGameSceneNode", "m_nParentAttachmentOrBone");
 CGameSceneNode.m_bDebugAbsOriginChanges = findOffsetByName(j, "CGameSceneNode", "m_bDebugAbsOriginChanges");
 CGameSceneNode.m_bDormant = findOffsetByName(j, "CGameSceneNode", "m_bDormant");
@@ -1636,6 +1602,8 @@ C_BaseModelEntity.m_vDecalPosition = findOffsetByName(j, "C_BaseModelEntity", "m
 C_BaseModelEntity.m_vDecalForwardAxis = findOffsetByName(j, "C_BaseModelEntity", "m_vDecalForwardAxis");
 C_BaseModelEntity.m_flDecalHealBloodRate = findOffsetByName(j, "C_BaseModelEntity", "m_flDecalHealBloodRate");
 C_BaseModelEntity.m_flDecalHealHeightRate = findOffsetByName(j, "C_BaseModelEntity", "m_flDecalHealHeightRate");
+C_BaseModelEntity.m_nDecalMode = findOffsetByName(j, "C_BaseModelEntity", "m_nDecalMode");
+C_BaseModelEntity.m_nRequiredDecalMode = findOffsetByName(j, "C_BaseModelEntity", "m_nRequiredDecalMode");
 C_BaseModelEntity.m_ConfigEntitiesToPropagateMaterialDecalsTo = findOffsetByName(j, "C_BaseModelEntity", "m_ConfigEntitiesToPropagateMaterialDecalsTo");
 C_BaseModelEntity.m_vecViewOffset = findOffsetByName(j, "C_BaseModelEntity", "m_vecViewOffset");
 C_BaseModelEntity.m_pClientAlphaProperty = findOffsetByName(j, "C_BaseModelEntity", "m_pClientAlphaProperty");
@@ -3675,6 +3643,11 @@ CMapInfo.m_flBotMaxVisionDistance = findOffsetByName(j, "CMapInfo", "m_flBotMaxV
 CMapInfo.m_iHostageCount = findOffsetByName(j, "CMapInfo", "m_iHostageCount");
 CMapInfo.m_bFadePlayerVisibilityFarZ = findOffsetByName(j, "CMapInfo", "m_bFadePlayerVisibilityFarZ");
 CMapInfo.m_bRainTraceToSkyEnabled = findOffsetByName(j, "CMapInfo", "m_bRainTraceToSkyEnabled");
+CMapInfo.m_flEnvRainStrength = findOffsetByName(j, "CMapInfo", "m_flEnvRainStrength");
+CMapInfo.m_flEnvPuddleRippleStrength = findOffsetByName(j, "CMapInfo", "m_flEnvPuddleRippleStrength");
+CMapInfo.m_flEnvPuddleRippleDirection = findOffsetByName(j, "CMapInfo", "m_flEnvPuddleRippleDirection");
+CMapInfo.m_flEnvWetnessCoverage = findOffsetByName(j, "CMapInfo", "m_flEnvWetnessCoverage");
+CMapInfo.m_flEnvWetnessDryingAmount = findOffsetByName(j, "CMapInfo", "m_flEnvWetnessDryingAmount");
 
 // Atribuições para C_BaseGrenade
 // C_BaseGrenade Offsets
@@ -3802,6 +3775,7 @@ CBasePlayerWeaponVData.m_bBuiltRightHanded = findOffsetByName(j, "CBasePlayerWea
 CBasePlayerWeaponVData.m_bAllowFlipping = findOffsetByName(j, "CBasePlayerWeaponVData", "m_bAllowFlipping");
 CBasePlayerWeaponVData.m_sMuzzleAttachment = findOffsetByName(j, "CBasePlayerWeaponVData", "m_sMuzzleAttachment");
 CBasePlayerWeaponVData.m_szMuzzleFlashParticle = findOffsetByName(j, "CBasePlayerWeaponVData", "m_szMuzzleFlashParticle");
+CBasePlayerWeaponVData.m_szMuzzleFlashParticleConfig = findOffsetByName(j, "CBasePlayerWeaponVData", "m_szMuzzleFlashParticleConfig");
 CBasePlayerWeaponVData.m_szBarrelSmokeParticle = findOffsetByName(j, "CBasePlayerWeaponVData", "m_szBarrelSmokeParticle");
 CBasePlayerWeaponVData.m_nMuzzleSmokeShotThreshold = findOffsetByName(j, "CBasePlayerWeaponVData", "m_nMuzzleSmokeShotThreshold");
 CBasePlayerWeaponVData.m_flMuzzleSmokeTimeout = findOffsetByName(j, "CBasePlayerWeaponVData", "m_flMuzzleSmokeTimeout");
@@ -3848,6 +3822,7 @@ C_PointClientUIWorldPanel.m_bAllowInteractionFromAllSceneWorlds = findOffsetByNa
 C_PointClientUIWorldPanel.m_vecCSSClasses = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_vecCSSClasses");
 C_PointClientUIWorldPanel.m_bOpaque = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bOpaque");
 C_PointClientUIWorldPanel.m_bNoDepth = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bNoDepth");
+C_PointClientUIWorldPanel.m_bVisibleWhenParentNoDraw = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bVisibleWhenParentNoDraw");
 C_PointClientUIWorldPanel.m_bRenderBackface = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bRenderBackface");
 C_PointClientUIWorldPanel.m_bUseOffScreenIndicator = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bUseOffScreenIndicator");
 C_PointClientUIWorldPanel.m_bExcludeFromSaveGames = findOffsetByName(j, "C_PointClientUIWorldPanel", "m_bExcludeFromSaveGames");
